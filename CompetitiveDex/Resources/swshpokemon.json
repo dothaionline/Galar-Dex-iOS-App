@@ -26783,9 +26783,18 @@
       0
     ],
     "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Leaf Guard"
+      {
+        "name": "Natural Cure",
+        "hidden": false
+      },
+      {
+        "name": "Poison Point",
+        "hidden": false
+      },
+      {
+        "name": "Leaf Guard",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -26902,9 +26911,18 @@
       0
     ],
     "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Technician"
+      {
+        "name": "Natural Cure",
+        "hidden": false
+      },
+      {
+        "name": "Poison Point",
+        "hidden": false
+      },
+      {
+        "name": "Technician",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -27078,8 +27096,14 @@
       1
     ],
     "abilities": [
-      "Honey Gather",
-      "Hustle"
+      {
+        "name": "Honey Gather",
+        "hidden": false
+      },
+      {
+        "name": "Hustle",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -27163,8 +27187,14 @@
       0
     ],
     "abilities": [
-      "Pressure",
-      "Unnerve"
+      {
+        "name": "Pressure",
+        "hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -27338,7 +27368,10 @@
       0
     ],
     "abilities": [
-      "Chlorophyll"
+      {
+        "name": "Chlorophyll",
+        "hidden": false
+      }
     ],
     "types": [
       "Grass"
@@ -27484,7 +27517,10 @@
       0
     ],
     "abilities": [
-      "Flower Gift"
+      {
+        "name": "Flower Gift",
+        "hidden": false
+      }
     ],
     "types": [
       "Grass"
@@ -27633,7 +27669,10 @@
       0
     ],
     "abilities": [
-      "Flower Gift"
+      {
+        "name": "Flower Gift",
+        "hidden": false
+      }
     ],
     "types": [
       "Grass"
@@ -27782,9 +27821,18 @@
       0
     ],
     "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
+      {
+        "name": "Sticky Hold",
+        "hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Water"
@@ -27918,9 +27966,18 @@
       0
     ],
     "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
+      {
+        "name": "Sticky Hold",
+        "hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Water"
@@ -28054,9 +28111,18 @@
       0
     ],
     "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
+      {
+        "name": "Sticky Hold",
+        "hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -28188,9 +28254,18 @@
       0
     ],
     "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
+      {
+        "name": "Sticky Hold",
+        "hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -28322,9 +28397,18 @@
       0
     ],
     "abilities": [
-      "Aftermath",
-      "Unburden",
-      "Flare Boost"
+      {
+        "name": "Aftermath",
+        "hidden": false
+      },
+      {
+        "name": "Unburden",
+        "hidden": false
+      },
+      {
+        "name": "Flare Boost",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -28479,9 +28563,18 @@
       0
     ],
     "abilities": [
-      "Aftermath",
-      "Unburden",
-      "Flare Boost"
+      {
+        "name": "Aftermath",
+        "hidden": false
+      },
+      {
+        "name": "Unburden",
+        "hidden": false
+      },
+      {
+        "name": "Flare Boost",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -28640,9 +28733,18 @@
       1
     ],
     "abilities": [
-      "Stench",
-      "Aftermath",
-      "Keen Eye"
+      {
+        "name": "Stench",
+        "hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -28807,9 +28909,18 @@
       0
     ],
     "abilities": [
-      "Stench",
-      "Aftermath",
-      "Keen Eye"
+      {
+        "name": "Stench",
+        "hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -28973,9 +29084,18 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Heatproof",
-      "Heavy Metal"
+      {
+        "name": "Levitate",
+        "hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "hidden": true
+      }
     ],
     "types": [
       "Steel",
@@ -29134,9 +29254,18 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Heatproof",
-      "Heavy Metal"
+      {
+        "name": "Levitate",
+        "hidden": false
+      },
+      {
+        "name": "Heatproof",
+        "hidden": false
+      },
+      {
+        "name": "Heavy Metal",
+        "hidden": true
+      }
     ],
     "types": [
       "Steel",
@@ -29316,9 +29445,18 @@
       0
     ],
     "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Rattled"
+      {
+        "name": "Sturdy",
+        "hidden": false
+      },
+      {
+        "name": "Rock Head",
+        "hidden": false
+      },
+      {
+        "name": "Rattled",
+        "hidden": true
+      }
     ],
     "types": [
       "Rock"
@@ -29456,9 +29594,18 @@
       0
     ],
     "abilities": [
-      "Soundproof",
-      "Filter",
-      "Technician"
+      {
+        "name": "Soundproof",
+        "hidden": false
+      },
+      {
+        "name": "Filter",
+        "hidden": false
+      },
+      {
+        "name": "Technician",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic",
@@ -29631,9 +29778,18 @@
       0
     ],
     "abilities": [
-      "Pickup",
-      "Thick Fat",
-      "Gluttony"
+      {
+        "name": "Pickup",
+        "hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "hidden": false
+      },
+      {
+        "name": "Gluttony",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal"
@@ -29821,9 +29977,18 @@
       0
     ],
     "abilities": [
-      "Steadfast",
-      "Inner Focus",
-      "Prankster"
+      {
+        "name": "Steadfast",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": false
+      },
+      {
+        "name": "Prankster",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting"
@@ -29994,9 +30159,18 @@
       0
     ],
     "abilities": [
-      "Steadfast",
-      "Inner Focus",
-      "Justified"
+      {
+        "name": "Steadfast",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": false
+      },
+      {
+        "name": "Justified",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting",
@@ -30218,8 +30392,14 @@
       0
     ],
     "abilities": [
-      "Sand Stream",
-      "Sand Force"
+      {
+        "name": "Sand Stream",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground"
@@ -30367,8 +30547,14 @@
       0
     ],
     "abilities": [
-      "Sand Stream",
-      "Sand Force"
+      {
+        "name": "Sand Stream",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground"
@@ -30525,9 +30711,18 @@
       0
     ],
     "abilities": [
-      "Battle Armor",
-      "Sniper",
-      "Keen Eye"
+      {
+        "name": "Battle Armor",
+        "hidden": false
+      },
+      {
+        "name": "Sniper",
+        "hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -30707,9 +30902,18 @@
       0
     ],
     "abilities": [
-      "Battle Armor",
-      "Sniper",
-      "Keen Eye"
+      {
+        "name": "Battle Armor",
+        "hidden": false
+      },
+      {
+        "name": "Sniper",
+        "hidden": false
+      },
+      {
+        "name": "Keen Eye",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -30907,9 +31111,18 @@
       0
     ],
     "abilities": [
-      "Anticipation",
-      "Dry Skin",
-      "Poison Touch"
+      {
+        "name": "Anticipation",
+        "hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -31092,9 +31305,18 @@
       0
     ],
     "abilities": [
-      "Anticipation",
-      "Dry Skin",
-      "Poison Touch"
+      {
+        "name": "Anticipation",
+        "hidden": false
+      },
+      {
+        "name": "Dry Skin",
+        "hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -31267,9 +31489,18 @@
       0
     ],
     "abilities": [
-      "Swift Swim",
-      "Water Absorb",
-      "Water Veil"
+      {
+        "name": "Swift Swim",
+        "hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "hidden": false
+      },
+      {
+        "name": "Water Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -31416,8 +31647,14 @@
       0
     ],
     "abilities": [
-      "Snow Warning",
-      "Soundproof"
+      {
+        "name": "Snow Warning",
+        "hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -31568,8 +31805,14 @@
       0
     ],
     "abilities": [
-      "Snow Warning",
-      "Soundproof"
+      {
+        "name": "Snow Warning",
+        "hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -31735,8 +31978,14 @@
       1
     ],
     "abilities": [
-      "Pressure",
-      "Pickpocket"
+      {
+        "name": "Pressure",
+        "hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -31928,9 +32177,18 @@
       0
     ],
     "abilities": [
-      "Lightning Rod",
-      "Solid Rock",
-      "Reckless"
+      {
+        "name": "Lightning Rod",
+        "hidden": false
+      },
+      {
+        "name": "Solid Rock",
+        "hidden": false
+      },
+      {
+        "name": "Reckless",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground",
@@ -32117,9 +32375,18 @@
       0
     ],
     "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
+      {
+        "name": "Hustle",
+        "hidden": false
+      },
+      {
+        "name": "Serene Grace",
+        "hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "hidden": true
+      }
     ],
     "types": [
       "Fairy",
@@ -32315,8 +32582,14 @@
       0
     ],
     "abilities": [
-      "Leaf Guard",
-      "Chlorophyll"
+      {
+        "name": "Leaf Guard",
+        "hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass"
@@ -32503,8 +32776,14 @@
       0
     ],
     "abilities": [
-      "Snow Cloak",
-      "Ice Body"
+      {
+        "name": "Snow Cloak",
+        "hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -32682,9 +32961,18 @@
       0
     ],
     "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
+      {
+        "name": "Oblivious",
+        "hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "hidden": false
+      },
+      {
+        "name": "Thick Fat",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice",
@@ -32841,8 +33129,14 @@
       0
     ],
     "abilities": [
-      "Steadfast",
-      "Justified"
+      {
+        "name": "Steadfast",
+        "hidden": false
+      },
+      {
+        "name": "Justified",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic",
@@ -33094,8 +33388,14 @@
       0
     ],
     "abilities": [
-      "Pressure",
-      "Frisk"
+      {
+        "name": "Pressure",
+        "hidden": false
+      },
+      {
+        "name": "Frisk",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost"
@@ -33283,8 +33583,14 @@
       2
     ],
     "abilities": [
-      "Snow Cloak",
-      "Cursed Body"
+      {
+        "name": "Snow Cloak",
+        "hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice",
@@ -33463,7 +33769,10 @@
       1
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "hidden": false
+      }
     ],
     "types": [
       "Electric",
@@ -33596,7 +33905,10 @@
       1
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "hidden": false
+      }
     ],
     "types": [
       "Electric",
@@ -33729,7 +34041,10 @@
       1
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "hidden": false
+      }
     ],
     "types": [
       "Electric",
@@ -33862,7 +34177,10 @@
       1
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "hidden": false
+      }
     ],
     "types": [
       "Electric",
@@ -33995,7 +34313,10 @@
       1
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "hidden": false
+      }
     ],
     "types": [
       "Electric",
@@ -34128,7 +34449,10 @@
       1
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "hidden": false
+      }
     ],
     "types": [
       "Electric",
@@ -34261,9 +34585,18 @@
       1
     ],
     "abilities": [
-      "Limber",
-      "Unburden",
-      "Prankster"
+      {
+        "name": "Limber",
+        "hidden": false
+      },
+      {
+        "name": "Unburden",
+        "hidden": false
+      },
+      {
+        "name": "Prankster",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark"
@@ -34407,9 +34740,18 @@
       2
     ],
     "abilities": [
-      "Limber",
-      "Unburden",
-      "Prankster"
+      {
+        "name": "Limber",
+        "hidden": false
+      },
+      {
+        "name": "Unburden",
+        "hidden": false
+      },
+      {
+        "name": "Prankster",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark"
@@ -34544,9 +34886,18 @@
       0
     ],
     "abilities": [
-      "Forewarn",
-      "Synchronize",
-      "Telepathy"
+      {
+        "name": "Forewarn",
+        "hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -34698,9 +35049,18 @@
       0
     ],
     "abilities": [
-      "Forewarn",
-      "Synchronize",
-      "Telepathy"
+      {
+        "name": "Forewarn",
+        "hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -34850,9 +35210,18 @@
       0
     ],
     "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
+      {
+        "name": "Big Pecks",
+        "hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -34985,9 +35354,18 @@
       0
     ],
     "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
+      {
+        "name": "Big Pecks",
+        "hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -35114,9 +35492,18 @@
       0
     ],
     "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
+      {
+        "name": "Big Pecks",
+        "hidden": false
+      },
+      {
+        "name": "Super Luck",
+        "hidden": false
+      },
+      {
+        "name": "Rivalry",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -35241,9 +35628,18 @@
       0
     ],
     "abilities": [
-      "Sturdy",
-      "Weak Armor",
-      "Sand Force"
+      {
+        "name": "Sturdy",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Rock"
@@ -35389,9 +35785,18 @@
       0
     ],
     "abilities": [
-      "Sturdy",
-      "Weak Armor",
-      "Sand Force"
+      {
+        "name": "Sturdy",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Rock"
@@ -35541,9 +35946,18 @@
       0
     ],
     "abilities": [
-      "Sturdy",
-      "Sand Stream",
-      "Sand Force"
+      {
+        "name": "Sturdy",
+        "hidden": false
+      },
+      {
+        "name": "Sand Stream",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": true
+      }
     ],
     "types": [
       "Rock"
@@ -35691,9 +36105,18 @@
       1
     ],
     "abilities": [
-      "Unaware",
-      "Klutz",
-      "Simple"
+      {
+        "name": "Unaware",
+        "hidden": false
+      },
+      {
+        "name": "Klutz",
+        "hidden": false
+      },
+      {
+        "name": "Simple",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic",
@@ -35854,9 +36277,18 @@
       2
     ],
     "abilities": [
-      "Unaware",
-      "Klutz",
-      "Simple"
+      {
+        "name": "Unaware",
+        "hidden": false
+      },
+      {
+        "name": "Klutz",
+        "hidden": false
+      },
+      {
+        "name": "Simple",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic",
@@ -36008,9 +36440,18 @@
       0
     ],
     "abilities": [
-      "Sand Rush",
-      "Sand Force",
-      "Mold Breaker"
+      {
+        "name": "Sand Rush",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground"
@@ -36151,9 +36592,18 @@
       0
     ],
     "abilities": [
-      "Sand Rush",
-      "Sand Force",
-      "Mold Breaker"
+      {
+        "name": "Sand Rush",
+        "hidden": false
+      },
+      {
+        "name": "Sand Force",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground",
@@ -36301,9 +36751,18 @@
       0
     ],
     "abilities": [
-      "Guts",
-      "Sheer Force",
-      "Iron Fist"
+      {
+        "name": "Guts",
+        "hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting"
@@ -36458,9 +36917,18 @@
       0
     ],
     "abilities": [
-      "Guts",
-      "Sheer Force",
-      "Iron Fist"
+      {
+        "name": "Guts",
+        "hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting"
@@ -36610,9 +37078,18 @@
       0
     ],
     "abilities": [
-      "Guts",
-      "Sheer Force",
-      "Iron Fist"
+      {
+        "name": "Guts",
+        "hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "hidden": false
+      },
+      {
+        "name": "Iron Fist",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting"
@@ -36762,9 +37239,18 @@
       1
     ],
     "abilities": [
-      "Swift Swim",
-      "Hydration",
-      "Water Absorb"
+      {
+        "name": "Swift Swim",
+        "hidden": false
+      },
+      {
+        "name": "Hydration",
+        "hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "hidden": true
+      }
     ],
     "types": [
       "Water"
@@ -36903,9 +37389,18 @@
       0
     ],
     "abilities": [
-      "Swift Swim",
-      "Hydration",
-      "Water Absorb"
+      {
+        "name": "Swift Swim",
+        "hidden": false
+      },
+      {
+        "name": "Hydration",
+        "hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -37043,9 +37538,18 @@
       0
     ],
     "abilities": [
-      "Swift Swim",
-      "Poison Touch",
-      "Water Absorb"
+      {
+        "name": "Swift Swim",
+        "hidden": false
+      },
+      {
+        "name": "Poison Touch",
+        "hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -37210,9 +37714,18 @@
       0
     ],
     "abilities": [
-      "Guts",
-      "Inner Focus",
-      "Mold Breaker"
+      {
+        "name": "Guts",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting"
@@ -37367,9 +37880,18 @@
       0
     ],
     "abilities": [
-      "Sturdy",
-      "Inner Focus",
-      "Mold Breaker"
+      {
+        "name": "Sturdy",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting"
@@ -37524,9 +38046,18 @@
       1
     ],
     "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Chlorophyll"
+      {
+        "name": "Prankster",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -37693,9 +38224,18 @@
       2
     ],
     "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Chlorophyll"
+      {
+        "name": "Prankster",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -37881,9 +38421,18 @@
       2
     ],
     "abilities": [
-      "Reckless",
-      "Adaptability",
-      "Mold Breaker"
+      {
+        "name": "Reckless",
+        "hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": true
+      }
     ],
     "types": [
       "Water"
@@ -38033,9 +38582,18 @@
       2
     ],
     "abilities": [
-      "Rock Head",
-      "Adaptability",
-      "Mold Breaker"
+      {
+        "name": "Rock Head",
+        "hidden": false
+      },
+      {
+        "name": "Adaptability",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": true
+      }
     ],
     "types": [
       "Water"
@@ -38185,8 +38743,14 @@
       0
     ],
     "abilities": [
-      "Hustle",
-      "Inner Focus"
+      {
+        "name": "Hustle",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": true
+      }
     ],
     "types": [
       "Fire"
@@ -38339,8 +38903,14 @@
       0
     ],
     "abilities": [
-      "Hustle",
-      "Inner Focus"
+      {
+        "name": "Hustle",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -38500,8 +39070,14 @@
       0
     ],
     "abilities": [
-      "Sheer Force",
-      "Zen Mode"
+      {
+        "name": "Sheer Force",
+        "hidden": false
+      },
+      {
+        "name": "Zen Mode",
+        "hidden": true
+      }
     ],
     "types": [
       "Fire"
@@ -38668,8 +39244,14 @@
       0
     ],
     "abilities": [
-      "Sheer Force",
-      "Zen Mode"
+      {
+        "name": "Sheer Force",
+        "hidden": false
+      },
+      {
+        "name": "Zen Mode",
+        "hidden": true
+      }
     ],
     "types": [
       "Fire",
@@ -38837,8 +39419,14 @@
       0
     ],
     "abilities": [
-      "Gorilla Tactics",
-      "Zen Mode"
+      {
+        "name": "Gorilla Tactics",
+        "hidden": false
+      },
+      {
+        "name": "Zen Mode",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -39005,8 +39593,14 @@
       0
     ],
     "abilities": [
-      "Gorilla Tactics",
-      "Zen Mode"
+      {
+        "name": "Gorilla Tactics",
+        "hidden": false
+      },
+      {
+        "name": "Zen Mode",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice",
@@ -39174,9 +39768,18 @@
       0
     ],
     "abilities": [
-      "Water Absorb",
-      "Chlorophyll",
-      "Storm Drain"
+      {
+        "name": "Water Absorb",
+        "hidden": false
+      },
+      {
+        "name": "Chlorophyll",
+        "hidden": false
+      },
+      {
+        "name": "Storm Drain",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass"
@@ -39350,9 +39953,18 @@
       0
     ],
     "abilities": [
-      "Sturdy",
-      "Shell Armor",
-      "Weak Armor"
+      {
+        "name": "Sturdy",
+        "hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -39508,9 +40120,18 @@
       0
     ],
     "abilities": [
-      "Sturdy",
-      "Shell Armor",
-      "Weak Armor"
+      {
+        "name": "Sturdy",
+        "hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -39659,9 +40280,18 @@
       0
     ],
     "abilities": [
-      "Shed Skin",
-      "Moxie",
-      "Intimidate"
+      {
+        "name": "Shed Skin",
+        "hidden": false
+      },
+      {
+        "name": "Moxie",
+        "hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -39847,9 +40477,18 @@
       0
     ],
     "abilities": [
-      "Shed Skin",
-      "Moxie",
-      "Intimidate"
+      {
+        "name": "Shed Skin",
+        "hidden": false
+      },
+      {
+        "name": "Moxie",
+        "hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -40027,9 +40666,18 @@
       0
     ],
     "abilities": [
-      "Wonder Skin",
-      "Magic Guard",
-      "Tinted Lens"
+      {
+        "name": "Wonder Skin",
+        "hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "hidden": false
+      },
+      {
+        "name": "Tinted Lens",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic",
@@ -40185,7 +40833,10 @@
       0
     ],
     "abilities": [
-      "Mummy"
+      {
+        "name": "Mummy",
+        "hidden": false
+      }
     ],
     "types": [
       "Ghost"
@@ -40348,7 +40999,10 @@
       0
     ],
     "abilities": [
-      "Wandering Spirit"
+      {
+        "name": "Wandering Spirit",
+        "hidden": false
+      }
     ],
     "types": [
       "Ground",
@@ -40505,7 +41159,10 @@
       0
     ],
     "abilities": [
-      "Mummy"
+      {
+        "name": "Mummy",
+        "hidden": false
+      }
     ],
     "types": [
       "Ghost"
@@ -40682,9 +41339,18 @@
       1
     ],
     "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Aftermath"
+      {
+        "name": "Stench",
+        "hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison"
@@ -40850,9 +41516,18 @@
       0
     ],
     "abilities": [
-      "Stench",
-      "Weak Armor",
-      "Aftermath"
+      {
+        "name": "Stench",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": false
+      },
+      {
+        "name": "Aftermath",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison"
@@ -41026,9 +41701,18 @@
       1
     ],
     "abilities": [
-      "Cute Charm",
-      "Technician",
-      "Skill Link"
+      {
+        "name": "Cute Charm",
+        "hidden": false
+      },
+      {
+        "name": "Technician",
+        "hidden": false
+      },
+      {
+        "name": "Skill Link",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal"
@@ -41176,9 +41860,18 @@
       2
     ],
     "abilities": [
-      "Cute Charm",
-      "Technician",
-      "Skill Link"
+      {
+        "name": "Cute Charm",
+        "hidden": false
+      },
+      {
+        "name": "Technician",
+        "hidden": false
+      },
+      {
+        "name": "Skill Link",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal"
@@ -41330,9 +42023,18 @@
       0
     ],
     "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Competitive",
+        "hidden": false
+      },
+      {
+        "name": "Shadow Tag",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -41489,9 +42191,18 @@
       0
     ],
     "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Competitive",
+        "hidden": false
+      },
+      {
+        "name": "Shadow Tag",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -41642,9 +42353,18 @@
       0
     ],
     "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Competitive",
+        "hidden": false
+      },
+      {
+        "name": "Shadow Tag",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -41795,9 +42515,18 @@
       0
     ],
     "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
+      {
+        "name": "Overcoat",
+        "hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -41953,9 +42682,18 @@
       0
     ],
     "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
+      {
+        "name": "Overcoat",
+        "hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -42107,9 +42845,18 @@
       0
     ],
     "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
+      {
+        "name": "Overcoat",
+        "hidden": false
+      },
+      {
+        "name": "Magic Guard",
+        "hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -42274,9 +43021,18 @@
       0
     ],
     "abilities": [
-      "Ice Body",
-      "Snow Cloak",
-      "Weak Armor"
+      {
+        "name": "Ice Body",
+        "hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -42429,9 +43185,18 @@
       0
     ],
     "abilities": [
-      "Ice Body",
-      "Snow Cloak",
-      "Weak Armor"
+      {
+        "name": "Ice Body",
+        "hidden": false
+      },
+      {
+        "name": "Snow Cloak",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -42577,9 +43342,18 @@
       0
     ],
     "abilities": [
-      "Ice Body",
-      "Snow Warning",
-      "Weak Armor"
+      {
+        "name": "Ice Body",
+        "hidden": false
+      },
+      {
+        "name": "Snow Warning",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -42735,9 +43509,18 @@
       0
     ],
     "abilities": [
-      "Swarm",
-      "Shed Skin",
-      "No Guard"
+      {
+        "name": "Swarm",
+        "hidden": false
+      },
+      {
+        "name": "Shed Skin",
+        "hidden": false
+      },
+      {
+        "name": "No Guard",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug"
@@ -42874,9 +43657,18 @@
       0
     ],
     "abilities": [
-      "Swarm",
-      "Shell Armor",
-      "Overcoat"
+      {
+        "name": "Swarm",
+        "hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -43042,9 +43834,18 @@
       0
     ],
     "abilities": [
-      "Water Absorb",
-      "Cursed Body",
-      "Damp"
+      {
+        "name": "Water Absorb",
+        "hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "hidden": false
+      },
+      {
+        "name": "Damp",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -43196,9 +43997,18 @@
       0
     ],
     "abilities": [
-      "Water Absorb",
-      "Cursed Body",
-      "Damp"
+      {
+        "name": "Water Absorb",
+        "hidden": false
+      },
+      {
+        "name": "Cursed Body",
+        "hidden": false
+      },
+      {
+        "name": "Damp",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -43344,9 +44154,18 @@
       1
     ],
     "abilities": [
-      "Compound Eyes",
-      "Unnerve",
-      "Swarm"
+      {
+        "name": "Compound Eyes",
+        "hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "hidden": false
+      },
+      {
+        "name": "Swarm",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -43492,9 +44311,18 @@
       2
     ],
     "abilities": [
-      "Compound Eyes",
-      "Unnerve",
-      "Swarm"
+      {
+        "name": "Compound Eyes",
+        "hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "hidden": false
+      },
+      {
+        "name": "Swarm",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -43640,7 +44468,10 @@
       0
     ],
     "abilities": [
-      "Iron Barbs"
+      {
+        "name": "Iron Barbs",
+        "hidden": false
+      }
     ],
     "types": [
       "Grass",
@@ -43790,8 +44621,14 @@
       0
     ],
     "abilities": [
-      "Iron Barbs",
-      "Anticipation"
+      {
+        "name": "Iron Barbs",
+        "hidden": false
+      },
+      {
+        "name": "Anticipation",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -43949,9 +44786,18 @@
       0
     ],
     "abilities": [
-      "Plus",
-      "Minus",
-      "Clear Body"
+      {
+        "name": "Plus",
+        "hidden": false
+      },
+      {
+        "name": "Minus",
+        "hidden": false
+      },
+      {
+        "name": "Clear Body",
+        "hidden": true
+      }
     ],
     "types": [
       "Steel"
@@ -44079,9 +44925,18 @@
       0
     ],
     "abilities": [
-      "Plus",
-      "Minus",
-      "Clear Body"
+      {
+        "name": "Plus",
+        "hidden": false
+      },
+      {
+        "name": "Minus",
+        "hidden": false
+      },
+      {
+        "name": "Clear Body",
+        "hidden": true
+      }
     ],
     "types": [
       "Steel"
@@ -44210,9 +45065,18 @@
       0
     ],
     "abilities": [
-      "Plus",
-      "Minus",
-      "Clear Body"
+      {
+        "name": "Plus",
+        "hidden": false
+      },
+      {
+        "name": "Minus",
+        "hidden": false
+      },
+      {
+        "name": "Clear Body",
+        "hidden": true
+      }
     ],
     "types": [
       "Steel"
@@ -44351,9 +45215,18 @@
       0
     ],
     "abilities": [
-      "Telepathy",
-      "Synchronize",
-      "Analytic"
+      {
+        "name": "Telepathy",
+        "hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "hidden": false
+      },
+      {
+        "name": "Analytic",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -44502,9 +45375,18 @@
       0
     ],
     "abilities": [
-      "Telepathy",
-      "Synchronize",
-      "Analytic"
+      {
+        "name": "Telepathy",
+        "hidden": false
+      },
+      {
+        "name": "Synchronize",
+        "hidden": false
+      },
+      {
+        "name": "Analytic",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -44652,9 +45534,18 @@
       0
     ],
     "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
+      {
+        "name": "Flash Fire",
+        "hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -44808,9 +45699,18 @@
       0
     ],
     "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
+      {
+        "name": "Flash Fire",
+        "hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -44959,9 +45859,18 @@
       0
     ],
     "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
+      {
+        "name": "Flash Fire",
+        "hidden": false
+      },
+      {
+        "name": "Flame Body",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -45106,9 +46015,18 @@
       0
     ],
     "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
+      {
+        "name": "Rivalry",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon"
@@ -45274,9 +46192,18 @@
       0
     ],
     "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
+      {
+        "name": "Rivalry",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon"
@@ -45438,9 +46365,18 @@
       0
     ],
     "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
+      {
+        "name": "Rivalry",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon"
@@ -45608,9 +46544,18 @@
       0
     ],
     "abilities": [
-      "Snow Cloak",
-      "Slush Rush",
-      "Rattled"
+      {
+        "name": "Snow Cloak",
+        "hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "hidden": false
+      },
+      {
+        "name": "Rattled",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -45762,9 +46707,18 @@
       0
     ],
     "abilities": [
-      "Snow Cloak",
-      "Slush Rush",
-      "Swift Swim"
+      {
+        "name": "Snow Cloak",
+        "hidden": false
+      },
+      {
+        "name": "Slush Rush",
+        "hidden": false
+      },
+      {
+        "name": "Swift Swim",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -45943,9 +46897,18 @@
       0
     ],
     "abilities": [
-      "Hydration",
-      "Shell Armor",
-      "Overcoat"
+      {
+        "name": "Hydration",
+        "hidden": false
+      },
+      {
+        "name": "Shell Armor",
+        "hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug"
@@ -46081,9 +47044,18 @@
       2
     ],
     "abilities": [
-      "Hydration",
-      "Sticky Hold",
-      "Unburden"
+      {
+        "name": "Hydration",
+        "hidden": false
+      },
+      {
+        "name": "Sticky Hold",
+        "hidden": false
+      },
+      {
+        "name": "Unburden",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug"
@@ -46251,9 +47223,18 @@
       0
     ],
     "abilities": [
-      "Static",
-      "Limber",
-      "Sand Veil"
+      {
+        "name": "Static",
+        "hidden": false
+      },
+      {
+        "name": "Limber",
+        "hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground",
@@ -46419,7 +47400,10 @@
       0
     ],
     "abilities": [
-      "Mimicry"
+      {
+        "name": "Mimicry",
+        "hidden": false
+      }
     ],
     "types": [
       "Ground",
@@ -46573,9 +47557,18 @@
       0
     ],
     "abilities": [
-      "Iron Fist",
-      "Klutz",
-      "No Guard"
+      {
+        "name": "Iron Fist",
+        "hidden": false
+      },
+      {
+        "name": "Klutz",
+        "hidden": false
+      },
+      {
+        "name": "No Guard",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground",
@@ -46749,9 +47742,18 @@
       0
     ],
     "abilities": [
-      "Iron Fist",
-      "Klutz",
-      "No Guard"
+      {
+        "name": "Iron Fist",
+        "hidden": false
+      },
+      {
+        "name": "Klutz",
+        "hidden": false
+      },
+      {
+        "name": "No Guard",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground",
@@ -46942,9 +47944,18 @@
       0
     ],
     "abilities": [
-      "Defiant",
-      "Inner Focus",
-      "Pressure"
+      {
+        "name": "Defiant",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": false
+      },
+      {
+        "name": "Pressure",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -47102,9 +48113,18 @@
       0
     ],
     "abilities": [
-      "Defiant",
-      "Inner Focus",
-      "Pressure"
+      {
+        "name": "Defiant",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": false
+      },
+      {
+        "name": "Pressure",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -47261,9 +48281,18 @@
       0
     ],
     "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Hustle"
+      {
+        "name": "Keen Eye",
+        "hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "hidden": false
+      },
+      {
+        "name": "Hustle",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -47403,9 +48432,18 @@
       0
     ],
     "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Defiant"
+      {
+        "name": "Keen Eye",
+        "hidden": false
+      },
+      {
+        "name": "Sheer Force",
+        "hidden": false
+      },
+      {
+        "name": "Defiant",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -47554,9 +48592,18 @@
       0
     ],
     "abilities": [
-      "Big Pecks",
-      "Overcoat",
-      "Weak Armor"
+      {
+        "name": "Big Pecks",
+        "hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -47701,9 +48748,18 @@
       0
     ],
     "abilities": [
-      "Big Pecks",
-      "Overcoat",
-      "Weak Armor"
+      {
+        "name": "Big Pecks",
+        "hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "hidden": false
+      },
+      {
+        "name": "Weak Armor",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -47856,9 +48912,18 @@
       0
     ],
     "abilities": [
-      "Gluttony",
-      "Flash Fire",
-      "White Smoke"
+      {
+        "name": "Gluttony",
+        "hidden": false
+      },
+      {
+        "name": "Flash Fire",
+        "hidden": false
+      },
+      {
+        "name": "White Smoke",
+        "hidden": true
+      }
     ],
     "types": [
       "Fire"
@@ -48012,9 +49077,18 @@
       0
     ],
     "abilities": [
-      "Swarm",
-      "Hustle",
-      "Truant"
+      {
+        "name": "Swarm",
+        "hidden": false
+      },
+      {
+        "name": "Hustle",
+        "hidden": false
+      },
+      {
+        "name": "Truant",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -48163,7 +49237,10 @@
       0
     ],
     "abilities": [
-      "Hustle"
+      {
+        "name": "Hustle",
+        "hidden": false
+      }
     ],
     "types": [
       "Dark",
@@ -48322,7 +49399,10 @@
       0
     ],
     "abilities": [
-      "Hustle"
+      {
+        "name": "Hustle",
+        "hidden": false
+      }
     ],
     "types": [
       "Dark",
@@ -48482,7 +49562,10 @@
       0
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "hidden": false
+      }
     ],
     "types": [
       "Dark",
@@ -48672,7 +49755,10 @@
       0
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "hidden": false
+      }
     ],
     "types": [
       "Steel",
@@ -48817,7 +49903,10 @@
       0
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "hidden": false
+      }
     ],
     "types": [
       "Rock",
@@ -48964,7 +50053,10 @@
       0
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "hidden": false
+      }
     ],
     "types": [
       "Grass",
@@ -49111,7 +50203,10 @@
       0
     ],
     "abilities": [
-      "Turboblaze"
+      {
+        "name": "Turboblaze",
+        "hidden": false
+      }
     ],
     "types": [
       "Dragon",
@@ -49269,7 +50364,10 @@
       0
     ],
     "abilities": [
-      "Teravolt"
+      {
+        "name": "Teravolt",
+        "hidden": false
+      }
     ],
     "types": [
       "Dragon",
@@ -49425,7 +50523,10 @@
       0
     ],
     "abilities": [
-      "Pressure"
+      {
+        "name": "Pressure",
+        "hidden": false
+      }
     ],
     "types": [
       "Dragon",
@@ -49580,7 +50681,10 @@
       0
     ],
     "abilities": [
-      "Turboblaze"
+      {
+        "name": "Turboblaze",
+        "hidden": false
+      }
     ],
     "types": [
       "Dragon",
@@ -49735,7 +50839,10 @@
       0
     ],
     "abilities": [
-      "Teravolt"
+      {
+        "name": "Teravolt",
+        "hidden": false
+      }
     ],
     "types": [
       "Dragon",
@@ -49890,7 +50997,10 @@
       0
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "hidden": false
+      }
     ],
     "types": [
       "Water",
@@ -50041,7 +51151,10 @@
       0
     ],
     "abilities": [
-      "Justified"
+      {
+        "name": "Justified",
+        "hidden": false
+      }
     ],
     "types": [
       "Water",
