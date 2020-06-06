@@ -45,8 +45,8 @@ class PokedexController: UIViewController {
       pokemon = try decoder.decode([Pokemon].self, from: data)
       pokemon.sort(by: <)
       collectionView.reloadData()
-    } catch {
-      fatalError("Failed to decode Pokemon data")
+    } catch let error {
+      fatalError("Failed to decode Pokemon data: \(error)")
     }
   }
   

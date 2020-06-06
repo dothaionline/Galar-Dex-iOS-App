@@ -5785,7 +5785,7 @@
       },
       {
         "name": "Justified",
-        "hidden": false
+        "hidden": true
       }
     ],
     "types": [
@@ -21111,7 +21111,7 @@
       {
         "name": "Trace",
         "hidden": false
-      }
+      },
       {
         "name": "Telepathy",
         "hidden": true
@@ -70839,7 +70839,7 @@
       {
         "name": "Sand Veil",
         "hidden": true
-      }"
+      }
     ],
     "types": [
       "Ground"
@@ -77448,7 +77448,7 @@
       {
         "name": "Cursed Body",
         "hidden": true
-      }"
+      }
     ],
     "types": [
       "Dragon",
