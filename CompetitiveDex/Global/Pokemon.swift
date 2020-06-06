@@ -14,7 +14,7 @@ struct Pokemon: Decodable, Comparable {
   let name: String
   let baseStats: [Int]
   let evYield: [Int]
-  let abilities: [String]
+  let abilities: [Ability]
   let types: [String]
   let eggGroups: [String]
   let height: Double

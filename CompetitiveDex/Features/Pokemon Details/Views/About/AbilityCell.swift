@@ -33,8 +33,8 @@ class AbilityCell: UICollectionViewCell {
     fatalError("init(coder:) has not been implemented")
   }
   
-  public func configure(withAbility ability: String) {
-    abilityLabel.text = ability
+  public func configure(withAbility ability: Ability) {
+    abilityLabel.text = ability.name
   }
   
   private func setupViews() {

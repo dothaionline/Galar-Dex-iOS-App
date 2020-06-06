@@ -11,7 +11,7 @@ import UIKit
 class AbilityChartCell: UITableViewCell {
   static let reuseIdentifier = "AbilityChartCell"
   
-  var abilities: [String] = []
+  var abilities: [Ability] = []
   
   let collectionView: UICollectionView = {
     let itemSize = NSCollectionLayoutSize(
@@ -53,7 +53,7 @@ class AbilityChartCell: UITableViewCell {
     fatalError("init(coder:) has not been implemented")
   }
   
-  public func configure(withAbilities abilities: [String]) {
+  public func configure(withAbilities abilities: [Ability]) {
     self.abilities = abilities
   }
   
