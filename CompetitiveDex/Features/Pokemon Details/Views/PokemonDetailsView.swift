@@ -150,11 +150,13 @@ class PokemonDetailsView: UIView {
   
   public func configureOnLoad(withPokemon pokemon: Pokemon) {
     firstTypeColorView.fillColor = .getColor(for: pokemon.types[0])
+    
     if pokemon.types.count > 1 {
       secondTypeColorView.fillColor = .getColor(for: pokemon.types[1])
     } else {
       secondTypeColorView.backgroundColor = .clear
     }
+    
     aboutButton.setTitleColor(.getColor(for: pokemon.types[0]), for: .normal)
     
     if let pokemonImage = UIImage(named: pokemon.name) {

@@ -86,10 +86,7 @@ class PokedexCollectionViewCell: UICollectionViewCell {
       nameLabel.topAnchor.constraint(equalTo: dexLabel.bottomAnchor, constant: 2),
       nameLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
       
-//      dexLabel.leadingAnchor.constraint(equalTo: nameLabel.leadingAnchor),
-//      dexLabel.trailingAnchor.constraint(equalTo: nameLabel.trailingAnchor),
       dexLabel.centerXAnchor.constraint(equalTo: nameLabel.centerXAnchor),
-//      dexLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 16),
       
       pokemonImageView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.7),
       pokemonImageView.widthAnchor.constraint(equalTo: pokemonImageView.heightAnchor),

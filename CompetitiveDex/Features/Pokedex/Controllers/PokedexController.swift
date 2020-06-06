@@ -36,7 +36,9 @@ class PokedexController: UIViewController {
       fatalError("Unable to locate swshpokemon.json in Bundle")
     }
     
-    let data = try! Data(contentsOf: url)
+    guard let data = try? Data(contentsOf: url) else {
+      fatalError("Invalid URL")
+    }
     
     do {
       let decoder = JSONDecoder()
@@ -90,17 +92,21 @@ extension PokedexController: UICollectionViewDataSource, UICollectionViewDelegat
   func generateLayout() -> UICollectionViewLayout {
     let itemSize = NSCollectionLayoutSize(
       widthDimension: .fractionalWidth(1.0),
-      heightDimension: .fractionalHeight(1.0))
+      heightDimension: .fractionalHeight(1.0)
+    )
+    
     let pokedexItem = NSCollectionLayoutItem(layoutSize: itemSize)
     pokedexItem.contentInsets = NSDirectionalEdgeInsets(
       top: 6,
       leading: 6,
       bottom: 4,
-      trailing: 6)
+      trailing: 6
+    )
     
     let groupSize = NSCollectionLayoutSize(
       widthDimension: .fractionalWidth(1.0),
       heightDimension: .fractionalWidth(1/3))
+    
     let group = NSCollectionLayoutGroup.horizontal(
       layoutSize: groupSize,
       subitem: pokedexItem,
