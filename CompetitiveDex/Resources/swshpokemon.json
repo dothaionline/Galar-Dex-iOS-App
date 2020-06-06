@@ -51305,9 +51305,18 @@
       1
     ],
     "abilities": [
-      "Pickup",
-      "Cheek Pouch",
-      "Huge Power"
+      {
+        "name": "Pickup",
+        "hidden": false
+      },
+      {
+        "name": "Cheek Pouch",
+        "hidden": false
+      },
+      {
+        "name": "Huge Power",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal"
@@ -51456,9 +51465,18 @@
       0
     ],
     "abilities": [
-      "Pickup",
-      "Cheek Pouch",
-      "Huge Power"
+      {
+        "name": "Pickup",
+        "hidden": false
+      },
+      {
+        "name": "Cheek Pouch",
+        "hidden": false
+      },
+      {
+        "name": "Huge Power",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -51621,9 +51639,18 @@
       0
     ],
     "abilities": [
-      "Iron Fist",
-      "Mold Breaker",
-      "Scrappy"
+      {
+        "name": "Iron Fist",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting"
@@ -51795,9 +51822,18 @@
       0
     ],
     "abilities": [
-      "Iron Fist",
-      "Mold Breaker",
-      "Scrappy"
+      {
+        "name": "Iron Fist",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": false
+      },
+      {
+        "name": "Scrappy",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting",
@@ -51993,9 +52029,18 @@
       1
     ],
     "abilities": [
-      "Keen Eye",
-      "Infiltrator",
-      "Own Tempo"
+      {
+        "name": "Keen Eye",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": false
+      },
+      {
+        "name": "Own Tempo",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -52132,9 +52177,18 @@
       2
     ],
     "abilities": [
-      "Keen Eye",
-      "Infiltrator",
-      "Prankster"
+      {
+        "name": "Keen Eye",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": false
+      },
+      {
+        "name": "Prankster",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -52302,9 +52356,18 @@
       2
     ],
     "abilities": [
-      "Keen Eye",
-      "Infiltrator",
-      "Competitive"
+      {
+        "name": "Keen Eye",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": false
+      },
+      {
+        "name": "Competitive",
+        "hidden": true
+      }
     ],
     "types": [
       "Psychic"
@@ -52473,7 +52536,10 @@
       0
     ],
     "abilities": [
-      "No Guard"
+      {
+        "name": "No Guard",
+        "hidden": false
+      }
     ],
     "types": [
       "Steel",
@@ -52613,7 +52679,10 @@
       0
     ],
     "abilities": [
-      "No Guard"
+      {
+        "name": "No Guard",
+        "hidden": false
+      }
     ],
     "types": [
       "Steel",
@@ -52749,7 +52818,10 @@
       0
     ],
     "abilities": [
-      "Stance Change"
+      {
+        "name": "Stance Change",
+        "hidden": false
+      }
     ],
     "types": [
       "Steel",
@@ -52896,7 +52968,10 @@
       0
     ],
     "abilities": [
-      "Stance Change"
+      {
+        "name": "Stance Change",
+        "hidden": false
+      }
     ],
     "types": [
       "Steel",
@@ -53043,8 +53118,14 @@
       0
     ],
     "abilities": [
-      "Healer",
-      "Aroma Veil"
+      {
+        "name": "Healer",
+        "hidden": false
+      },
+      {
+        "name": "Aroma Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Fairy"
@@ -53190,8 +53271,14 @@
       0
     ],
     "abilities": [
-      "Healer",
-      "Aroma Veil"
+      {
+        "name": "Healer",
+        "hidden": false
+      },
+      {
+        "name": "Aroma Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Fairy"
@@ -53345,8 +53432,14 @@
       0
     ],
     "abilities": [
-      "Sweet Veil",
-      "Unburden"
+      {
+        "name": "Sweet Veil",
+        "hidden": false
+      },
+      {
+        "name": "Unburden",
+        "hidden": true
+      }
     ],
     "types": [
       "Fairy"
@@ -53490,8 +53583,14 @@
       0
     ],
     "abilities": [
-      "Sweet Veil",
-      "Unburden"
+      {
+        "name": "Sweet Veil",
+        "hidden": false
+      },
+      {
+        "name": "Unburden",
+        "hidden": true
+      }
     ],
     "types": [
       "Fairy"
@@ -53633,9 +53732,18 @@
       0
     ],
     "abilities": [
-      "Contrary",
-      "Suction Cups",
-      "Infiltrator"
+      {
+        "name": "Contrary",
+        "hidden": false
+      },
+      {
+        "name": "Suction Cups",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -53789,9 +53897,18 @@
       0
     ],
     "abilities": [
-      "Contrary",
-      "Suction Cups",
-      "Infiltrator"
+      {
+        "name": "Contrary",
+        "hidden": false
+      },
+      {
+        "name": "Suction Cups",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": true
+      }
     ],
     "types": [
       "Dark",
@@ -53946,9 +54063,18 @@
       0
     ],
     "abilities": [
-      "Tough Claws",
-      "Sniper",
-      "Pickpocket"
+      {
+        "name": "Tough Claws",
+        "hidden": false
+      },
+      {
+        "name": "Sniper",
+        "hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "hidden": true
+      }
     ],
     "types": [
       "Rock",
@@ -54104,9 +54230,18 @@
       0
     ],
     "abilities": [
-      "Tough Claws",
-      "Sniper",
-      "Pickpocket"
+      {
+        "name": "Tough Claws",
+        "hidden": false
+      },
+      {
+        "name": "Sniper",
+        "hidden": false
+      },
+      {
+        "name": "Pickpocket",
+        "hidden": true
+      }
     ],
     "types": [
       "Rock",
@@ -54272,9 +54407,18 @@
       1
     ],
     "abilities": [
-      "Dry Skin",
-      "Sand Veil",
-      "Solar Power"
+      {
+        "name": "Dry Skin",
+        "hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "hidden": false
+      },
+      {
+        "name": "Solar Power",
+        "hidden": true
+      }
     ],
     "types": [
       "Electric",
@@ -54417,9 +54561,18 @@
       1
     ],
     "abilities": [
-      "Dry Skin",
-      "Sand Veil",
-      "Solar Power"
+      {
+        "name": "Dry Skin",
+        "hidden": false
+      },
+      {
+        "name": "Sand Veil",
+        "hidden": false
+      },
+      {
+        "name": "Solar Power",
+        "hidden": true
+      }
     ],
     "types": [
       "Electric",
@@ -54576,8 +54729,14 @@
       0
     ],
     "abilities": [
-      "Cute Charm",
-      "Pixilate"
+      {
+        "name": "Cute Charm",
+        "hidden": false
+      },
+      {
+        "name": "Pixilate",
+        "hidden": true
+      }
     ],
     "types": [
       "Fairy"
@@ -54760,9 +54919,18 @@
       0
     ],
     "abilities": [
-      "Limber",
-      "Unburden",
-      "Mold Breaker"
+      {
+        "name": "Limber",
+        "hidden": false
+      },
+      {
+        "name": "Unburden",
+        "hidden": false
+      },
+      {
+        "name": "Mold Breaker",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting",
@@ -54951,9 +55119,18 @@
       0
     ],
     "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
+      {
+        "name": "Sap Sipper",
+        "hidden": false
+      },
+      {
+        "name": "Hydration",
+        "hidden": false
+      },
+      {
+        "name": "Gooey",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon"
@@ -55090,9 +55267,18 @@
       0
     ],
     "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
+      {
+        "name": "Sap Sipper",
+        "hidden": false
+      },
+      {
+        "name": "Hydration",
+        "hidden": false
+      },
+      {
+        "name": "Gooey",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon"
@@ -55236,9 +55422,18 @@
       0
     ],
     "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
+      {
+        "name": "Sap Sipper",
+        "hidden": false
+      },
+      {
+        "name": "Hydration",
+        "hidden": false
+      },
+      {
+        "name": "Gooey",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon"
@@ -55406,9 +55601,18 @@
       0
     ],
     "abilities": [
-      "Natural Cure",
-      "Frisk",
-      "Harvest"
+      {
+        "name": "Natural Cure",
+        "hidden": false
+      },
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Harvest",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -55563,9 +55767,18 @@
       0
     ],
     "abilities": [
-      "Natural Cure",
-      "Frisk",
-      "Harvest"
+      {
+        "name": "Natural Cure",
+        "hidden": false
+      },
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Harvest",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -55727,9 +55940,18 @@
       0
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "hidden": false
+      },
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -55887,9 +56109,18 @@
       0
     ],
     "abilities": [
-      "Pickup",
-      "Frisk",
-      "Insomnia"
+      {
+        "name": "Pickup",
+        "hidden": false
+      },
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Insomnia",
+        "hidden": true
+      }
     ],
     "types": [
       "Ghost",
@@ -56056,9 +56287,18 @@
       0
     ],
     "abilities": [
-      "Own Tempo",
-      "Ice Body",
-      "Sturdy"
+      {
+        "name": "Own Tempo",
+        "hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -56205,9 +56445,18 @@
       0
     ],
     "abilities": [
-      "Own Tempo",
-      "Ice Body",
-      "Sturdy"
+      {
+        "name": "Own Tempo",
+        "hidden": false
+      },
+      {
+        "name": "Ice Body",
+        "hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "hidden": true
+      }
     ],
     "types": [
       "Ice"
@@ -56372,9 +56621,18 @@
       1
     ],
     "abilities": [
-      "Frisk",
-      "Infiltrator",
-      "Telepathy"
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "hidden": true
+      }
     ],
     "types": [
       "Flying",
@@ -56527,9 +56785,18 @@
       2
     ],
     "abilities": [
-      "Frisk",
-      "Infiltrator",
-      "Telepathy"
+      {
+        "name": "Frisk",
+        "hidden": false
+      },
+      {
+        "name": "Infiltrator",
+        "hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "hidden": true
+      }
     ],
     "types": [
       "Flying",
@@ -56695,8 +56962,14 @@
       0
     ],
     "abilities": [
-      "Overgrow",
-      "Long Reach"
+      {
+        "name": "Overgrow",
+        "hidden": false
+      },
+      {
+        "name": "Long Reach",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -56837,8 +57110,14 @@
       0
     ],
     "abilities": [
-      "Overgrow",
-      "Long Reach"
+      {
+        "name": "Overgrow",
+        "hidden": false
+      },
+      {
+        "name": "Long Reach",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -56974,8 +57253,14 @@
       0
     ],
     "abilities": [
-      "Overgrow",
-      "Long Reach"
+      {
+        "name": "Overgrow",
+        "hidden": false
+      },
+      {
+        "name": "Long Reach",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -57143,8 +57428,14 @@
       1
     ],
     "abilities": [
-      "Blaze",
-      "Intimidate"
+      {
+        "name": "Blaze",
+        "hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "hidden": true
+      }
     ],
     "types": [
       "Fire"
@@ -57289,8 +57580,14 @@
       2
     ],
     "abilities": [
-      "Blaze",
-      "Intimidate"
+      {
+        "name": "Blaze",
+        "hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "hidden": true
+      }
     ],
     "types": [
       "Fire"
@@ -57431,8 +57728,14 @@
       0
     ],
     "abilities": [
-      "Blaze",
-      "Intimidate"
+      {
+        "name": "Blaze",
+        "hidden": false
+      },
+      {
+        "name": "Intimidate",
+        "hidden": true
+      }
     ],
     "types": [
       "Fire",
@@ -57615,8 +57918,14 @@
       0
     ],
     "abilities": [
-      "Torrent",
-      "Liquid Voice"
+      {
+        "name": "Torrent",
+        "hidden": false
+      },
+      {
+        "name": "Liquid Voice",
+        "hidden": true
+      }
     ],
     "types": [
       "Water"
@@ -57763,8 +58072,14 @@
       0
     ],
     "abilities": [
-      "Torrent",
-      "Liquid Voice"
+      {
+        "name": "Torrent",
+        "hidden": false
+      },
+      {
+        "name": "Liquid Voice",
+        "hidden": true
+      }
     ],
     "types": [
       "Water"
@@ -57907,8 +58222,14 @@
       0
     ],
     "abilities": [
-      "Torrent",
-      "Liquid Voice"
+      {
+        "name": "Torrent",
+        "hidden": false
+      },
+      {
+        "name": "Liquid Voice",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -58066,7 +58387,10 @@
       0
     ],
     "abilities": [
-      "Swarm"
+      {
+        "name": "Swarm",
+        "hidden": false
+      }
     ],
     "types": [
       "Bug"
@@ -58184,7 +58508,10 @@
       0
     ],
     "abilities": [
-      "Battery"
+      {
+        "name": "Battery",
+        "hidden": false
+      }
     ],
     "types": [
       "Bug",
@@ -58332,7 +58659,10 @@
       0
     ],
     "abilities": [
-      "Levitate"
+      {
+        "name": "Levitate",
+        "hidden": false
+      }
     ],
     "types": [
       "Bug",
@@ -58495,9 +58825,18 @@
       1
     ],
     "abilities": [
-      "Honey Gather",
-      "Shield Dust",
-      "Sweet Veil"
+      {
+        "name": "Honey Gather",
+        "hidden": false
+      },
+      {
+        "name": "Shield Dust",
+        "hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -58648,9 +58987,18 @@
       2
     ],
     "abilities": [
-      "Honey Gather",
-      "Shield Dust",
-      "Sweet Veil"
+      {
+        "name": "Honey Gather",
+        "hidden": false
+      },
+      {
+        "name": "Shield Dust",
+        "hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Bug",
@@ -58808,7 +59156,10 @@
       0
     ],
     "abilities": [
-      "Schooling"
+      {
+        "name": "Schooling",
+        "hidden": false
+      }
     ],
     "types": [
       "Water"
@@ -58943,7 +59294,10 @@
       0
     ],
     "abilities": [
-      "Schooling"
+      {
+        "name": "Schooling",
+        "hidden": false
+      }
     ],
     "types": [
       "Water"
@@ -59078,9 +59432,18 @@
       0
     ],
     "abilities": [
-      "Merciless",
-      "Limber",
-      "Regenerator"
+      {
+        "name": "Merciless",
+        "hidden": false
+      },
+      {
+        "name": "Limber",
+        "hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -59232,9 +59595,18 @@
       0
     ],
     "abilities": [
-      "Merciless",
-      "Limber",
-      "Regenerator"
+      {
+        "name": "Merciless",
+        "hidden": false
+      },
+      {
+        "name": "Limber",
+        "hidden": false
+      },
+      {
+        "name": "Regenerator",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -59385,9 +59757,18 @@
       0
     ],
     "abilities": [
-      "Own Tempo",
-      "Stamina",
-      "Inner Focus"
+      {
+        "name": "Own Tempo",
+        "hidden": false
+      },
+      {
+        "name": "Stamina",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground"
@@ -59538,9 +59919,18 @@
       0
     ],
     "abilities": [
-      "Own Tempo",
-      "Stamina",
-      "Inner Focus"
+      {
+        "name": "Own Tempo",
+        "hidden": false
+      },
+      {
+        "name": "Stamina",
+        "hidden": false
+      },
+      {
+        "name": "Inner Focus",
+        "hidden": true
+      }
     ],
     "types": [
       "Ground"
@@ -59687,8 +60077,14 @@
       0
     ],
     "abilities": [
-      "Water Bubble",
-      "Water Absorb"
+      {
+        "name": "Water Bubble",
+        "hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -59842,8 +60238,14 @@
       0
     ],
     "abilities": [
-      "Water Bubble",
-      "Water Absorb"
+      {
+        "name": "Water Bubble",
+        "hidden": false
+      },
+      {
+        "name": "Water Absorb",
+        "hidden": true
+      }
     ],
     "types": [
       "Water",
@@ -59994,9 +60396,18 @@
       0
     ],
     "abilities": [
-      "Illuminate",
-      "Effect Spore",
-      "Rain Dish"
+      {
+        "name": "Illuminate",
+        "hidden": false
+      },
+      {
+        "name": "Effect Spore",
+        "hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -60144,9 +60555,18 @@
       0
     ],
     "abilities": [
-      "Illuminate",
-      "Effect Spore",
-      "Rain Dish"
+      {
+        "name": "Illuminate",
+        "hidden": false
+      },
+      {
+        "name": "Effect Spore",
+        "hidden": false
+      },
+      {
+        "name": "Rain Dish",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass",
@@ -60288,8 +60708,14 @@
       1
     ],
     "abilities": [
-      "Corrosion",
-      "Oblivious"
+      {
+        "name": "Corrosion",
+        "hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -60452,8 +60878,14 @@
       2
     ],
     "abilities": [
-      "Corrosion",
-      "Oblivious"
+      {
+        "name": "Corrosion",
+        "hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "hidden": true
+      }
     ],
     "types": [
       "Poison",
@@ -60644,9 +61076,18 @@
       0
     ],
     "abilities": [
-      "Fluffy",
-      "Klutz",
-      "Cute Charm"
+      {
+        "name": "Fluffy",
+        "hidden": false
+      },
+      {
+        "name": "Klutz",
+        "hidden": false
+      },
+      {
+        "name": "Cute Charm",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -60792,9 +61233,18 @@
       0
     ],
     "abilities": [
-      "Fluffy",
-      "Klutz",
-      "Unnerve"
+      {
+        "name": "Fluffy",
+        "hidden": false
+      },
+      {
+        "name": "Klutz",
+        "hidden": false
+      },
+      {
+        "name": "Unnerve",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -60950,9 +61400,18 @@
       0
     ],
     "abilities": [
-      "Leaf Guard",
-      "Oblivious",
-      "Sweet Veil"
+      {
+        "name": "Leaf Guard",
+        "hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass"
@@ -61087,9 +61546,18 @@
       2
     ],
     "abilities": [
-      "Leaf Guard",
-      "Oblivious",
-      "Sweet Veil"
+      {
+        "name": "Leaf Guard",
+        "hidden": false
+      },
+      {
+        "name": "Oblivious",
+        "hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass"
@@ -61232,9 +61700,18 @@
       0
     ],
     "abilities": [
-      "Leaf Guard",
-      "Queenly Majesty",
-      "Sweet Veil"
+      {
+        "name": "Leaf Guard",
+        "hidden": false
+      },
+      {
+        "name": "Queenly Majesty",
+        "hidden": false
+      },
+      {
+        "name": "Sweet Veil",
+        "hidden": true
+      }
     ],
     "types": [
       "Grass"
@@ -61400,9 +61877,18 @@
       0
     ],
     "abilities": [
-      "Inner Focus",
-      "Telepathy",
-      "Symbiosis"
+      {
+        "name": "Inner Focus",
+        "hidden": false
+      },
+      {
+        "name": "Telepathy",
+        "hidden": false
+      },
+      {
+        "name": "Symbiosis",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -61558,8 +62044,14 @@
       0
     ],
     "abilities": [
-      "Receiver",
-      "Defiant"
+      {
+        "name": "Receiver",
+        "hidden": false
+      },
+      {
+        "name": "Defiant",
+        "hidden": true
+      }
     ],
     "types": [
       "Fighting"
@@ -61720,7 +62212,10 @@
       1
     ],
     "abilities": [
-      "Wimp Out"
+      {
+        "name": "Wimp Out",
+        "hidden": false
+      }
     ],
     "types": [
       "Bug",
@@ -61814,7 +62309,10 @@
       0
     ],
     "abilities": [
-      "Emergency Exit"
+      {
+        "name": "Emergency Exit",
+        "hidden": false
+      }
     ],
     "types": [
       "Bug",
@@ -61984,8 +62482,14 @@
       0
     ],
     "abilities": [
-      "Innards Out",
-      "Unaware"
+      {
+        "name": "Innards Out",
+        "hidden": false
+      },
+      {
+        "name": "Unaware",
+        "hidden": true
+      }
     ],
     "types": [
       "Water"
@@ -62108,7 +62612,10 @@
       0
     ],
     "abilities": [
-      "Battle Armor"
+      {
+        "name": "Battle Armor",
+        "hidden": false
+      }
     ],
     "types": [
       "Normal"
@@ -62243,7 +62750,10 @@
       0
     ],
     "abilities": [
-      "RKS System"
+      {
+        "name": "RKS System",
+        "hidden": false
+      }
     ],
     "types": [
       "Normal"
@@ -62431,7 +62941,10 @@
       0
     ],
     "abilities": [
-      "Shell Armor"
+      {
+        "name": "Shell Armor",
+        "hidden": false
+      }
     ],
     "types": [
       "Fire",
@@ -62605,9 +63118,18 @@
       0
     ],
     "abilities": [
-      "Iron Barbs",
-      "Lightning Rod",
-      "Sturdy"
+      {
+        "name": "Iron Barbs",
+        "hidden": false
+      },
+      {
+        "name": "Lightning Rod",
+        "hidden": false
+      },
+      {
+        "name": "Sturdy",
+        "hidden": true
+      }
     ],
     "types": [
       "Electric",
@@ -62771,7 +63293,10 @@
       0
     ],
     "abilities": [
-      "Disguise"
+      {
+        "name": "Disguise",
+        "hidden": false
+      }
     ],
     "types": [
       "Ghost",
@@ -62938,9 +63463,18 @@
       0
     ],
     "abilities": [
-      "Berserk",
-      "Sap Sipper",
-      "Cloud Nine"
+      {
+        "name": "Berserk",
+        "hidden": false
+      },
+      {
+        "name": "Sap Sipper",
+        "hidden": false
+      },
+      {
+        "name": "Cloud Nine",
+        "hidden": true
+      }
     ],
     "types": [
       "Normal",
@@ -63112,7 +63646,10 @@
       0
     ],
     "abilities": [
-      "Steelworker"
+      {
+        "name": "Steelworker",
+        "hidden": false
+      }
     ],
     "types": [
       "Ghost",
@@ -63277,9 +63814,18 @@
       0
     ],
     "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
+      {
+        "name": "Bulletproof",
+        "hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon"
@@ -63438,9 +63984,18 @@
       0
     ],
     "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
+      {
+        "name": "Bulletproof",
+        "hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon",
@@ -63609,9 +64164,18 @@
       0
     ],
     "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
+      {
+        "name": "Bulletproof",
+        "hidden": false
+      },
+      {
+        "name": "Soundproof",
+        "hidden": false
+      },
+      {
+        "name": "Overcoat",
+        "hidden": true
+      }
     ],
     "types": [
       "Dragon",
@@ -63810,7 +64374,10 @@
       0
     ],
     "abilities": [
-      "Unaware"
+      {
+        "name": "Unaware",
+        "hidden": false
+      }
     ],
     "types": [
       "Psychic"
@@ -63868,7 +64435,10 @@
       0
     ],
     "abilities": [
-      "Sturdy"
+      {
+        "name": "Sturdy",
+        "hidden": false
+      }
     ],
     "types": [
       "Psychic"
@@ -63937,7 +64507,10 @@
       0
     ],
     "abilities": [
-      "Full Metal Body"
+      {
+        "name": "Full Metal Body",
+        "hidden": false
+      }
     ],
     "types": [
       "Psychic",
@@ -64112,7 +64685,10 @@
       0
     ],
     "abilities": [
-      "Shadow Shield"
+      {
+        "name": "Shadow Shield",
+        "hidden": false
+      }
     ],
     "types": [
       "Psychic",
@@ -64278,7 +64854,10 @@
       0
     ],
     "abilities": [
-      "Prism Armor"
+      {
+        "name": "Prism Armor",
+        "hidden": false
+      }
     ],
     "types": [
       "Psychic"
@@ -64446,7 +65025,10 @@
       0
     ],
     "abilities": [
-      "Prism Armor"
+      {
+        "name": "Prism Armor",
+        "hidden": false
+      }
     ],
     "types": [
       "Psychic",
@@ -64615,7 +65197,10 @@
       0
     ],
     "abilities": [
-      "Prism Armor"
+      {
+        "name": "Prism Armor",
+        "hidden": false
+      }
     ],
     "types": [
       "Psychic",
@@ -64784,7 +65369,10 @@
       1
     ],
     "abilities": [
-      "Technician"
+      {
+        "name": "Technician",
+        "hidden": false
+      }
     ],
     "types": [
       "Fighting",
@@ -64960,7 +65548,10 @@
       3
     ],
     "abilities": [
-      "Volt Absorb"
+      {
+        "name": "Volt Absorb",
+        "hidden": false
+      }
     ],
     "types": [
       "Electric"
@@ -65132,7 +65723,10 @@
       0
     ],
     "abilities": [
-      "Magnet Pull"
+      {
+        "name": "Magnet Pull",
+        "hidden": false
+      }
     ],
     "types": [
       "Steel"
@@ -65219,7 +65813,10 @@
       0
     ],
     "abilities": [
-      "Iron Fist"
+      {
+        "name": "Iron Fist",
+        "hidden": false
+      }
     ],
     "types": [
       "Steel"
