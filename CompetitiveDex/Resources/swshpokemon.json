@@ -22,7 +22,6 @@
     ],
     "abilities": [
       "Overgrow",
-      "Overgrow",
       "Chlorophyll"
     ],
     "types": [
@@ -177,7 +176,6 @@
     ],
     "abilities": [
       "Overgrow",
-      "Overgrow",
       "Chlorophyll"
     ],
     "types": [
@@ -324,7 +322,6 @@
       0
     ],
     "abilities": [
-      "Overgrow",
       "Overgrow",
       "Chlorophyll"
     ],
@@ -486,7 +483,6 @@
     ],
     "abilities": [
       "Blaze",
-      "Blaze",
       "Solar Power"
     ],
     "types": [
@@ -642,7 +638,6 @@
     ],
     "abilities": [
       "Blaze",
-      "Blaze",
       "Solar Power"
     ],
     "types": [
@@ -788,7 +783,6 @@
       0
     ],
     "abilities": [
-      "Blaze",
       "Blaze",
       "Solar Power"
     ],
@@ -962,7 +956,6 @@
     ],
     "abilities": [
       "Torrent",
-      "Torrent",
       "Rain Dish"
     ],
     "types": [
@@ -1124,7 +1117,6 @@
     ],
     "abilities": [
       "Torrent",
-      "Torrent",
       "Rain Dish"
     ],
     "types": [
@@ -1274,7 +1266,6 @@
       0
     ],
     "abilities": [
-      "Torrent",
       "Torrent",
       "Rain Dish"
     ],
@@ -1441,7 +1432,6 @@
     ],
     "abilities": [
       "Shield Dust",
-      "Shield Dust",
       "Run Away"
     ],
     "types": [
@@ -1506,8 +1496,6 @@
       0
     ],
     "abilities": [
-      "Shed Skin",
-      "Shed Skin",
       "Shed Skin"
     ],
     "types": [
@@ -1570,7 +1558,6 @@
       0
     ],
     "abilities": [
-      "Compound Eyes",
       "Compound Eyes",
       "Tinted Lens"
     ],
@@ -1741,7 +1728,6 @@
       2
     ],
     "abilities": [
-      "Static",
       "Static",
       "Lightning Rod"
     ],
@@ -1932,7 +1918,6 @@
     ],
     "abilities": [
       "Static",
-      "Static",
       "Lightning Rod"
     ],
     "types": [
@@ -2117,8 +2102,6 @@
       3
     ],
     "abilities": [
-      "Surge Surfer",
-      "Surge Surfer",
       "Surge Surfer"
     ],
     "types": [
@@ -2749,7 +2732,6 @@
     ],
     "abilities": [
       "Flash Fire",
-      "Flash Fire",
       "Drought"
     ],
     "types": [
@@ -2923,7 +2905,6 @@
     ],
     "abilities": [
       "Snow Cloak",
-      "Snow Cloak",
       "Snow Warning"
     ],
     "types": [
@@ -3093,7 +3074,6 @@
       1
     ],
     "abilities": [
-      "Flash Fire",
       "Flash Fire",
       "Drought"
     ],
@@ -3270,7 +3250,6 @@
       2
     ],
     "abilities": [
-      "Snow Cloak",
       "Snow Cloak",
       "Snow Warning"
     ],
@@ -3453,7 +3432,6 @@
     ],
     "abilities": [
       "Chlorophyll",
-      "Chlorophyll",
       "Run Away"
     ],
     "types": [
@@ -3610,7 +3588,6 @@
     ],
     "abilities": [
       "Chlorophyll",
-      "Chlorophyll",
       "Stench"
     ],
     "types": [
@@ -3762,7 +3739,6 @@
       0
     ],
     "abilities": [
-      "Chlorophyll",
       "Chlorophyll",
       "Effect Spore"
     ],
@@ -7048,7 +7024,6 @@
     ],
     "abilities": [
       "Steadfast",
-      "Steadfast",
       "Scrappy"
     ],
     "types": [
@@ -7552,8 +7527,6 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -7713,8 +7686,6 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -7875,8 +7846,6 @@
       0
     ],
     "abilities": [
-      "Cursed Body",
-      "Cursed Body",
       "Cursed Body"
     ],
     "types": [
@@ -10503,7 +10472,6 @@
     ],
     "abilities": [
       "Swift Swim",
-      "Swift Swim",
       "Rattled"
     ],
     "types": [
@@ -10571,7 +10539,6 @@
       0
     ],
     "abilities": [
-      "Intimidate",
       "Intimidate",
       "Moxie"
     ],
@@ -10929,7 +10896,6 @@
     ],
     "abilities": [
       "Limber",
-      "Limber",
       "Imposter"
     ],
     "types": [
@@ -11181,7 +11147,6 @@
     ],
     "abilities": [
       "Water Absorb",
-      "Water Absorb",
       "Hydration"
     ],
     "types": [
@@ -11371,7 +11336,6 @@
     ],
     "abilities": [
       "Volt Absorb",
-      "Volt Absorb",
       "Quick Feet"
     ],
     "types": [
@@ -11557,7 +11521,6 @@
       0
     ],
     "abilities": [
-      "Flash Fire",
       "Flash Fire",
       "Guts"
     ],
@@ -11982,7 +11945,6 @@
     ],
     "abilities": [
       "Pressure",
-      "Pressure",
       "Unnerve"
     ],
     "types": [
@@ -12180,8 +12142,6 @@
       0
     ],
     "abilities": [
-      "Synchronize",
-      "Synchronize",
       "Synchronize"
     ],
     "types": [
@@ -13099,7 +13059,6 @@
       1
     ],
     "abilities": [
-      "Static",
       "Static",
       "Lightning Rod"
     ],
@@ -14027,7 +13986,6 @@
     ],
     "abilities": [
       "Chlorophyll",
-      "Chlorophyll",
       "Healer"
     ],
     "types": [
@@ -14673,7 +14631,6 @@
     ],
     "abilities": [
       "Synchronize",
-      "Synchronize",
       "Magic Bounce"
     ],
     "types": [
@@ -14861,7 +14818,6 @@
       0
     ],
     "abilities": [
-      "Synchronize",
       "Synchronize",
       "Inner Focus"
     ],
@@ -15051,7 +15007,6 @@
       0
     ],
     "abilities": [
-      "Shadow Tag",
       "Shadow Tag",
       "Telepathy"
     ],
@@ -16361,7 +16316,6 @@
     ],
     "abilities": [
       "Weak Armor",
-      "Weak Armor",
       "Cursed Body"
     ],
     "types": [
@@ -17403,7 +17357,6 @@
     ],
     "abilities": [
       "Guts",
-      "Guts",
       "Sand Veil"
     ],
     "types": [
@@ -17568,8 +17521,6 @@
       0
     ],
     "abilities": [
-      "Shed Skin",
-      "Shed Skin",
       "Shed Skin"
     ],
     "types": [
@@ -17738,7 +17689,6 @@
       0
     ],
     "abilities": [
-      "Sand Stream",
       "Sand Stream",
       "Unnerve"
     ],
@@ -20763,7 +20713,6 @@
     ],
     "abilities": [
       "Compound Eyes",
-      "Compound Eyes",
       "Run Away"
     ],
     "types": [
@@ -20894,7 +20843,6 @@
       2
     ],
     "abilities": [
-      "Speed Boost",
       "Speed Boost",
       "Infiltrator"
     ],
@@ -21065,8 +21013,6 @@
       0
     ],
     "abilities": [
-      "Wonder Guard",
-      "Wonder Guard",
       "Wonder Guard"
     ],
     "types": [
@@ -22716,8 +22662,6 @@
       1
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -22902,8 +22846,6 @@
       2
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -23108,8 +23050,6 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -23289,8 +23229,6 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -24092,8 +24030,6 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -24274,8 +24210,6 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -24746,7 +24680,6 @@
     ],
     "abilities": [
       "Levitate",
-      "Levitate",
       "Frisk"
     ],
     "types": [
@@ -24903,7 +24836,6 @@
       0
     ],
     "abilities": [
-      "Pressure",
       "Pressure",
       "Frisk"
     ],
@@ -25097,7 +25029,6 @@
       0
     ],
     "abilities": [
-      "Shadow Tag",
       "Shadow Tag",
       "Telepathy"
     ],
@@ -25501,8 +25432,6 @@
       0
     ],
     "abilities": [
-      "Serene Grace",
-      "Serene Grace",
       "Serene Grace"
     ],
     "types": [
@@ -25983,7 +25912,6 @@
     ],
     "abilities": [
       "Honey Gather",
-      "Honey Gather",
       "Hustle"
     ],
     "types": [
@@ -26068,7 +25996,6 @@
       0
     ],
     "abilities": [
-      "Pressure",
       "Pressure",
       "Unnerve"
     ],
@@ -26244,8 +26171,6 @@
       0
     ],
     "abilities": [
-      "Chlorophyll",
-      "Chlorophyll",
       "Chlorophyll"
     ],
     "types": [
@@ -26392,8 +26317,6 @@
       0
     ],
     "abilities": [
-      "Flower Gift",
-      "Flower Gift",
       "Flower Gift"
     ],
     "types": [
@@ -26543,8 +26466,6 @@
       0
     ],
     "abilities": [
-      "Flower Gift",
-      "Flower Gift",
       "Flower Gift"
     ],
     "types": [
@@ -29131,7 +29052,6 @@
     ],
     "abilities": [
       "Sand Stream",
-      "Sand Stream",
       "Sand Force"
     ],
     "types": [
@@ -29280,7 +29200,6 @@
       0
     ],
     "abilities": [
-      "Sand Stream",
       "Sand Stream",
       "Sand Force"
     ],
@@ -30331,7 +30250,6 @@
     ],
     "abilities": [
       "Snow Warning",
-      "Snow Warning",
       "Soundproof"
     ],
     "types": [
@@ -30483,7 +30401,6 @@
       0
     ],
     "abilities": [
-      "Snow Warning",
       "Snow Warning",
       "Soundproof"
     ],
@@ -30651,7 +30568,6 @@
       1
     ],
     "abilities": [
-      "Pressure",
       "Pressure",
       "Pickpocket"
     ],
@@ -31233,7 +31149,6 @@
     ],
     "abilities": [
       "Leaf Guard",
-      "Leaf Guard",
       "Chlorophyll"
     ],
     "types": [
@@ -31421,7 +31336,6 @@
       0
     ],
     "abilities": [
-      "Snow Cloak",
       "Snow Cloak",
       "Ice Body"
     ],
@@ -31761,7 +31675,6 @@
     ],
     "abilities": [
       "Steadfast",
-      "Steadfast",
       "Justified"
     ],
     "types": [
@@ -32015,7 +31928,6 @@
     ],
     "abilities": [
       "Pressure",
-      "Pressure",
       "Frisk"
     ],
     "types": [
@@ -32205,7 +32117,6 @@
     ],
     "abilities": [
       "Snow Cloak",
-      "Snow Cloak",
       "Cursed Body"
     ],
     "types": [
@@ -32385,8 +32296,6 @@
       1
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -32520,8 +32429,6 @@
       1
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -32655,8 +32562,6 @@
       1
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -32790,8 +32695,6 @@
       1
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -32925,8 +32828,6 @@
       1
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -33060,8 +32961,6 @@
       1
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -37120,7 +37019,6 @@
     ],
     "abilities": [
       "Hustle",
-      "Hustle",
       "Inner Focus"
     ],
     "types": [
@@ -37274,7 +37172,6 @@
       0
     ],
     "abilities": [
-      "Hustle",
       "Hustle",
       "Inner Focus"
     ],
@@ -37436,7 +37333,6 @@
       0
     ],
     "abilities": [
-      "Sheer Force",
       "Sheer Force",
       "Zen Mode"
     ],
@@ -37605,7 +37501,6 @@
       0
     ],
     "abilities": [
-      "Sheer Force",
       "Sheer Force",
       "Zen Mode"
     ],
@@ -37776,7 +37671,6 @@
     ],
     "abilities": [
       "Gorilla Tactics",
-      "Gorilla Tactics",
       "Zen Mode"
     ],
     "types": [
@@ -37944,7 +37838,6 @@
       0
     ],
     "abilities": [
-      "Gorilla Tactics",
       "Gorilla Tactics",
       "Zen Mode"
     ],
@@ -39125,8 +39018,6 @@
       0
     ],
     "abilities": [
-      "Mummy",
-      "Mummy",
       "Mummy"
     ],
     "types": [
@@ -39290,8 +39181,6 @@
       0
     ],
     "abilities": [
-      "Wandering Spirit",
-      "Wandering Spirit",
       "Wandering Spirit"
     ],
     "types": [
@@ -39449,8 +39338,6 @@
       0
     ],
     "abilities": [
-      "Mummy",
-      "Mummy",
       "Mummy"
     ],
     "types": [
@@ -42586,8 +42473,6 @@
       0
     ],
     "abilities": [
-      "Iron Barbs",
-      "Iron Barbs",
       "Iron Barbs"
     ],
     "types": [
@@ -42738,7 +42623,6 @@
       0
     ],
     "abilities": [
-      "Iron Barbs",
       "Iron Barbs",
       "Anticipation"
     ],
@@ -45368,8 +45252,6 @@
       0
     ],
     "abilities": [
-      "Mimicry",
-      "Mimicry",
       "Mimicry"
     ],
     "types": [
@@ -47114,8 +46996,6 @@
       0
     ],
     "abilities": [
-      "Hustle",
-      "Hustle",
       "Hustle"
     ],
     "types": [
@@ -47275,8 +47155,6 @@
       0
     ],
     "abilities": [
-      "Hustle",
-      "Hustle",
       "Hustle"
     ],
     "types": [
@@ -47437,8 +47315,6 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -47629,8 +47505,6 @@
       0
     ],
     "abilities": [
-      "Justified",
-      "Justified",
       "Justified"
     ],
     "types": [
@@ -47776,8 +47650,6 @@
       0
     ],
     "abilities": [
-      "Justified",
-      "Justified",
       "Justified"
     ],
     "types": [
@@ -47925,8 +47797,6 @@
       0
     ],
     "abilities": [
-      "Justified",
-      "Justified",
       "Justified"
     ],
     "types": [
@@ -48074,8 +47944,6 @@
       0
     ],
     "abilities": [
-      "Turboblaze",
-      "Turboblaze",
       "Turboblaze"
     ],
     "types": [
@@ -48234,8 +48102,6 @@
       0
     ],
     "abilities": [
-      "Teravolt",
-      "Teravolt",
       "Teravolt"
     ],
     "types": [
@@ -48392,8 +48258,6 @@
       0
     ],
     "abilities": [
-      "Pressure",
-      "Pressure",
       "Pressure"
     ],
     "types": [
@@ -48549,8 +48413,6 @@
       0
     ],
     "abilities": [
-      "Turboblaze",
-      "Turboblaze",
       "Turboblaze"
     ],
     "types": [
@@ -48706,8 +48568,6 @@
       0
     ],
     "abilities": [
-      "Teravolt",
-      "Teravolt",
       "Teravolt"
     ],
     "types": [
@@ -48863,8 +48723,6 @@
       0
     ],
     "abilities": [
-      "Justified",
-      "Justified",
       "Justified"
     ],
     "types": [
@@ -49016,8 +48874,6 @@
       0
     ],
     "abilities": [
-      "Justified",
-      "Justified",
       "Justified"
     ],
     "types": [
@@ -50337,8 +50193,6 @@
       0
     ],
     "abilities": [
-      "No Guard",
-      "No Guard",
       "No Guard"
     ],
     "types": [
@@ -50479,8 +50333,6 @@
       0
     ],
     "abilities": [
-      "No Guard",
-      "No Guard",
       "No Guard"
     ],
     "types": [
@@ -50617,8 +50469,6 @@
       0
     ],
     "abilities": [
-      "Stance Change",
-      "Stance Change",
       "Stance Change"
     ],
     "types": [
@@ -50766,8 +50616,6 @@
       0
     ],
     "abilities": [
-      "Stance Change",
-      "Stance Change",
       "Stance Change"
     ],
     "types": [
@@ -50916,7 +50764,6 @@
     ],
     "abilities": [
       "Healer",
-      "Healer",
       "Aroma Veil"
     ],
     "types": [
@@ -51063,7 +50910,6 @@
       0
     ],
     "abilities": [
-      "Healer",
       "Healer",
       "Aroma Veil"
     ],
@@ -51220,7 +51066,6 @@
     ],
     "abilities": [
       "Sweet Veil",
-      "Sweet Veil",
       "Unburden"
     ],
     "types": [
@@ -51365,7 +51210,6 @@
       0
     ],
     "abilities": [
-      "Sweet Veil",
       "Sweet Veil",
       "Unburden"
     ],
@@ -52452,7 +52296,6 @@
       0
     ],
     "abilities": [
-      "Cute Charm",
       "Cute Charm",
       "Pixilate"
     ],
@@ -54573,7 +54416,6 @@
     ],
     "abilities": [
       "Overgrow",
-      "Overgrow",
       "Long Reach"
     ],
     "types": [
@@ -54716,7 +54558,6 @@
     ],
     "abilities": [
       "Overgrow",
-      "Overgrow",
       "Long Reach"
     ],
     "types": [
@@ -54853,7 +54694,6 @@
       0
     ],
     "abilities": [
-      "Overgrow",
       "Overgrow",
       "Long Reach"
     ],
@@ -55024,7 +54864,6 @@
     ],
     "abilities": [
       "Blaze",
-      "Blaze",
       "Intimidate"
     ],
     "types": [
@@ -55171,7 +55010,6 @@
     ],
     "abilities": [
       "Blaze",
-      "Blaze",
       "Intimidate"
     ],
     "types": [
@@ -55313,7 +55151,6 @@
       0
     ],
     "abilities": [
-      "Blaze",
       "Blaze",
       "Intimidate"
     ],
@@ -55499,7 +55336,6 @@
     ],
     "abilities": [
       "Torrent",
-      "Torrent",
       "Liquid Voice"
     ],
     "types": [
@@ -55648,7 +55484,6 @@
     ],
     "abilities": [
       "Torrent",
-      "Torrent",
       "Liquid Voice"
     ],
     "types": [
@@ -55792,7 +55627,6 @@
       0
     ],
     "abilities": [
-      "Torrent",
       "Torrent",
       "Liquid Voice"
     ],
@@ -55952,8 +55786,6 @@
       0
     ],
     "abilities": [
-      "Swarm",
-      "Swarm",
       "Swarm"
     ],
     "types": [
@@ -56072,8 +55904,6 @@
       0
     ],
     "abilities": [
-      "Battery",
-      "Battery",
       "Battery"
     ],
     "types": [
@@ -56222,8 +56052,6 @@
       0
     ],
     "abilities": [
-      "Levitate",
-      "Levitate",
       "Levitate"
     ],
     "types": [
@@ -56700,8 +56528,6 @@
       0
     ],
     "abilities": [
-      "Schooling",
-      "Schooling",
       "Schooling"
     ],
     "types": [
@@ -56837,8 +56663,6 @@
       0
     ],
     "abilities": [
-      "Schooling",
-      "Schooling",
       "Schooling"
     ],
     "types": [
@@ -57584,7 +57408,6 @@
     ],
     "abilities": [
       "Water Bubble",
-      "Water Bubble",
       "Water Absorb"
     ],
     "types": [
@@ -57739,7 +57562,6 @@
       0
     ],
     "abilities": [
-      "Water Bubble",
       "Water Bubble",
       "Water Absorb"
     ],
@@ -58187,7 +58009,6 @@
     ],
     "abilities": [
       "Corrosion",
-      "Corrosion",
       "Oblivious"
     ],
     "types": [
@@ -58351,7 +58172,6 @@
       2
     ],
     "abilities": [
-      "Corrosion",
       "Corrosion",
       "Oblivious"
     ],
@@ -59459,7 +59279,6 @@
     ],
     "abilities": [
       "Receiver",
-      "Receiver",
       "Defiant"
     ],
     "types": [
@@ -59621,8 +59440,6 @@
       1
     ],
     "abilities": [
-      "Wimp Out",
-      "Wimp Out",
       "Wimp Out"
     ],
     "types": [
@@ -59717,8 +59534,6 @@
       0
     ],
     "abilities": [
-      "Emergency Exit",
-      "Emergency Exit",
       "Emergency Exit"
     ],
     "types": [
@@ -59890,7 +59705,6 @@
     ],
     "abilities": [
       "Innards Out",
-      "Innards Out",
       "Unaware"
     ],
     "types": [
@@ -60014,8 +59828,6 @@
       0
     ],
     "abilities": [
-      "Battle Armor",
-      "Battle Armor",
       "Battle Armor"
     ],
     "types": [
@@ -60151,8 +59963,6 @@
       0
     ],
     "abilities": [
-      "RKS System",
-      "RKS System",
       "RKS System"
     ],
     "types": [
@@ -60341,8 +60151,6 @@
       0
     ],
     "abilities": [
-      "Shell Armor",
-      "Shell Armor",
       "Shell Armor"
     ],
     "types": [
@@ -60683,8 +60491,6 @@
       0
     ],
     "abilities": [
-      "Disguise",
-      "Disguise",
       "Disguise"
     ],
     "types": [
@@ -61026,8 +60832,6 @@
       0
     ],
     "abilities": [
-      "Steelworker",
-      "Steelworker",
       "Steelworker"
     ],
     "types": [
@@ -61726,8 +61530,6 @@
       0
     ],
     "abilities": [
-      "Unaware",
-      "Unaware",
       "Unaware"
     ],
     "types": [
@@ -61786,8 +61588,6 @@
       0
     ],
     "abilities": [
-      "Sturdy",
-      "Sturdy",
       "Sturdy"
     ],
     "types": [
@@ -61857,8 +61657,6 @@
       0
     ],
     "abilities": [
-      "Full Metal Body",
-      "Full Metal Body",
       "Full Metal Body"
     ],
     "types": [
@@ -62034,8 +61832,6 @@
       0
     ],
     "abilities": [
-      "Shadow Shield",
-      "Shadow Shield",
       "Shadow Shield"
     ],
     "types": [
@@ -62202,8 +61998,6 @@
       0
     ],
     "abilities": [
-      "Prism Armor",
-      "Prism Armor",
       "Prism Armor"
     ],
     "types": [
@@ -62372,8 +62166,6 @@
       0
     ],
     "abilities": [
-      "Prism Armor",
-      "Prism Armor",
       "Prism Armor"
     ],
     "types": [
@@ -62543,8 +62335,6 @@
       0
     ],
     "abilities": [
-      "Prism Armor",
-      "Prism Armor",
       "Prism Armor"
     ],
     "types": [
@@ -62714,8 +62504,6 @@
       1
     ],
     "abilities": [
-      "Technician",
-      "Technician",
       "Technician"
     ],
     "types": [
@@ -62892,8 +62680,6 @@
       3
     ],
     "abilities": [
-      "Volt Absorb",
-      "Volt Absorb",
       "Volt Absorb"
     ],
     "types": [
@@ -63066,8 +62852,6 @@
       0
     ],
     "abilities": [
-      "Magnet Pull",
-      "Magnet Pull",
       "Magnet Pull"
     ],
     "types": [
@@ -63155,8 +62939,6 @@
       0
     ],
     "abilities": [
-      "Iron Fist",
-      "Iron Fist",
       "Iron Fist"
     ],
     "types": [
@@ -63441,7 +63223,6 @@
     ],
     "abilities": [
       "Overgrow",
-      "Overgrow",
       "Grassy Surge"
     ],
     "types": [
@@ -63579,7 +63360,6 @@
       0
     ],
     "abilities": [
-      "Overgrow",
       "Overgrow",
       "Grassy Surge"
     ],
@@ -63751,7 +63531,6 @@
     ],
     "abilities": [
       "Blaze",
-      "Blaze",
       "Libero"
     ],
     "types": [
@@ -63889,7 +63668,6 @@
     ],
     "abilities": [
       "Blaze",
-      "Blaze",
       "Libero"
     ],
     "types": [
@@ -64023,7 +63801,6 @@
       3
     ],
     "abilities": [
-      "Blaze",
       "Blaze",
       "Libero"
     ],
@@ -64180,7 +63957,6 @@
     ],
     "abilities": [
       "Torrent",
-      "Torrent",
       "Sniper"
     ],
     "types": [
@@ -64312,7 +64088,6 @@
     ],
     "abilities": [
       "Torrent",
-      "Torrent",
       "Sniper"
     ],
     "types": [
@@ -64436,7 +64211,6 @@
       3
     ],
     "abilities": [
-      "Torrent",
       "Torrent",
       "Sniper"
     ],
@@ -64590,7 +64364,6 @@
     ],
     "abilities": [
       "Cheek Pouch",
-      "Cheek Pouch",
       "Gluttony"
     ],
     "types": [
@@ -64739,7 +64512,6 @@
       0
     ],
     "abilities": [
-      "Cheek Pouch",
       "Cheek Pouch",
       "Gluttony"
     ],
@@ -66728,7 +66500,6 @@
     ],
     "abilities": [
       "Ball Fetch",
-      "Ball Fetch",
       "Rattled"
     ],
     "types": [
@@ -66856,7 +66627,6 @@
       2
     ],
     "abilities": [
-      "Strong Jaw",
       "Strong Jaw",
       "Competitive"
     ],
@@ -68049,8 +67819,6 @@
       0
     ],
     "abilities": [
-      "Gulp Missile",
-      "Gulp Missile",
       "Gulp Missile"
     ],
     "types": [
@@ -68193,7 +67961,6 @@
     ],
     "abilities": [
       "Swift Swim",
-      "Swift Swim",
       "Propeller Tail"
     ],
     "types": [
@@ -68319,7 +68086,6 @@
       2
     ],
     "abilities": [
-      "Swift Swim",
       "Swift Swim",
       "Propeller Tail"
     ],
@@ -69006,7 +68772,6 @@
     ],
     "abilities": [
       "Limber",
-      "Limber",
       "Technician"
     ],
     "types": [
@@ -69140,7 +68905,6 @@
       0
     ],
     "abilities": [
-      "Limber",
       "Limber",
       "Technician"
     ],
@@ -69289,7 +69053,6 @@
     ],
     "abilities": [
       "Weak Armor",
-      "Weak Armor",
       "Cursed Body"
     ],
     "types": [
@@ -69417,7 +69180,6 @@
       0
     ],
     "abilities": [
-      "Weak Armor",
       "Weak Armor",
       "Cursed Body"
     ],
@@ -70812,7 +70574,6 @@
     ],
     "abilities": [
       "Weak Armor",
-      "Weak Armor",
       "Perish Body"
     ],
     "types": [
@@ -70970,7 +70731,6 @@
       0
     ],
     "abilities": [
-      "Steadfast",
       "Steadfast",
       "Scrappy"
     ],
@@ -71375,8 +71135,6 @@
       0
     ],
     "abilities": [
-      "Wandering Spirit",
-      "Wandering Spirit",
       "Wandering Spirit"
     ],
     "types": [
@@ -71557,7 +71315,6 @@
     ],
     "abilities": [
       "Sweet Veil",
-      "Sweet Veil",
       "Aroma Veil"
     ],
     "types": [
@@ -71719,7 +71476,6 @@
     ],
     "abilities": [
       "Sweet Veil",
-      "Sweet Veil",
       "Aroma Veil"
     ],
     "types": [
@@ -71861,7 +71617,6 @@
     ],
     "abilities": [
       "Battle Armor",
-      "Battle Armor",
       "Defiant"
     ],
     "types": [
@@ -72002,7 +71757,6 @@
     ],
     "abilities": [
       "Lightning Rod",
-      "Lightning Rod",
       "Electric Surge"
     ],
     "types": [
@@ -72142,7 +71896,6 @@
     ],
     "abilities": [
       "Shield Dust",
-      "Shield Dust",
       "Ice Scales"
     ],
     "types": [
@@ -72233,7 +71986,6 @@
       0
     ],
     "abilities": [
-      "Shield Dust",
       "Shield Dust",
       "Ice Scales"
     ],
@@ -72391,8 +72143,6 @@
       0
     ],
     "abilities": [
-      "Power Spot",
-      "Power Spot",
       "Power Spot"
     ],
     "types": [
@@ -72529,8 +72279,6 @@
       0
     ],
     "abilities": [
-      "Ice Face",
-      "Ice Face",
       "Ice Face"
     ],
     "types": [
@@ -72950,8 +72698,6 @@
       2
     ],
     "abilities": [
-      "Hunger Switch",
-      "Hunger Switch",
       "Hunger Switch"
     ],
     "types": [
@@ -73108,7 +72854,6 @@
       0
     ],
     "abilities": [
-      "Sheer Force",
       "Sheer Force",
       "Heavy Metal"
     ],
@@ -73270,7 +73015,6 @@
       0
     ],
     "abilities": [
-      "Sheer Force",
       "Sheer Force",
       "Heavy Metal"
     ],
@@ -74584,8 +74328,6 @@
       3
     ],
     "abilities": [
-      "Intrepid Sword",
-      "Intrepid Sword",
       "Intrepid Sword"
     ],
     "types": [
@@ -74731,8 +74473,6 @@
       3
     ],
     "abilities": [
-      "Intrepid Sword",
-      "Intrepid Sword",
       "Intrepid Sword"
     ],
     "types": [
@@ -74879,8 +74619,6 @@
       3
     ],
     "abilities": [
-      "Dauntless Shield",
-      "Dauntless Shield",
       "Dauntless Shield"
     ],
     "types": [
@@ -75028,8 +74766,6 @@
       3
     ],
     "abilities": [
-      "Dauntless Shield",
-      "Dauntless Shield",
       "Dauntless Shield"
     ],
     "types": [
@@ -75178,8 +74914,6 @@
       0
     ],
     "abilities": [
-      "Pressure",
-      "Pressure",
       "Pressure"
     ],
     "types": [
