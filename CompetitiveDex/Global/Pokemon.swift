@@ -21,6 +21,7 @@ struct Pokemon: Decodable, Comparable {
   let weight: Double
   let color: String
   let eggMoves: [String]
+  let levelUpMoves: [LevelUpMove]
   let tms: [Int]
   let trs: [Int]
   let evolutions: [Evolution]
@@ -39,6 +40,7 @@ struct Pokemon: Decodable, Comparable {
     case weight
     case color
     case eggMoves = "egg_moves"
+    case levelUpMoves = "level_up_moves"
     case tms
     case trs
     case evolutions

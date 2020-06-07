@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct LevelUpMove: Codable {
+  let level: Int
+  let name: String
+}

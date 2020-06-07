@@ -17,6 +17,7 @@
 		DB0BD21C245919C40014693D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD21B245919C40014693D /* Pokemon.swift */; };
 		DB0BD22024591C760014693D /* Evolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BD21F24591C760014693D /* Evolution.swift */; };
 		DB0BD22324591CC00014693D /* swshpokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0BD22224591CC00014693D /* swshpokemon.json */; };
+		DB18BCAF248D8BD700E633A4 /* LevelUpMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */; };
 		DB405C0C248C494E003EA498 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0B248C494E003EA498 /* Ability.swift */; };
 		DB405C0E248C6B71003EA498 /* MoveChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0D248C6B71003EA498 /* MoveChartCell.swift */; };
 		DB405C12248C6C15003EA498 /* MoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C11248C6C15003EA498 /* MoveCell.swift */; };
@@ -79,6 +80,7 @@
 		DB0BD21B245919C40014693D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		DB0BD21F24591C760014693D /* Evolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evolution.swift; sourceTree = "<group>"; };
 		DB0BD22224591CC00014693D /* swshpokemon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swshpokemon.json; sourceTree = "<group>"; };
+		DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelUpMove.swift; sourceTree = "<group>"; };
 		DB405C0B248C494E003EA498 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		DB405C0D248C6B71003EA498 /* MoveChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveChartCell.swift; sourceTree = "<group>"; };
 		DB405C11248C6C15003EA498 /* MoveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCell.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				DB6E5DC9245E70A700F80CC5 /* Nature.swift */,
 				DB6E5DCB245E70C900F80CC5 /* Stats.swift */,
 				DB405C0B248C494E003EA498 /* Ability.swift */,
+				DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB18BCAF248D8BD700E633A4 /* LevelUpMove.swift in Sources */,
 				DBC92E88245A404200CE26A0 /* UIColor+TypingColors.swift in Sources */,
 				DB6E5DBB245E1EBA00F80CC5 /* AbilityChartCell.swift in Sources */,
 				DB6E5DC6245E2D3400F80CC5 /* MovesViewController.swift in Sources */,
