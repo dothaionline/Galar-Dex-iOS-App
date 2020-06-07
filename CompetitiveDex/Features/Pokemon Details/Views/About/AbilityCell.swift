@@ -34,7 +34,7 @@ class AbilityCell: UICollectionViewCell {
   }
   
   public func configure(withAbility ability: Ability) {
-    abilityLabel.text = ability.name
+    abilityLabel.text = ability.hidden ? "\(ability.name) (HA)" : "\(ability.name)"
   }
   
   private func setupViews() {
