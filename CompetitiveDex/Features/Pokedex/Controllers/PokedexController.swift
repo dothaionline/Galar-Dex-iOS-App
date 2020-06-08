@@ -86,7 +86,6 @@ extension PokedexController: UICollectionViewDataSource, UICollectionViewDelegat
     detailsController.pokemon = pokemon[indexPath.row]
     detailsController.modalPresentationStyle = .fullScreen
     present(detailsController, animated: true)
-//    navigationController?.pushViewController(detailsController, animated: true)
   }
   
   func generateLayout() -> UICollectionViewLayout {
