@@ -81,7 +81,7 @@ extension MovesViewController: UITableViewDataSource, UITableViewDelegate {
     let sectionType = Section(rawValue: section)
     switch sectionType {
     case .levelUpMoves:
-      return pokemon.eggMoves.isEmpty ? .leastNormalMagnitude : 40
+      return pokemon.levelUpMoves.isEmpty ? .leastNormalMagnitude : 40
     case .eggMoves:
       return pokemon.eggMoves.isEmpty ? .leastNormalMagnitude : 40
     case .trMoves:
@@ -105,7 +105,7 @@ extension MovesViewController: UITableViewDataSource, UITableViewDelegate {
     let section = Section(rawValue: section)
     switch section {
     case .levelUpMoves:
-      return pokemon.eggMoves.count > 0 ? 1 : 0
+      return pokemon.levelUpMoves.count > 0 ? 1 : 0
     case .eggMoves:
       return pokemon.eggMoves.count > 0 ? 1 : 0
     case .trMoves:
@@ -124,7 +124,8 @@ extension MovesViewController: UITableViewDataSource, UITableViewDelegate {
     let section = Section(rawValue: indexPath.section)
     switch section {
     case .levelUpMoves:
-      cell.configure(withMoves: pokemon.eggMoves)
+      let levelUpMoves = pokemon.levelUpMoves.map({ return $0.name })
+      cell.configure(withMoves: levelUpMoves)
       return cell
     case .eggMoves:
       cell.configure(withMoves: pokemon.eggMoves)
@@ -145,7 +146,12 @@ extension MovesViewController: UITableViewDataSource, UITableViewDelegate {
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     let section = Section(rawValue: indexPath.section)
     var extraHeightMultiplier: Double = 1
-    if section == .levelUpMoves || section == .eggMoves {
+    if section == .levelUpMoves {
+      if pokemon.levelUpMoves.count > 2 {
+        extraHeightMultiplier = (Double(pokemon.levelUpMoves.count) / 2.0).rounded(.up)
+      }
+    }
+    if section == .eggMoves {
       if pokemon.eggMoves.count > 2 {
         extraHeightMultiplier = (Double(pokemon.eggMoves.count) / 2.0).rounded(.up)
       }
@@ -161,7 +167,7 @@ extension MovesViewController: UITableViewDataSource, UITableViewDelegate {
       }
     }
 
-    return (view.frame.width * 1/6) * CGFloat(extraHeightMultiplier)
+    return (view.frame.width * 1/6.5) * CGFloat(extraHeightMultiplier)
 
   }
 
