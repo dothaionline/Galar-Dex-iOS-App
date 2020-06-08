@@ -34,7 +34,6 @@ class MoveCell: UICollectionViewCell {
   }
   
   public func configure(withMove move: String) {
-    print("Move: \(move)")
     moveLabel.text = move
   }
   

@@ -266,7 +266,14 @@
         "name": "Solar Beam"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Skull Bash",
+      "Petal Dance",
+      "Curse",
+      "Ingrain",
+      "Nature Power",
+      "Toxic"
+    ],
     "tms": [
       10,
       11,
@@ -431,7 +438,14 @@
         "name": "Solar Beam"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Skull Bash",
+      "Petal Dance",
+      "Curse",
+      "Ingrain",
+      "Nature Power",
+      "Toxic"
+    ],
     "tms": [
       8,
       9,
@@ -733,7 +747,16 @@
         "name": "Flare Blitz"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Belly Drum",
+      "Ancient Power",
+      "Bite",
+      "Dragon Rush",
+      "Metal Claw",
+      "Counter",
+      "Wing Attack",
+      "Dragon Tail"
+    ],
     "tms": [
       0,
       1,
@@ -902,7 +925,16 @@
         "name": "Flare Blitz"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Belly Drum",
+      "Ancient Power",
+      "Bite",
+      "Dragon Rush",
+      "Metal Claw",
+      "Counter",
+      "Wing Attack",
+      "Dragon Tail"
+    ],
     "tms": [
       0,
       1,
@@ -1238,7 +1270,18 @@
         "name": "Skull Bash"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Mirror Coat",
+      "Haze",
+      "Mist",
+      "Flail",
+      "Yawn",
+      "Fake Out",
+      "Aqua Ring",
+      "Aqua Jet",
+      "Water Spout",
+      "Life Dew"
+    ],
     "tms": [
       0,
       1,
@@ -1402,7 +1445,18 @@
         "name": "Skull Bash"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Mirror Coat",
+      "Haze",
+      "Mist",
+      "Flail",
+      "Yawn",
+      "Fake Out",
+      "Aqua Ring",
+      "Aqua Jet",
+      "Water Spout",
+      "Life Dew"
+    ],
     "tms": [
       0,
       1,
@@ -1914,7 +1968,15 @@
         "name": "Thunder"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Present",
+      "Wish",
+      "Charge",
+      "Fake Out",
+      "Tickle",
+      "Flail",
+      "Disarming Voice"
+    ],
     "tms": [
       0,
       1,
@@ -2104,7 +2166,15 @@
         "name": "Quick Attack"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Present",
+      "Wish",
+      "Charge",
+      "Fake Out",
+      "Tickle",
+      "Flail",
+      "Disarming Voice"
+    ],
     "tms": [
       0,
       1,
@@ -2292,7 +2362,15 @@
         "name": "Quick Attack"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Present",
+      "Wish",
+      "Charge",
+      "Fake Out",
+      "Tickle",
+      "Flail",
+      "Disarming Voice"
+    ],
     "tms": [
       0,
       1,
@@ -2504,7 +2582,13 @@
         "name": "Healing Wish"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Present",
+      "Wish",
+      "Aromatherapy",
+      "Tickle",
+      "Heal Pulse"
+    ],
     "tms": [
       0,
       1,
@@ -2734,7 +2818,13 @@
         "name": "Defense Curl"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Present",
+      "Wish",
+      "Aromatherapy",
+      "Tickle",
+      "Heal Pulse"
+    ],
     "tms": [
       0,
       1,
@@ -3296,7 +3386,15 @@
         "name": "Quick Attack"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Hypnosis",
+      "Flail",
+      "Howl",
+      "Memento",
+      "Baby-Doll Eyes",
+      "Roar",
+      "Flame Charge"
+    ],
     "tms": [
       8,
       9,
@@ -3483,7 +3581,15 @@
         "name": "Ice Shard"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Freeze-Dry",
+      "Hypnosis",
+      "Flail",
+      "Howl",
+      "Moonblast",
+      "Baby-Doll Eyes",
+      "Roar"
+    ],
     "tms": [
       8,
       9,
@@ -3812,7 +3918,18 @@
         "name": "Petal Dance"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Razor Leaf",
+      "Flail",
+      "Synthesis",
+      "Ingrain",
+      "Tickle",
+      "Teeter Dance",
+      "Nature Power",
+      "After You",
+      "Strength Sap",
+      "Leech Seed"
+    ],
     "tms": [
       11,
       21,
@@ -3982,7 +4099,18 @@
         "name": "Sweet Scent"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Razor Leaf",
+      "Flail",
+      "Synthesis",
+      "Ingrain",
+      "Tickle",
+      "Teeter Dance",
+      "Nature Power",
+      "After You",
+      "Strength Sap",
+      "Leech Seed"
+    ],
     "tms": [
       8,
       9,
@@ -4485,7 +4613,13 @@
         "name": "Fissure"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Ancient Power",
+      "Headbutt",
+      "Final Gambit",
+      "Memento",
+      "Hone Claws"
+    ],
     "tms": [
       8,
       9,
@@ -4662,7 +4796,15 @@
         "name": "Fissure"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Metal Sound",
+      "Ancient Power",
+      "Thrash",
+      "Headbutt",
+      "Final Gambit",
+      "Memento",
+      "Hone Claws"
+    ],
     "tms": [
       8,
       9,
@@ -5350,7 +5492,14 @@
         "name": "Play Rough"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Spite",
+      "Hypnosis",
+      "Last Resort",
+      "Flail",
+      "Tail Whip",
+      "Covet"
+    ],
     "tms": [
       2,
       8,
@@ -5531,7 +5680,14 @@
         "name": "Play Rough"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Spite",
+      "Hypnosis",
+      "Parting Shot",
+      "Flail",
+      "Flatter",
+      "Covet"
+    ],
     "tms": [
       2,
       8,
@@ -5878,7 +6034,13 @@
         "name": "Bite"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Thrash",
+      "Double-Edge",
+      "Morning Sun",
+      "Covet",
+      "Double Kick"
+    ],
     "tms": [
       8,
       9,
@@ -6240,7 +6402,13 @@
         "name": "Double-Edge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Bullet Punch",
+      "Tickle",
+      "Quick Guard",
+      "Submission"
+    ],
     "tms": [
       0,
       1,
@@ -6427,7 +6595,13 @@
         "name": "Double-Edge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Bullet Punch",
+      "Tickle",
+      "Quick Guard",
+      "Submission"
+    ],
     "tms": [
       0,
       1,
@@ -6915,7 +7089,14 @@
         "name": "Flare Blitz"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Thrash",
+      "Double Kick",
+      "Hypnosis",
+      "Double-Edge",
+      "Horn Drill",
+      "Morning Sun"
+    ],
     "tms": [
       2,
       8,
@@ -7082,7 +7263,14 @@
         "name": "Healing Wish"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Thrash",
+      "Double Kick",
+      "Hypnosis",
+      "Double-Edge",
+      "Horn Drill",
+      "Morning Sun"
+    ],
     "tms": [
       2,
       8,
@@ -7796,7 +7984,12 @@
         "name": "Ice Shard"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Bubble Beam",
+      "Water Pulse",
+      "Aqua Ring",
+      "Life Dew"
+    ],
     "tms": [
       7,
       8,
@@ -8112,7 +8305,17 @@
         "name": "Dream Eater"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Perish Song",
+      "Haze",
+      "Astonish",
+      "Grudge",
+      "Disable",
+      "Clear Smog",
+      "Smog",
+      "Reflect Type",
+      "Toxic"
+    ],
     "tms": [
       3,
       4,
@@ -8279,7 +8482,17 @@
         "name": "Dream Eater"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Perish Song",
+      "Haze",
+      "Astonish",
+      "Grudge",
+      "Disable",
+      "Clear Smog",
+      "Smog",
+      "Reflect Type",
+      "Toxic"
+    ],
     "tms": [
       0,
       1,
@@ -8802,7 +9015,13 @@
         "name": "Guillotine"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Knock Off",
+      "Ancient Power",
+      "Hammer Arm",
+      "Slash",
+      "Night Slash"
+    ],
     "tms": [
       8,
       9,
@@ -8978,7 +9197,16 @@
         "name": "High Jump Kick"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Rapid Spin",
+      "High Jump Kick",
+      "Mach Punch",
+      "Mind Reader",
+      "Counter",
+      "Vacuum Wave",
+      "Bullet Punch",
+      "Feint"
+    ],
     "tms": [
       0,
       1,
@@ -9166,7 +9394,16 @@
         "name": "Focus Punch"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Rapid Spin",
+      "High Jump Kick",
+      "Mach Punch",
+      "Mind Reader",
+      "Counter",
+      "Vacuum Wave",
+      "Bullet Punch",
+      "Feint"
+    ],
     "tms": [
       0,
       1,
@@ -9526,7 +9763,16 @@
         "name": "Destiny Bond"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Psybeam",
+      "Pain Split",
+      "Grudge",
+      "Spite",
+      "Curse",
+      "Stockpile",
+      "Swallow",
+      "Spit Up"
+    ],
     "tms": [
       8,
       9,
@@ -9727,7 +9973,16 @@
         "name": "Misty Terrain"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Psybeam",
+      "Pain Split",
+      "Grudge",
+      "Spite",
+      "Curse",
+      "Stockpile",
+      "Swallow",
+      "Spit Up"
+    ],
     "tms": [
       8,
       9,
@@ -10068,7 +10323,15 @@
         "name": "Horn Drill"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Curse",
+      "Dragon Rush",
+      "Skull Bash",
+      "Metal Burst",
+      "Guard Split",
+      "Rock Polish"
+    ],
     "tms": [
       0,
       1,
@@ -10427,7 +10690,13 @@
         "name": "Horn Drill"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Psybeam",
+      "Haze",
+      "Aqua Tail",
+      "Acupressure",
+      "Mud-Slap"
+    ],
     "tms": [
       8,
       9,
@@ -11779,7 +12048,16 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Curse",
+      "Tickle",
+      "Yawn",
+      "Detect",
+      "Double Kick",
+      "Mud-Slap",
+      "Wish"
+    ],
     "tms": [
       2,
       8,
@@ -11974,7 +12252,16 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Curse",
+      "Tickle",
+      "Yawn",
+      "Detect",
+      "Double Kick",
+      "Mud-Slap",
+      "Wish"
+    ],
     "tms": [
       2,
       7,
@@ -12162,7 +12449,16 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Curse",
+      "Tickle",
+      "Yawn",
+      "Detect",
+      "Double Kick",
+      "Mud-Slap",
+      "Wish"
+    ],
     "tms": [
       2,
       8,
@@ -13250,7 +13546,14 @@
         "name": "Dream Eater"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Supersonic",
+      "Wing Attack",
+      "Whirlwind",
+      "Feather Dance",
+      "Night Shade",
+      "Defog"
+    ],
     "tms": [
       6,
       8,
@@ -13576,7 +13879,12 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Psybeam",
+      "Mist",
+      "Water Pulse",
+      "Soak"
+    ],
     "tms": [
       8,
       9,
@@ -14203,7 +14511,14 @@
         "name": "Wish"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Present",
+      "Peck",
+      "Psycho Shift",
+      "Extrasensory",
+      "Morning Sun",
+      "Aerial Ace"
+    ],
     "tms": [
       0,
       1,
@@ -14543,7 +14858,14 @@
         "name": "Future Sight"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Drill Peck",
+      "Quick Attack",
+      "Feather Dance",
+      "Sucker Punch",
+      "Roost",
+      "Simple Beam"
+    ],
     "tms": [
       6,
       8,
@@ -14722,7 +15044,18 @@
         "name": "Sweet Scent"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Razor Leaf",
+      "Flail",
+      "Synthesis",
+      "Ingrain",
+      "Tickle",
+      "Teeter Dance",
+      "Nature Power",
+      "After You",
+      "Strength Sap",
+      "Leech Seed"
+    ],
     "tms": [
       8,
       9,
@@ -15215,7 +15548,19 @@
         "name": "Earthquake"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Ancient Power",
+      "Curse",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Counter",
+      "Double Kick",
+      "Recover",
+      "After You",
+      "Acid Spray",
+      "Power-Up Punch"
+    ],
     "tms": [
       0,
       1,
@@ -15415,7 +15760,16 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Curse",
+      "Tickle",
+      "Yawn",
+      "Detect",
+      "Double Kick",
+      "Mud-Slap",
+      "Wish"
+    ],
     "tms": [
       2,
       8,
@@ -15613,7 +15967,16 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Curse",
+      "Tickle",
+      "Yawn",
+      "Detect",
+      "Double Kick",
+      "Mud-Slap",
+      "Wish"
+    ],
     "tms": [
       2,
       8,
@@ -15927,7 +16290,15 @@
         "name": "Magnet Rise"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Block",
+      "Defense Curl",
+      "Wide Guard",
+      "Rollout",
+      "Dragon Tail",
+      "Head Smash"
+    ],
     "tms": [
       8,
       9,
@@ -16811,7 +17182,15 @@
         "name": "Thrash"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Bite",
+      "Ancient Power",
+      "Double-Edge",
+      "Fissure",
+      "Curse",
+      "Icicle Crash",
+      "Freeze-Dry"
+    ],
     "tms": [
       8,
       9,
@@ -17491,7 +17870,14 @@
         "name": "Hyper Beam"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Octazooka",
+      "Supersonic",
+      "Haze",
+      "Flail",
+      "Water Spout",
+      "Acid Spray"
+    ],
     "tms": [
       8,
       9,
@@ -18095,7 +18481,16 @@
         "name": "Endeavor"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Rapid Spin",
+      "High Jump Kick",
+      "Mach Punch",
+      "Mind Reader",
+      "Counter",
+      "Vacuum Wave",
+      "Bullet Punch",
+      "Feint"
+    ],
     "tms": [
       0,
       1,
@@ -18426,7 +18821,11 @@
         "name": "Hyper Beam"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Stomp",
+      "Ancient Power",
+      "Curse"
+    ],
     "tms": [
       8,
       15,
@@ -18613,7 +19012,11 @@
         "name": "Giga Impact"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Stomp",
+      "Ancient Power",
+      "Curse"
+    ],
     "tms": [
       0,
       1,
@@ -19344,7 +19747,11 @@
         "name": "Double-Edge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Tickle",
+      "Simple Beam",
+      "Extreme Speed"
+    ],
     "tms": [
       7,
       8,
@@ -19522,7 +19929,11 @@
         "name": "Double-Edge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Parting Shot",
+      "Quick Guard",
+      "Knock Off"
+    ],
     "tms": [
       7,
       8,
@@ -19888,7 +20299,15 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Synthesis",
+      "Razor Leaf",
+      "Sweet Scent",
+      "Leech Seed",
+      "Tickle",
+      "Counter",
+      "Teeter Dance"
+    ],
     "tms": [
       0,
       1,
@@ -20082,7 +20501,15 @@
         "name": "Water Gun"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Synthesis",
+      "Razor Leaf",
+      "Sweet Scent",
+      "Leech Seed",
+      "Tickle",
+      "Counter",
+      "Teeter Dance"
+    ],
     "tms": [
       0,
       1,
@@ -20455,7 +20882,14 @@
         "name": "Leaf Blade"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Leech Seed",
+      "Quick Attack",
+      "Take Down",
+      "Worry Seed",
+      "Defog",
+      "Night Slash"
+    ],
     "tms": [
       1,
       8,
@@ -20674,7 +21108,14 @@
         "name": "Astonish"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Leech Seed",
+      "Quick Attack",
+      "Take Down",
+      "Worry Seed",
+      "Defog",
+      "Night Slash"
+    ],
     "tms": [
       1,
       8,
@@ -21037,7 +21478,16 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Twister",
+      "Gust",
+      "Aqua Ring",
+      "Knock Off",
+      "Soak",
+      "Wide Guard",
+      "Air Cutter",
+      "Aerial Ace"
+    ],
     "tms": [
       6,
       8,
@@ -21378,7 +21828,16 @@
         "name": "Future Sight"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Disable",
+      "Mean Look",
+      "Memento",
+      "Destiny Bond",
+      "Grudge",
+      "Shadow Sneak",
+      "Confuse Ray",
+      "Knock Off"
+    ],
     "tms": [
       0,
       1,
@@ -21583,7 +22042,16 @@
         "name": "Future Sight"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Disable",
+      "Mean Look",
+      "Memento",
+      "Destiny Bond",
+      "Grudge",
+      "Shadow Sneak",
+      "Confuse Ray",
+      "Knock Off"
+    ],
     "tms": [
       0,
       1,
@@ -21925,7 +22393,13 @@
         "name": "X-Scissor"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Gust",
+      "Night Slash",
+      "Bug Bite",
+      "Final Gambit",
+      "Flail"
+    ],
     "tms": [
       8,
       9,
@@ -22073,7 +22547,13 @@
         "name": "Phantom Force"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Gust",
+      "Night Slash",
+      "Bug Bite",
+      "Final Gambit",
+      "Flail"
+    ],
     "tms": [
       8,
       9,
@@ -22769,7 +23249,12 @@
         "name": "Electric Terrain"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Headbutt",
+      "Curse",
+      "Switcheroo",
+      "Spark"
+    ],
     "tms": [
       8,
       9,
@@ -22951,6 +23436,7 @@
       }
     ],
     "egg_moves": [
+      "Synthesis",
       "Cotton Spore",
       "Sleep Powder",
       "Razor Leaf",
@@ -23297,7 +23783,17 @@
         "name": "Water Spout"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Double-Edge",
+      "Thrash",
+      "Curse",
+      "Fissure",
+      "Tickle",
+      "Defense Curl",
+      "Rollout",
+      "Aqua Ring",
+      "Soak"
+    ],
     "tms": [
       8,
       9,
@@ -23831,7 +24327,15 @@
         "name": "Boomburst"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Quick Attack",
+      "Gust",
+      "Flail",
+      "Fury Cutter",
+      "Bug Bite",
+      "Feint",
+      "First Impression"
+    ],
     "tms": [
       6,
       8,
@@ -24030,7 +24534,15 @@
         "name": "Boomburst"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Quick Attack",
+      "Gust",
+      "Flail",
+      "Fury Cutter",
+      "Bug Bite",
+      "Feint",
+      "First Impression"
+    ],
     "tms": [
       0,
       1,
@@ -24716,7 +25228,12 @@
         "name": "Fissure"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Thrash",
+      "Spark",
+      "Flail",
+      "Take Down"
+    ],
     "tms": [
       8,
       9,
@@ -25053,7 +25570,14 @@
         "name": "Guillotine"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Ancient Power",
+      "Metal Claw",
+      "Double-Edge",
+      "Aqua Jet",
+      "Switcheroo",
+      "Slash"
+    ],
     "tms": [
       8,
       9,
@@ -25737,7 +26261,15 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Mirror Coat",
+      "Dragon Breath",
+      "Hypnosis",
+      "Confuse Ray",
+      "Mist",
+      "Haze",
+      "Tickle"
+    ],
     "tms": [
       8,
       9,
@@ -26086,7 +26618,12 @@
         "name": "Future Sight"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Pain Split",
+      "Grudge",
+      "Memento",
+      "Haze"
+    ],
     "tms": [
       0,
       1,
@@ -26529,7 +27066,13 @@
         "name": "Blizzard"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Block",
+      "Disable",
+      "Switcheroo",
+      "Rollout",
+      "Icicle Crash"
+    ],
     "tms": [
       8,
       9,
@@ -27029,7 +27572,14 @@
         "name": "Worry Seed"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Synthesis",
+      "Cotton Spore",
+      "Sleep Powder",
+      "Razor Leaf",
+      "Extrasensory",
+      "Life Dew"
+    ],
     "tms": [
       7,
       8,
@@ -27610,7 +28160,18 @@
         "name": "Petal Dance"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Razor Leaf",
+      "Sweet Scent",
+      "Tickle",
+      "Nature Power",
+      "Aromatherapy",
+      "Heal Pulse",
+      "Healing Wish",
+      "Defense Curl",
+      "Flower Shield",
+      "Rollout"
+    ],
     "tms": [
       8,
       9,
@@ -27762,7 +28323,18 @@
         "name": "Petal Dance"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Razor Leaf",
+      "Sweet Scent",
+      "Tickle",
+      "Nature Power",
+      "Aromatherapy",
+      "Heal Pulse",
+      "Healing Wish",
+      "Defense Curl",
+      "Flower Shield",
+      "Rollout"
+    ],
     "tms": [
       8,
       9,
@@ -28184,7 +28756,19 @@
         "name": "Memento"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Mirror Coat",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Yawn",
+      "Curse",
+      "Sludge",
+      "Clear Smog",
+      "Mist",
+      "Acid Armor"
+    ],
     "tms": [
       8,
       9,
@@ -28327,7 +28911,19 @@
         "name": "Memento"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Mirror Coat",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Yawn",
+      "Curse",
+      "Sludge",
+      "Clear Smog",
+      "Mist",
+      "Acid Armor"
+    ],
     "tms": [
       8,
       9,
@@ -28663,7 +29259,14 @@
         "name": "Explosion"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Memento",
+      "Disable",
+      "Haze",
+      "Hypnosis",
+      "Clear Smog",
+      "Defog"
+    ],
     "tms": [
       6,
       8,
@@ -29013,7 +29616,14 @@
         "name": "Explosion"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Leer",
+      "Smog",
+      "Double-Edge",
+      "Astonish",
+      "Haze",
+      "Slash"
+    ],
     "tms": [
       8,
       9,
@@ -30304,7 +30914,17 @@
         "name": "Close Combat"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Cross Chop",
+      "Detect",
+      "Bite",
+      "Mind Reader",
+      "High Jump Kick",
+      "Vacuum Wave",
+      "Bullet Punch",
+      "Circle Throw",
+      "Howl"
+    ],
     "tms": [
       0,
       1,
@@ -30642,7 +31262,13 @@
         "name": "Slack Off"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Curse",
+      "Whirlwind"
+    ],
     "tms": [
       8,
       9,
@@ -31028,7 +31654,12 @@
         "name": "Crunch"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Sand Attack",
+      "Slash",
+      "Confuse Ray",
+      "Whirlwind"
+    ],
     "tms": [
       7,
       8,
@@ -31402,7 +32033,17 @@
         "name": "Belch"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Feint",
+      "Dynamic Punch",
+      "Headbutt",
+      "Vacuum Wave",
+      "Fake Out",
+      "Cross Chop",
+      "Bullet Punch",
+      "Counter",
+      "Quick Guard"
+    ],
     "tms": [
       0,
       1,
@@ -31903,7 +32544,13 @@
         "name": "Sheer Cold"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Leech Seed",
+      "Growth",
+      "Double-Edge",
+      "Stomp",
+      "Skull Bash"
+    ],
     "tms": [
       0,
       1,
@@ -32091,7 +32738,16 @@
         "name": "Dark Pulse"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Spite",
+      "Bite",
+      "Fake Out",
+      "Double Hit",
+      "Ice Shard",
+      "Feint",
+      "Icicle Crash"
+    ],
     "tms": [
       0,
       1,
@@ -32270,7 +32926,15 @@
         "name": "Rock Wrecker"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Curse",
+      "Dragon Rush",
+      "Skull Bash",
+      "Metal Burst",
+      "Guard Split",
+      "Rock Polish"
+    ],
     "tms": [
       0,
       1,
@@ -32492,7 +33156,14 @@
         "name": "Life Dew"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Present",
+      "Peck",
+      "Psycho Shift",
+      "Extrasensory",
+      "Morning Sun",
+      "Aerial Ace"
+    ],
     "tms": [
       0,
       1,
@@ -32705,7 +33376,16 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Curse",
+      "Tickle",
+      "Yawn",
+      "Detect",
+      "Double Kick",
+      "Mud-Slap",
+      "Wish"
+    ],
     "tms": [
       2,
       8,
@@ -32895,7 +33575,16 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Curse",
+      "Tickle",
+      "Yawn",
+      "Detect",
+      "Double Kick",
+      "Mud-Slap",
+      "Wish"
+    ],
     "tms": [
       2,
       8,
@@ -33057,7 +33746,15 @@
         "name": "Thrash"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Bite",
+      "Ancient Power",
+      "Double-Edge",
+      "Fissure",
+      "Curse",
+      "Icicle Crash",
+      "Freeze-Dry"
+    ],
     "tms": [
       8,
       9,
@@ -33278,7 +33975,16 @@
         "name": "Close Combat"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Disable",
+      "Mean Look",
+      "Memento",
+      "Destiny Bond",
+      "Grudge",
+      "Shadow Sneak",
+      "Confuse Ray",
+      "Knock Off"
+    ],
     "tms": [
       0,
       1,
@@ -33504,7 +34210,12 @@
         "name": "Destiny Bond"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Pain Split",
+      "Grudge",
+      "Memento",
+      "Haze"
+    ],
     "tms": [
       0,
       1,
@@ -33696,7 +34407,13 @@
         "name": "Blizzard"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Block",
+      "Disable",
+      "Switcheroo",
+      "Rollout",
+      "Icicle Crash"
+    ],
     "tms": [
       4,
       8,
@@ -34815,7 +35532,14 @@
         "name": "Play Rough"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Yawn",
+      "Covet",
+      "Copycat",
+      "Slash",
+      "Double Team",
+      "Quick Attack"
+    ],
     "tms": [
       2,
       8,
@@ -35140,7 +35864,10 @@
         "name": "Psybeam"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Curse",
+      "Healing Wish"
+    ],
     "tms": [
       8,
       9,
@@ -35434,7 +36161,13 @@
         "name": "Sky Attack"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Hypnosis",
+      "Wish",
+      "Morning Sun",
+      "Night Slash",
+      "Defog"
+    ],
     "tms": [
       6,
       21,
@@ -35572,7 +36305,13 @@
         "name": "Sky Attack"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Hypnosis",
+      "Wish",
+      "Morning Sun",
+      "Night Slash",
+      "Defog"
+    ],
     "tms": [
       6,
       8,
@@ -35885,7 +36624,13 @@
         "name": "Explosion"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Curse",
+      "Autotomize",
+      "Take Down",
+      "Gravity",
+      "Wide Guard"
+    ],
     "tms": [
       21,
       22,
@@ -36042,7 +36787,13 @@
         "name": "Explosion"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Curse",
+      "Autotomize",
+      "Take Down",
+      "Gravity",
+      "Wide Guard"
+    ],
     "tms": [
       8,
       9,
@@ -36358,7 +37109,13 @@
         "name": "Simple Beam"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Knock Off",
+      "Supersonic",
+      "Roost",
+      "Flatter",
+      "Psycho Shift"
+    ],
     "tms": [
       6,
       8,
@@ -36684,7 +37441,11 @@
         "name": "Fissure"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Metal Sound",
+      "Submission",
+      "Slash"
+    ],
     "tms": [
       8,
       9,
@@ -37000,7 +37761,14 @@
         "name": "Focus Punch"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Detect",
+      "Wide Guard",
+      "Mach Punch",
+      "Power-Up Punch",
+      "Defog"
+    ],
     "tms": [
       0,
       1,
@@ -37161,7 +37929,14 @@
         "name": "Focus Punch"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Detect",
+      "Wide Guard",
+      "Mach Punch",
+      "Power-Up Punch",
+      "Defog"
+    ],
     "tms": [
       0,
       1,
@@ -37473,7 +38248,12 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Water Pulse",
+      "Mist",
+      "Toxic",
+      "Mud-Slap"
+    ],
     "tms": [
       16,
       21,
@@ -37634,7 +38414,12 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Water Pulse",
+      "Mist",
+      "Toxic",
+      "Mud-Slap"
+    ],
     "tms": [
       0,
       1,
@@ -38354,7 +39139,13 @@
         "name": "Stun Spore"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Tickle",
+      "Memento",
+      "Switcheroo",
+      "Worry Seed",
+      "Nature Power"
+    ],
     "tms": [
       8,
       9,
@@ -39157,7 +39948,14 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Focus Punch",
+      "Hammer Arm",
+      "Take Down",
+      "Flame Wheel",
+      "Yawn",
+      "Extrasensory"
+    ],
     "tms": [
       0,
       1,
@@ -39332,7 +40130,14 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Focus Punch",
+      "Hammer Arm",
+      "Take Down",
+      "Flame Wheel",
+      "Yawn",
+      "Extrasensory"
+    ],
     "tms": [
       0,
       1,
@@ -39506,7 +40311,16 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Focus Punch",
+      "Hammer Arm",
+      "Take Down",
+      "Flame Wheel",
+      "Yawn",
+      "Freeze-Dry",
+      "Incinerate",
+      "Power-Up Punch"
+    ],
     "tms": [
       0,
       1,
@@ -39681,7 +40495,16 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Focus Punch",
+      "Hammer Arm",
+      "Take Down",
+      "Flame Wheel",
+      "Yawn",
+      "Freeze-Dry",
+      "Incinerate",
+      "Power-Up Punch"
+    ],
     "tms": [
       0,
       1,
@@ -40218,7 +41041,14 @@
         "name": "Rock Wrecker"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Night Slash",
+      "Counter",
+      "Curse",
+      "Block",
+      "Wide Guard",
+      "Knock Off"
+    ],
     "tms": [
       8,
       9,
@@ -40579,7 +41409,14 @@
         "name": "Head Smash"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Detect",
+      "Fake Out",
+      "Quick Guard",
+      "Power-Up Punch",
+      "Acid Spray"
+    ],
     "tms": [
       0,
       1,
@@ -41268,7 +42105,9 @@
         "name": "Destiny Bond"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Memento"
+    ],
     "tms": [
       8,
       9,
@@ -41632,7 +42471,13 @@
         "name": "Explosion"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Haze",
+      "Curse",
+      "Sand Attack",
+      "Autotomize",
+      "Rollout"
+    ],
     "tms": [
       8,
       9,
@@ -41951,7 +42796,12 @@
         "name": "Echoed Voice"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Tail Whip",
+      "Aqua Tail",
+      "Knock Off",
+      "Flail"
+    ],
     "tms": [
       8,
       9,
@@ -42274,7 +43124,13 @@
         "name": "Magic Room"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Mirror Coat",
+      "Mean Look",
+      "Heal Pulse",
+      "Torment",
+      "Fake Out"
+    ],
     "tms": [
       14,
       17,
@@ -42436,7 +43292,13 @@
         "name": "Magic Room"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Mirror Coat",
+      "Mean Look",
+      "Heal Pulse",
+      "Torment",
+      "Fake Out"
+    ],
     "tms": [
       8,
       9,
@@ -42769,7 +43631,11 @@
         "name": "Wonder Room"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Astonish",
+      "Confuse Ray",
+      "Acid Armor"
+    ],
     "tms": [
       14,
       17,
@@ -42940,7 +43806,11 @@
         "name": "Wonder Room"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Astonish",
+      "Confuse Ray",
+      "Acid Armor"
+    ],
     "tms": [
       0,
       3,
@@ -43281,7 +44151,14 @@
         "name": "Sheer Cold"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Autotomize",
+      "Magnet Rise",
+      "Ice Shard",
+      "Explosion",
+      "Aurora Veil",
+      "Icicle Crash"
+    ],
     "tms": [
       17,
       20,
@@ -43450,7 +44327,14 @@
         "name": "Sheer Cold"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Autotomize",
+      "Magnet Rise",
+      "Ice Shard",
+      "Explosion",
+      "Aurora Veil",
+      "Icicle Crash"
+    ],
     "tms": [
       8,
       9,
@@ -43769,7 +44653,13 @@
         "name": "Metal Burst"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Bug Bite",
+      "Knock Off",
+      "Slash",
+      "Night Slash"
+    ],
     "tms": [
       8,
       9,
@@ -44085,7 +44975,14 @@
         "name": "Water Spout"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Acid Armor",
+      "Confuse Ray",
+      "Pain Split",
+      "Mist",
+      "Bubble Beam",
+      "Strength Sap"
+    ],
     "tms": [
       8,
       9,
@@ -44403,7 +45300,13 @@
         "name": "Bug Buzz"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Poison Sting",
+      "Lunge",
+      "Struggle Bug",
+      "Double Team",
+      "Infestation"
+    ],
     "tms": [
       7,
       8,
@@ -44715,7 +45618,13 @@
         "name": "Explosion"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Leech Seed",
+      "Gravity",
+      "Acid Spray",
+      "Toxic",
+      "Knock Off"
+    ],
     "tms": [
       7,
       8,
@@ -45458,7 +46367,12 @@
         "name": "Psychic"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Disable",
+      "Astonish",
+      "Psych Up",
+      "Destiny Bond"
+    ],
     "tms": [
       8,
       9,
@@ -45791,7 +46705,12 @@
         "name": "Memento"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Acid Armor",
+      "Haze",
+      "Clear Smog",
+      "Power Split"
+    ],
     "tms": [
       11,
       13,
@@ -45951,7 +46870,12 @@
         "name": "Minimize"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Acid Armor",
+      "Haze",
+      "Clear Smog",
+      "Power Split"
+    ],
     "tms": [
       8,
       9,
@@ -46292,7 +47216,14 @@
         "name": "Giga Impact"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Night Slash",
+      "Endeavor",
+      "Harden",
+      "First Impression",
+      "Counter"
+    ],
     "tms": [
       9,
       15,
@@ -46465,7 +47396,14 @@
         "name": "Giga Impact"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Night Slash",
+      "Endeavor",
+      "Harden",
+      "First Impression",
+      "Counter"
+    ],
     "tms": [
       8,
       9,
@@ -46818,7 +47756,11 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Yawn",
+      "Night Slash",
+      "Focus Punch"
+    ],
     "tms": [
       0,
       1,
@@ -47159,7 +48101,12 @@
         "name": "Toxic"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Double-Edge",
+      "Guard Split",
+      "Mind Reader",
+      "Feint"
+    ],
     "tms": [
       8,
       9,
@@ -48205,7 +49152,12 @@
         "name": "Guillotine"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Sucker Punch",
+      "Headbutt",
+      "Mean Look",
+      "Quick Guard"
+    ],
     "tms": [
       8,
       9,
@@ -48848,7 +49800,11 @@
         "name": "Brave Bird"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Mean Look",
+      "Roost",
+      "Toxic"
+    ],
     "tms": [
       6,
       8,
@@ -49491,7 +50447,12 @@
         "name": "Outrage"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Double Hit",
+      "Astonish",
+      "Head Smash",
+      "Belch"
+    ],
     "tms": [
       14,
       16,
@@ -49662,7 +50623,12 @@
         "name": "Hyper Beam"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Double Hit",
+      "Astonish",
+      "Head Smash",
+      "Belch"
+    ],
     "tms": [
       6,
       8,
@@ -51557,7 +52523,10 @@
         "name": "Hammer Arm"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Defense Curl",
+      "Rollout"
+    ],
     "tms": [
       0,
       1,
@@ -51932,7 +52901,13 @@
         "name": "Hammer Arm"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Quash",
+      "Quick Guard",
+      "Storm Throw",
+      "Power Trip",
+      "Seismic Toss"
+    ],
     "tms": [
       0,
       1,
@@ -52280,7 +53255,10 @@
         "name": "Misty Terrain"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Yawn",
+      "Tickle"
+    ],
     "tms": [
       2,
       8,
@@ -52459,7 +53437,10 @@
         "name": "Future Sight"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Yawn",
+      "Tickle"
+    ],
     "tms": [
       2,
       8,
@@ -52755,7 +53736,11 @@
         "name": "Sacred Sword"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Destiny Bond",
+      "Wide Guard",
+      "Block"
+    ],
     "tms": [
       12,
       16,
@@ -52906,7 +53891,11 @@
         "name": "Autotomize"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Destiny Bond",
+      "Wide Guard",
+      "Block"
+    ],
     "tms": [
       8,
       9,
@@ -53056,7 +54045,11 @@
         "name": "Autotomize"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Destiny Bond",
+      "Wide Guard",
+      "Block"
+    ],
     "tms": [
       8,
       9,
@@ -53366,7 +54359,11 @@
         "name": "Psych Up"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Disable",
+      "Wish",
+      "After You"
+    ],
     "tms": [
       8,
       9,
@@ -53670,7 +54667,12 @@
         "name": "Sticky Web"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "After You",
+      "Yawn",
+      "Copycat",
+      "Sticky Web"
+    ],
     "tms": [
       8,
       9,
@@ -53990,7 +54992,11 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Destiny Bond",
+      "Disable",
+      "Acupressure"
+    ],
     "tms": [
       8,
       9,
@@ -54318,7 +55324,11 @@
         "name": "Stone Edge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Switcheroo",
+      "Night Slash",
+      "Sand Attack"
+    ],
     "tms": [
       8,
       9,
@@ -54650,7 +55660,11 @@
         "name": "Thunder Shock"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Glare",
+      "Dragon Rush",
+      "Dragon Tail"
+    ],
     "tms": [
       0,
       1,
@@ -54848,7 +55862,16 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Flail",
+      "Curse",
+      "Tickle",
+      "Yawn",
+      "Detect",
+      "Double Kick",
+      "Mud-Slap",
+      "Wish"
+    ],
     "tms": [
       2,
       8,
@@ -55363,7 +56386,10 @@
         "name": "Muddy Water"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Life Dew"
+    ],
     "tms": [
       21,
       22,
@@ -55525,7 +56551,10 @@
         "name": "Power Whip"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Life Dew"
+    ],
     "tms": [
       0,
       1,
@@ -55864,7 +56893,11 @@
         "name": "Forest’s Curse"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Grudge",
+      "Sucker Punch",
+      "Disable"
+    ],
     "tms": [
       8,
       9,
@@ -56213,7 +57246,11 @@
         "name": "Phantom Force"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Disable",
+      "Destiny Bond",
+      "Curse"
+    ],
     "tms": [
       8,
       9,
@@ -56553,7 +57590,11 @@
         "name": "Skull Bash"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Mist",
+      "Mirror Coat",
+      "Aurora Veil"
+    ],
     "tms": [
       8,
       9,
@@ -56890,7 +57931,10 @@
         "name": "Boomburst"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Defog",
+      "Dragon Rush"
+    ],
     "tms": [
       6,
       8,
@@ -57190,7 +58234,12 @@
         "name": "Brave Bird"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Confuse Ray",
+      "Defog",
+      "Knock Off",
+      "Double Team"
+    ],
     "tms": [
       11,
       17,
@@ -57357,7 +58406,12 @@
         "name": "Brave Bird"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Confuse Ray",
+      "Defog",
+      "Knock Off",
+      "Double Team"
+    ],
     "tms": [
       8,
       9,
@@ -57659,7 +58713,11 @@
         "name": "Flare Blitz"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Fake Out",
+      "Power Trip",
+      "Parting Shot"
+    ],
     "tms": [
       2,
       13,
@@ -57828,7 +58886,11 @@
         "name": "Flare Blitz"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Fake Out",
+      "Power Trip",
+      "Parting Shot"
+    ],
     "tms": [
       0,
       1,
@@ -58152,7 +59214,11 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Aqua Ring",
+      "Perish Song",
+      "Life Dew"
+    ],
     "tms": [
       21,
       24,
@@ -58311,7 +59377,11 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Aqua Ring",
+      "Perish Song",
+      "Life Dew"
+    ],
     "tms": [
       8,
       9,
@@ -58597,7 +59667,10 @@
         "name": "Discharge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Harden",
+      "Discharge"
+    ],
     "tms": [
       14,
       15,
@@ -58759,7 +59832,10 @@
         "name": "Zap Cannon"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Harden",
+      "Discharge"
+    ],
     "tms": [
       6,
       8,
@@ -59085,7 +60161,11 @@
         "name": "Quiver Dance"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Moonblast",
+      "Sticky Web",
+      "Aromatic Mist"
+    ],
     "tms": [
       8,
       9,
@@ -59692,7 +60772,13 @@
         "name": "Toxic"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Haze",
+      "Infestation"
+    ],
     "tms": [
       7,
       17,
@@ -60011,7 +61097,12 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Double-Edge",
+      "Fissure",
+      "Smack Down",
+      "Roar"
+    ],
     "tms": [
       1,
       8,
@@ -60336,7 +61427,12 @@
         "name": "Mirror Coat"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Power Split",
+      "Stockpile",
+      "Spit Up",
+      "Sticky Web"
+    ],
     "tms": [
       18,
       19,
@@ -60648,7 +61744,12 @@
         "name": "Dream Eater"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Poison Powder",
+      "Stun Spore",
+      "Growth",
+      "Leech Seed"
+    ],
     "tms": [
       8,
       9,
@@ -61004,7 +62105,12 @@
         "name": "Toxic"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Belch",
+      "Sand Attack",
+      "Fake Out",
+      "Mud-Slap"
+    ],
     "tms": [
       14,
       21,
@@ -61325,7 +62431,12 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Force Palm",
+      "Rollout",
+      "Defense Curl",
+      "Stomp"
+    ],
     "tms": [
       0,
       1,
@@ -61634,7 +62745,11 @@
         "name": "Leaf Storm"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Synthesis",
+      "Acupressure",
+      "Endeavor"
+    ],
     "tms": [
       10,
       11,
@@ -61808,7 +62923,11 @@
         "name": "High Jump Kick"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Synthesis",
+      "Acupressure",
+      "Endeavor"
+    ],
     "tms": [
       1,
       8,
@@ -62398,7 +63517,13 @@
         "name": "Liquidation"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Metal Claw",
+      "Wide Guard",
+      "Harden",
+      "Aqua Jet",
+      "Rollout"
+    ],
     "tms": [
       7,
       8,
@@ -64085,7 +65210,11 @@
         "name": "Close Combat"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Dragon Breath",
+      "Focus Punch"
+    ],
     "tms": [
       0,
       1,
@@ -64285,7 +65414,11 @@
         "name": "Boomburst"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Dragon Breath",
+      "Focus Punch"
+    ],
     "tms": [
       0,
       1,
@@ -66181,7 +67314,15 @@
         "name": "Endeavor"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Growth",
+      "Hammer Arm",
+      "Fake Out",
+      "Strength",
+      "Nature Power",
+      "Worry Seed",
+      "Leech Seed"
+    ],
     "tms": [
       0,
       1,
@@ -66341,7 +67482,15 @@
         "name": "Boomburst"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Growth",
+      "Hammer Arm",
+      "Fake Out",
+      "Strength",
+      "Nature Power",
+      "Worry Seed",
+      "Leech Seed"
+    ],
     "tms": [
       0,
       1,
@@ -66636,7 +67785,12 @@
         "name": "Double-Edge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "High Jump Kick",
+      "Sand Attack",
+      "Sucker Punch",
+      "Super Fang"
+    ],
     "tms": [
       1,
       21,
@@ -66792,7 +67946,12 @@
         "name": "Court Change"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "High Jump Kick",
+      "Sand Attack",
+      "Sucker Punch",
+      "Super Fang"
+    ],
     "tms": [
       1,
       3,
@@ -67074,7 +68233,15 @@
         "name": "Rain Dance"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Aqua Jet",
+      "Double Team",
+      "Aqua Ring",
+      "Mist",
+      "Haze",
+      "Ice Shard",
+      "Fell Stinger"
+    ],
     "tms": [
       17,
       18,
@@ -67220,7 +68387,15 @@
         "name": "Hydro Pump"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Aqua Jet",
+      "Double Team",
+      "Aqua Ring",
+      "Mist",
+      "Haze",
+      "Ice Shard",
+      "Fell Stinger"
+    ],
     "tms": [
       8,
       9,
@@ -67545,7 +68720,12 @@
         "name": "Belch"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Rollout",
+      "Defense Curl",
+      "Last Resort",
+      "Belly Drum"
+    ],
     "tms": [
       8,
       9,
@@ -67826,7 +69006,15 @@
         "name": "Brave Bird"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Sky Attack",
+      "Sand Attack",
+      "Tailwind",
+      "Defog",
+      "Rock Smash",
+      "Spite",
+      "Roost"
+    ],
     "tms": [
       6,
       21,
@@ -67977,7 +69165,15 @@
         "name": "Brave Bird"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Sky Attack",
+      "Sand Attack",
+      "Tailwind",
+      "Defog",
+      "Rock Smash",
+      "Spite",
+      "Roost"
+    ],
     "tms": [
       6,
       8,
@@ -68187,7 +69383,12 @@
         "name": "Struggle Bug"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Infestation",
+      "Supersonic",
+      "Sticky Web",
+      "Recover"
+    ],
     "tms": [
       11,
       17,
@@ -68365,7 +69566,12 @@
         "name": "Psychic Terrain"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Infestation",
+      "Supersonic",
+      "Sticky Web",
+      "Recover"
+    ],
     "tms": [
       8,
       9,
@@ -68659,7 +69865,12 @@
         "name": "Parting Shot"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Quick Guard",
+      "Knock Off",
+      "Howl",
+      "Torment"
+    ],
     "tms": [
       8,
       9,
@@ -68947,7 +70158,14 @@
         "name": "Cotton Guard"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Growth",
+      "Leech Seed",
+      "Worry Seed",
+      "Poison Powder",
+      "Stun Spore",
+      "Sleep Powder"
+    ],
     "tms": [
       8,
       9,
@@ -69214,7 +70432,11 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Stomp",
+      "Swagger",
+      "Counter"
+    ],
     "tms": [
       1,
       8,
@@ -69484,7 +70706,11 @@
         "name": "Head Smash"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Skull Bash",
+      "Gastro Acid",
+      "Dragon Tail"
+    ],
     "tms": [
       8,
       9,
@@ -69777,7 +71003,13 @@
         "name": "Electric Terrain"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Double-Edge",
+      "Sand Attack",
+      "Flame Charge",
+      "Discharge",
+      "Howl"
+    ],
     "tms": [
       8,
       9,
@@ -70053,7 +71285,11 @@
         "name": "Burn Up"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Explosion",
+      "Mud-Slap",
+      "Block"
+    ],
     "tms": [
       13,
       15,
@@ -70208,7 +71444,11 @@
         "name": "Burn Up"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Explosion",
+      "Mud-Slap",
+      "Block"
+    ],
     "tms": [
       0,
       1,
@@ -70467,7 +71707,12 @@
         "name": "Dragon Rush"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Sucker Punch",
+      "Rollout",
+      "Defense Curl",
+      "Recycle"
+    ],
     "tms": [
       6,
       8,
@@ -70627,7 +71872,12 @@
         "name": "Energy Ball"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Sucker Punch",
+      "Rollout",
+      "Defense Curl",
+      "Recycle"
+    ],
     "tms": [
       8,
       9,
@@ -70908,7 +72158,13 @@
         "name": "Sand Tomb"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Dragon Rush",
+      "Mud-Slap",
+      "Last Resort",
+      "Belch",
+      "Poison Tail"
+    ],
     "tms": [
       8,
       9,
@@ -71315,7 +72571,12 @@
         "name": "Double-Edge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Thrash",
+      "Acupressure",
+      "Slash",
+      "Night Slash"
+    ],
     "tms": [
       8,
       9,
@@ -71617,7 +72878,11 @@
         "name": "Shift Gear"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Endeavor",
+      "Metal Sound",
+      "Power-Up Punch"
+    ],
     "tms": [
       0,
       1,
@@ -71913,7 +73178,12 @@
         "name": "Burn Up"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Knock Off",
+      "Struggle Bug",
+      "Rollout",
+      "Defense Curl"
+    ],
     "tms": [
       8,
       9,
@@ -72199,7 +73469,14 @@
         "name": "Topsy-Turvy"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Pain Split",
+      "Soak",
+      "Sucker Punch",
+      "Circle Throw",
+      "Seismic Toss",
+      "Power-Up Punch"
+    ],
     "tms": [
       0,
       4,
@@ -72770,7 +74047,12 @@
         "name": "Healing Wish"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Aromatic Mist",
+      "Nuzzle",
+      "After You",
+      "Quash"
+    ],
     "tms": [
       10,
       14,
@@ -72923,7 +74205,12 @@
         "name": "Magic Powder"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Aromatic Mist",
+      "Nuzzle",
+      "After You",
+      "Quash"
+    ],
     "tms": [
       8,
       9,
@@ -73606,7 +74893,11 @@
         "name": "Double-Edge"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Parting Shot",
+      "Quick Guard",
+      "Knock Off"
+    ],
     "tms": [
       0,
       1,
@@ -73795,7 +75086,14 @@
         "name": "Thrash"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Spite",
+      "Double-Edge",
+      "Curse",
+      "Flail",
+      "Night Slash",
+      "Covet"
+    ],
     "tms": [
       2,
       8,
@@ -73953,7 +75251,14 @@
         "name": "Mirror Coat"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Haze",
+      "Confuse Ray",
+      "Nature Power",
+      "Destiny Bond",
+      "Water Pulse",
+      "Head Smash"
+    ],
     "tms": [
       7,
       8,
@@ -74150,7 +75455,19 @@
         "name": "Meteor Assault"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Counter",
+      "Quick Attack",
+      "Flail",
+      "Quick Guard",
+      "Curse",
+      "Covet",
+      "Night Slash",
+      "Simple Beam",
+      "Double-Edge",
+      "Feint",
+      "Sky Attack"
+    ],
     "tms": [
       12,
       21,
@@ -74357,7 +75674,12 @@
         "name": "Teeter Dance"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Fake Out",
+      "Confuse Ray",
+      "Power Split",
+      "Tickle"
+    ],
     "tms": [
       0,
       1,
@@ -74553,7 +75875,9 @@
         "name": "Destiny Bond"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Memento"
+    ],
     "tms": [
       8,
       9,
@@ -74886,7 +76210,10 @@
         "name": "Entrainment"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Baby-Doll Eyes",
+      "Last Resort"
+    ],
     "tms": [
       8,
       9,
@@ -75441,7 +76768,11 @@
         "name": "Quiver Dance"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Fairy Wind",
+      "Mirror Coat",
+      "Bug Bite"
+    ],
     "tms": [
       8,
       9,
@@ -76506,7 +77837,16 @@
         "name": "Superpower"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Double-Edge",
+      "Belch",
+      "Curse",
+      "Slam",
+      "Fissure",
+      "Swagger",
+      "Whirlwind",
+      "Defense Curl"
+    ],
     "tms": [
       1,
       8,
@@ -77538,7 +78878,15 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Curse",
+      "Grudge",
+      "Confuse Ray",
+      "Double Team",
+      "Disable",
+      "Dragon Tail",
+      "Sucker Punch"
+    ],
     "tms": [
       14,
       21,
@@ -77722,7 +79070,15 @@
         "name": "Last Resort"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Curse",
+      "Grudge",
+      "Confuse Ray",
+      "Double Team",
+      "Disable",
+      "Dragon Tail",
+      "Sucker Punch"
+    ],
     "tms": [
       6,
       8,
