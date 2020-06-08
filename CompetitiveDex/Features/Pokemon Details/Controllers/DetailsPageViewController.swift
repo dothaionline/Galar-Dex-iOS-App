@@ -36,6 +36,7 @@ class DetailsPageViewController: UIPageViewController {
     vc2.view.tag = 1
     
     let vc3 = MovesViewController()
+    vc3.pokemon = pokemon
     vc3.view.tag = 2
     pages.append(vc)
     pages.append(vc2)

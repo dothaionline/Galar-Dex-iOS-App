@@ -8,10 +8,10 @@
 
 import UIKit
 
-class AbilityCell: UICollectionViewCell {
-  static let reuseIdentifier = "AbilityCell"
+class MoveCell: UICollectionViewCell {
+  static let reuseIdentifier = "MoveCell"
   
-  let abilityLabel: UILabel = {
+  let moveLabel: UILabel = {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
     label.font = .boldSystemFont(ofSize: 21)
@@ -33,13 +33,14 @@ class AbilityCell: UICollectionViewCell {
     fatalError("init(coder:) has not been implemented")
   }
   
-  public func configure(withAbility ability: Ability) {
-    abilityLabel.text = ability.hidden ? "\(ability.name) (HA)" : "\(ability.name)"
+  public func configure(withMove move: String) {
+    print("Move: \(move)")
+    moveLabel.text = move
   }
   
   private func setupViews() {
     self.backgroundColor = .systemBackground
-    contentView.addSubview(abilityLabel)
+    contentView.addSubview(moveLabel)
     contentView.layer.cornerRadius = 16
     contentView.layer.borderColor = UIColor.label.cgColor
     contentView.layer.borderWidth = 2
@@ -48,9 +49,9 @@ class AbilityCell: UICollectionViewCell {
   
   private func setupConstraints() {
     NSLayoutConstraint.activate([
-      abilityLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-      abilityLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.85),
-      abilityLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor)
+      moveLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+      moveLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.85),
+      moveLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor)
     ])
   }
   

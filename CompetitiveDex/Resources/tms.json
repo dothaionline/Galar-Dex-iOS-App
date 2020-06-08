@@ -1,0 +1,402 @@
+[
+  {
+    "number": 0,
+    "name": "Mega Punch"
+  },
+  {
+    "number": 1,
+    "name": "Mega Kick"
+  },
+  {
+    "number": 2,
+    "name": "Pay Day"
+  },
+  {
+    "number": 3,
+    "name": "Fire Punch"
+  },
+  {
+    "number": 4,
+    "name": "Ice Punch"
+  },
+  {
+    "number": 5,
+    "name": "Thunder Punch"
+  },
+  {
+    "number": 6,
+    "name": "Fly"
+  },
+  {
+    "number": 7,
+    "name": "Pin Missile"
+  },
+  {
+    "number": 8,
+    "name": "Hyper Beam"
+  },
+  {
+    "number": 9,
+    "name": "Giga Impact"
+  },
+  {
+    "number": 10,
+    "name": "Magical Leaf"
+  },
+  {
+    "number": 11,
+    "name": "Solar Beam"
+  },
+  {
+    "number": 12,
+    "name": "Solar Blade"
+  },
+  {
+    "number": 13,
+    "name": "Fire Spin"
+  },
+  {
+    "number": 14,
+    "name": "Thunder Wave"
+  },
+  {
+    "number": 15,
+    "name": "Dig"
+  },
+  {
+    "number": 16,
+    "name": "Screech"
+  },
+  {
+    "number": 17,
+    "name": "Light Screen"
+  },
+  {
+    "number": 18,
+    "name": "Reflect"
+  },
+  {
+    "number": 19,
+    "name": "Safeguard"
+  },
+  {
+    "number": 20,
+    "name": "Self-Destruct"
+  },
+  {
+    "number": 21,
+    "name": "Rest"
+  },
+  {
+    "number": 22,
+    "name": "Rock Slide"
+  },
+  {
+    "number": 23,
+    "name": "Thief"
+  },
+  {
+    "number": 24,
+    "name": "Snore"
+  },
+  {
+    "number": 25,
+    "name": "Protect"
+  },
+  {
+    "number": 26,
+    "name": "Scary Face"
+  },
+  {
+    "number": 27,
+    "name": "Icy Wind"
+  },
+  {
+    "number": 28,
+    "name": "Giga Drain"
+  },
+  {
+    "number": 29,
+    "name": "Charm"
+  },
+  {
+    "number": 30,
+    "name": "Steel Wing"
+  },
+  {
+    "number": 31,
+    "name": "Attract"
+  },
+  {
+    "number": 32,
+    "name": "Sandstorm"
+  },
+  {
+    "number": 33,
+    "name": "Rain Dance"
+  },
+  {
+    "number": 34,
+    "name": "Sunny Day"
+  },
+  {
+    "number": 35,
+    "name": "Hail"
+  },
+  {
+    "number": 36,
+    "name": "Whirlpool"
+  },
+  {
+    "number": 37,
+    "name": "Beat Up"
+  },
+  {
+    "number": 38,
+    "name": "Will-O-Wisp"
+  },
+  {
+    "number": 39,
+    "name": "Facade"
+  },
+  {
+    "number": 40,
+    "name": "Swift"
+  },
+  {
+    "number": 41,
+    "name": "Helping Hand"
+  },
+  {
+    "number": 42,
+    "name": "Revenge"
+  },
+  {
+    "number": 43,
+    "name": "Brick Break"
+  },
+  {
+    "number": 44,
+    "name": "Imprison"
+  },
+  {
+    "number": 45,
+    "name": "Dive"
+  },
+  {
+    "number": 46,
+    "name": "Weather Ball"
+  },
+  {
+    "number": 47,
+    "name": "Fake Tears"
+  },
+  {
+    "number": 48,
+    "name": "Rock Tomb"
+  },
+  {
+    "number": 49,
+    "name": "Sand Tomb"
+  },
+  {
+    "number": 50,
+    "name": "Bullet Seed"
+  },
+  {
+    "number": 51,
+    "name": "Icicle Spear"
+  },
+  {
+    "number": 52,
+    "name": "Bounce"
+  },
+  {
+    "number": 53,
+    "name": "Mud Shot"
+  },
+  {
+    "number": 54,
+    "name": "Rock Blast"
+  },
+  {
+    "number": 55,
+    "name": "Brine"
+  },
+  {
+    "number": 56,
+    "name": "U-turn"
+  },
+  {
+    "number": 57,
+    "name": "Payback"
+  },
+  {
+    "number": 58,
+    "name": "Assurance"
+  },
+  {
+    "number": 59,
+    "name": "Fling"
+  },
+  {
+    "number": 60,
+    "name": "Power Swap"
+  },
+  {
+    "number": 61,
+    "name": "Guard Swap"
+  },
+  {
+    "number": 62,
+    "name": "Speed Swap"
+  },
+  {
+    "number": 63,
+    "name": "Drain Punch"
+  },
+  {
+    "number": 64,
+    "name": "Avalanche"
+  },
+  {
+    "number": 65,
+    "name": "Shadow Claw"
+  },
+  {
+    "number": 66,
+    "name": "Thunder Fang"
+  },
+  {
+    "number": 67,
+    "name": "Ice Fang"
+  },
+  {
+    "number": 68,
+    "name": "Fire Fang"
+  },
+  {
+    "number": 69,
+    "name": "Psycho Cut"
+  },
+  {
+    "number": 70,
+    "name": "Trick Room"
+  },
+  {
+    "number": 71,
+    "name": "Wonder Room"
+  },
+  {
+    "number": 72,
+    "name": "Magic Room"
+  },
+  {
+    "number": 73,
+    "name": "Cross Poison"
+  },
+  {
+    "number": 74,
+    "name": "Venoshock"
+  },
+  {
+    "number": 75,
+    "name": "Low Sweep"
+  },
+  {
+    "number": 76,
+    "name": "Round"
+  },
+  {
+    "number": 77,
+    "name": "Hex"
+  },
+  {
+    "number": 78,
+    "name": "Acrobatics"
+  },
+  {
+    "number": 79,
+    "name": "Retaliate"
+  },
+  {
+    "number": 80,
+    "name": "Volt Switch"
+  },
+  {
+    "number": 81,
+    "name": "Bulldoze"
+  },
+  {
+    "number": 82,
+    "name": "Electroweb"
+  },
+  {
+    "number": 83,
+    "name": "Razor Shell"
+  },
+  {
+    "number": 84,
+    "name": "Tail Slap"
+  },
+  {
+    "number": 85,
+    "name": "Snarl"
+  },
+  {
+    "number": 86,
+    "name": "Phantom Force"
+  },
+  {
+    "number": 87,
+    "name": "Draining Kiss"
+  },
+  {
+    "number": 88,
+    "name": "Grassy Terrain"
+  },
+  {
+    "number": 89,
+    "name": "Misty Terrain"
+  },
+  {
+    "number": 90,
+    "name": "Electric Terrain"
+  },
+  {
+    "number": 91,
+    "name": "Psychic Terrain"
+  },
+  {
+    "number": 92,
+    "name": "Mystical Fire"
+  },
+  {
+    "number": 93,
+    "name": "Eerie Impulse"
+  },
+  {
+    "number": 94,
+    "name": "False Swipe"
+  },
+  {
+    "number": 95,
+    "name": "Air Slash"
+  },
+  {
+    "number": 96,
+    "name": "Smart Strike"
+  },
+  {
+    "number": 97,
+    "name": "Brutal Swing"
+  },
+  {
+    "number": 98,
+    "name": "Stomping Tantrum"
+  },
+  {
+    "number": 99,
+    "name": "Breaking Swipe"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "number": 0,
+    "name": "Swords Dance"
+  },
+  {
+    "number": 1,
+    "name": "Body Slam"
+  },
+  {
+    "number": 2,
+    "name": "Flamethrower"
+  },
+  {
+    "number": 3,
+    "name": "Hydro Pump"
+  },
+  {
+    "number": 4,
+    "name": "Surf"
+  },
+  {
+    "number": 5,
+    "name": "Ice Beam"
+  },
+  {
+    "number": 6,
+    "name": "Blizzard"
+  },
+  {
+    "number": 7,
+    "name": "Low Kick"
+  },
+  {
+    "number": 8,
+    "name": "Thunderbolt"
+  },
+  {
+    "number": 9,
+    "name": "Thunder"
+  },
+  {
+    "number": 10,
+    "name": "Earthquake"
+  },
+  {
+    "number": 11,
+    "name": "Psychic"
+  },
+  {
+    "number": 12,
+    "name": "Agility"
+  },
+  {
+    "number": 13,
+    "name": "Focus Energy"
+  },
+  {
+    "number": 14,
+    "name": "Metronome"
+  },
+  {
+    "number": 15,
+    "name": "Fire Blast"
+  },
+  {
+    "number": 16,
+    "name": "Waterfall"
+  },
+  {
+    "number": 17,
+    "name": "Amnesia"
+  },
+  {
+    "number": 18,
+    "name": "Leech Life"
+  },
+  {
+    "number": 19,
+    "name": "Tri Attack"
+  },
+  {
+    "number": 20,
+    "name": "Substitute"
+  },
+  {
+    "number": 21,
+    "name": "Reversal"
+  },
+  {
+    "number": 22,
+    "name": "Sludge Bomb"
+  },
+  {
+    "number": 23,
+    "name": "Spikes"
+  },
+  {
+    "number": 24,
+    "name": "Outrage"
+  },
+  {
+    "number": 25,
+    "name": "Psyshock"
+  },
+  {
+    "number": 26,
+    "name": "Endure"
+  },
+  {
+    "number": 27,
+    "name": "Sleep Talk"
+  },
+  {
+    "number": 28,
+    "name": "Megahorn"
+  },
+  {
+    "number": 29,
+    "name": "Baton Pass"
+  },
+  {
+    "number": 30,
+    "name": "Encore"
+  },
+  {
+    "number": 31,
+    "name": "Iron Tail"
+  },
+  {
+    "number": 32,
+    "name": "Crunch"
+  },
+  {
+    "number": 33,
+    "name": "Shadow Ball"
+  },
+  {
+    "number": 34,
+    "name": "Future Sight"
+  },
+  {
+    "number": 35,
+    "name": "Uproar"
+  },
+  {
+    "number": 36,
+    "name": "Heat Wave"
+  },
+  {
+    "number": 37,
+    "name": "Taunt"
+  },
+  {
+    "number": 38,
+    "name": "Trick"
+  },
+  {
+    "number": 39,
+    "name": "Superpower"
+  },
+  {
+    "number": 40,
+    "name": "Skill Swap"
+  },
+  {
+    "number": 41,
+    "name": "Blaze Kick"
+  },
+  {
+    "number": 42,
+    "name": "Hyper Voice"
+  },
+  {
+    "number": 43,
+    "name": "Overheat"
+  },
+  {
+    "number": 44,
+    "name": "Cosmic Power"
+  },
+  {
+    "number": 45,
+    "name": "Muddy Water"
+  },
+  {
+    "number": 46,
+    "name": "Iron Defense"
+  },
+  {
+    "number": 47,
+    "name": "Dragon Claw"
+  },
+  {
+    "number": 48,
+    "name": "Bulk Up"
+  },
+  {
+    "number": 49,
+    "name": "Calm Mind"
+  },
+  {
+    "number": 50,
+    "name": "Leaf Blade"
+  },
+  {
+    "number": 51,
+    "name": "Dragon Dance"
+  },
+  {
+    "number": 52,
+    "name": "Gyro Ball"
+  },
+  {
+    "number": 53,
+    "name": "Close Combat"
+  },
+  {
+    "number": 54,
+    "name": "Toxic Spikes"
+  },
+  {
+    "number": 55,
+    "name": "Flare Blitz"
+  },
+  {
+    "number": 56,
+    "name": "Aura Sphere"
+  },
+  {
+    "number": 57,
+    "name": "Poison Jab"
+  },
+  {
+    "number": 58,
+    "name": "Dark Pulse"
+  },
+  {
+    "number": 59,
+    "name": "Seed Bomb"
+  },
+  {
+    "number": 60,
+    "name": "X-Scissor"
+  },
+  {
+    "number": 61,
+    "name": "Bug Buzz"
+  },
+  {
+    "number": 62,
+    "name": "Dragon Pulse"
+  },
+  {
+    "number": 63,
+    "name": "Power Gem"
+  },
+  {
+    "number": 64,
+    "name": "Focus Blast"
+  },
+  {
+    "number": 65,
+    "name": "Energy Ball"
+  },
+  {
+    "number": 66,
+    "name": "Brave Bird"
+  },
+  {
+    "number": 67,
+    "name": "Earth Power"
+  },
+  {
+    "number": 68,
+    "name": "Nasty Plot"
+  },
+  {
+    "number": 69,
+    "name": "Zen Headbutt"
+  },
+  {
+    "number": 70,
+    "name": "Flash Cannon"
+  },
+  {
+    "number": 71,
+    "name": "Leaf Storm"
+  },
+  {
+    "number": 72,
+    "name": "Power Whip"
+  },
+  {
+    "number": 73,
+    "name": "Gunk Shot"
+  },
+  {
+    "number": 74,
+    "name": "Iron Head"
+  },
+  {
+    "number": 75,
+    "name": "Stone Edge"
+  },
+  {
+    "number": 76,
+    "name": "Stealth Rock"
+  },
+  {
+    "number": 77,
+    "name": "Grass Knot"
+  },
+  {
+    "number": 78,
+    "name": "Sludge Wave"
+  },
+  {
+    "number": 79,
+    "name": "Heavy Slam"
+  },
+  {
+    "number": 80,
+    "name": "Electro Ball"
+  },
+  {
+    "number": 81,
+    "name": "Foul Play"
+  },
+  {
+    "number": 82,
+    "name": "Stored Power"
+  },
+  {
+    "number": 83,
+    "name": "Ally Switch"
+  },
+  {
+    "number": 84,
+    "name": "Scald"
+  },
+  {
+    "number": 85,
+    "name": "Work Up"
+  },
+  {
+    "number": 86,
+    "name": "Wild Charge"
+  },
+  {
+    "number": 87,
+    "name": "Drill Run"
+  },
+  {
+    "number": 88,
+    "name": "Heat Crash"
+  },
+  {
+    "number": 89,
+    "name": "Hurricane"
+  },
+  {
+    "number": 90,
+    "name": "Play Rough"
+  },
+  {
+    "number": 91,
+    "name": "Venom Drench"
+  },
+  {
+    "number": 92,
+    "name": "Dazzling Gleam"
+  },
+  {
+    "number": 93,
+    "name": "Darkest Lariat"
+  },
+  {
+    "number": 94,
+    "name": "High Horsepower"
+  },
+  {
+    "number": 95,
+    "name": "Throat Chop"
+  },
+  {
+    "number": 96,
+    "name": "Pollen Puff"
+  },
+  {
+    "number": 97,
+    "name": "Psychic Fangs"
+  },
+  {
+    "number": 98,
+    "name": "Liquidation"
+  },
+  {
+    "number": 99,
+    "name": "Body Press"
+  }
+]
