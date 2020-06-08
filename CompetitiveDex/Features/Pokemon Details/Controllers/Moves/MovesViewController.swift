@@ -1,5 +1,5 @@
 //
-//  AboutPokemonViewController.swift
+//  MovesViewController.swift
 //  CompetitiveDex
 //
 //  Created by Thai Do on 5/1/20.
@@ -17,12 +17,12 @@ class MovesViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    getMoveNames()
+    getTRNames()
+    getTMNames()
     setupTableView()
-    
   }
   
-  private func getMoveNames() {
+  private func getTRNames() {
     guard let trsUrl = Bundle.main.url(forResource: "trs", withExtension: "json") else {
       fatalError("Invalid URL route")
     }
@@ -31,6 +31,22 @@ class MovesViewController: UIViewController {
       fatalError("Invalid URL")
     }
     
+    do {
+      let decoder = JSONDecoder()
+      let trs = try decoder.decode([MoveDisk].self, from: trsData)
+      for tr in trs {
+        if pokemon.trs.contains(tr.number) {
+          trNames.append(tr.name)
+        }
+      }
+    } catch let error {
+      fatalError("Failed to decode TRs data: \(error)")
+    }
+  }
+  
+  
+  
+  private func getTMNames() {
     guard let tmsUrl = Bundle.main.url(forResource: "tms", withExtension: "json") else {
       fatalError("Invalid URL route")
     }
@@ -41,20 +57,14 @@ class MovesViewController: UIViewController {
     
     do {
       let decoder = JSONDecoder()
-      let trs = try decoder.decode([MoveDisk].self, from: trsData)
       let tms = try decoder.decode([MoveDisk].self, from: tmsData)
-      for tr in trs {
-        if pokemon.trs.contains(tr.number) {
-          trNames.append(tr.name)
-        }
-      }
       for tm in tms {
         if pokemon.tms.contains(tm.number) {
           tmNames.append(tm.name)
         }
       }
     } catch let error {
-      fatalError("Failed to decode TRs data: \(error)")
+      fatalError("Failed to decode TMs data: \(error)")
     }
   }
 
