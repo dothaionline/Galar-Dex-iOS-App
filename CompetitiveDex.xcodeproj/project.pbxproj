@@ -20,6 +20,7 @@
 		DB18BCAF248D8BD700E633A4 /* LevelUpMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */; };
 		DB18BCB1248DC1D200E633A4 /* trs.json in Resources */ = {isa = PBXBuildFile; fileRef = DB18BCB0248DC1D200E633A4 /* trs.json */; };
 		DB18BCB4248DC25100E633A4 /* TR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCB3248DC25100E633A4 /* TR.swift */; };
+		DB18BCB8248DC79B00E633A4 /* tms.json in Resources */ = {isa = PBXBuildFile; fileRef = DB18BCB7248DC79B00E633A4 /* tms.json */; };
 		DB405C0C248C494E003EA498 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0B248C494E003EA498 /* Ability.swift */; };
 		DB405C0E248C6B71003EA498 /* MoveChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0D248C6B71003EA498 /* MoveChartCell.swift */; };
 		DB405C12248C6C15003EA498 /* MoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C11248C6C15003EA498 /* MoveCell.swift */; };
@@ -85,6 +86,7 @@
 		DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelUpMove.swift; sourceTree = "<group>"; };
 		DB18BCB0248DC1D200E633A4 /* trs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trs.json; path = CompetitiveDex/Resources/trs.json; sourceTree = SOURCE_ROOT; };
 		DB18BCB3248DC25100E633A4 /* TR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TR.swift; sourceTree = "<group>"; };
+		DB18BCB7248DC79B00E633A4 /* tms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tms.json; sourceTree = "<group>"; };
 		DB405C0B248C494E003EA498 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		DB405C0D248C6B71003EA498 /* MoveChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveChartCell.swift; sourceTree = "<group>"; };
 		DB405C11248C6C15003EA498 /* MoveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCell.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 		DB0BD22124591CB30014693D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB18BCB7248DC79B00E633A4 /* tms.json */,
 				DB18BCB0248DC1D200E633A4 /* trs.json */,
 				DB0BD22224591CC00014693D /* swshpokemon.json */,
 			);
@@ -456,6 +459,7 @@
 				DB0BD1F4245917600014693D /* LaunchScreen.storyboard in Resources */,
 				DB18BCB1248DC1D200E633A4 /* trs.json in Resources */,
 				DB0BD1F1245917600014693D /* Assets.xcassets in Resources */,
+				DB18BCB8248DC79B00E633A4 /* tms.json in Resources */,
 				DB0BD22324591CC00014693D /* swshpokemon.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
