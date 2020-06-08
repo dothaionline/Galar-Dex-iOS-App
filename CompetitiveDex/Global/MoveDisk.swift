@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct TR: Codable {
+struct MoveDisk: Codable {
   let number: Int
   let name: String
 }

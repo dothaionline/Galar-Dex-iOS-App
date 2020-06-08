@@ -19,7 +19,7 @@
 		DB0BD22324591CC00014693D /* swshpokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = DB0BD22224591CC00014693D /* swshpokemon.json */; };
 		DB18BCAF248D8BD700E633A4 /* LevelUpMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */; };
 		DB18BCB1248DC1D200E633A4 /* trs.json in Resources */ = {isa = PBXBuildFile; fileRef = DB18BCB0248DC1D200E633A4 /* trs.json */; };
-		DB18BCB4248DC25100E633A4 /* TR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCB3248DC25100E633A4 /* TR.swift */; };
+		DB18BCB4248DC25100E633A4 /* MoveDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCB3248DC25100E633A4 /* MoveDisk.swift */; };
 		DB18BCB8248DC79B00E633A4 /* tms.json in Resources */ = {isa = PBXBuildFile; fileRef = DB18BCB7248DC79B00E633A4 /* tms.json */; };
 		DB405C0C248C494E003EA498 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0B248C494E003EA498 /* Ability.swift */; };
 		DB405C0E248C6B71003EA498 /* MoveChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0D248C6B71003EA498 /* MoveChartCell.swift */; };
@@ -85,7 +85,7 @@
 		DB0BD22224591CC00014693D /* swshpokemon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swshpokemon.json; sourceTree = "<group>"; };
 		DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelUpMove.swift; sourceTree = "<group>"; };
 		DB18BCB0248DC1D200E633A4 /* trs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trs.json; path = CompetitiveDex/Resources/trs.json; sourceTree = SOURCE_ROOT; };
-		DB18BCB3248DC25100E633A4 /* TR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TR.swift; sourceTree = "<group>"; };
+		DB18BCB3248DC25100E633A4 /* MoveDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDisk.swift; sourceTree = "<group>"; };
 		DB18BCB7248DC79B00E633A4 /* tms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tms.json; sourceTree = "<group>"; };
 		DB405C0B248C494E003EA498 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		DB405C0D248C6B71003EA498 /* MoveChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveChartCell.swift; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 				DB6E5DCB245E70C900F80CC5 /* Stats.swift */,
 				DB405C0B248C494E003EA498 /* Ability.swift */,
 				DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */,
-				DB18BCB3248DC25100E633A4 /* TR.swift */,
+				DB18BCB3248DC25100E633A4 /* MoveDisk.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -514,7 +514,7 @@
 				DB6E5DB9245E0C0D00F80CC5 /* EvolutionCell.swift in Sources */,
 				DBC92E91245B88C700CE26A0 /* UIFont+PokemonStyle.swift in Sources */,
 				DB6E5DD2245E87DF00F80CC5 /* ValueCell.swift in Sources */,
-				DB18BCB4248DC25100E633A4 /* TR.swift in Sources */,
+				DB18BCB4248DC25100E633A4 /* MoveDisk.swift in Sources */,
 				DB0BD1EA2459175E0014693D /* SceneDelegate.swift in Sources */,
 				DBC92E8D245A4BD900CE26A0 /* Endpoints.swift in Sources */,
 				DBC92E8524592C3800CE26A0 /* PokedexCollectionViewCell.swift in Sources */,

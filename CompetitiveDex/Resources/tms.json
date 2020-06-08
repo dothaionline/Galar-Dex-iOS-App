@@ -1,402 +1,402 @@
 [
   {
-    "number": 0
+    "number": 0,
     "name": "Mega Punch"
   },
   {
-    "number": 1
+    "number": 1,
     "name": "Mega Kick"
   },
   {
-    "number": 2
+    "number": 2,
     "name": "Pay Day"
   },
   {
-    "number": 3
+    "number": 3,
     "name": "Fire Punch"
   },
   {
-    "number": 4
+    "number": 4,
     "name": "Ice Punch"
   },
   {
-    "number": 5
+    "number": 5,
     "name": "Thunder Punch"
   },
   {
-    "number": 6
+    "number": 6,
     "name": "Fly"
   },
   {
-    "number": 7
+    "number": 7,
     "name": "Pin Missile"
   },
   {
-    "number": 8
+    "number": 8,
     "name": "Hyper Beam"
   },
   {
-    "number": 9
+    "number": 9,
     "name": "Giga Impact"
   },
   {
-    "number": 10
+    "number": 10,
     "name": "Magical Leaf"
   },
   {
-    "number": 11
+    "number": 11,
     "name": "Solar Beam"
   },
   {
-    "number": 12
+    "number": 12,
     "name": "Solar Blade"
   },
   {
-    "number": 13
+    "number": 13,
     "name": "Fire Spin"
   },
   {
-    "number": 14
+    "number": 14,
     "name": "Thunder Wave"
   },
   {
-    "number": 15
+    "number": 15,
     "name": "Dig"
   },
   {
-    "number": 16
+    "number": 16,
     "name": "Screech"
   },
   {
-    "number": 17
+    "number": 17,
     "name": "Light Screen"
   },
   {
-    "number": 18
+    "number": 18,
     "name": "Reflect"
   },
   {
-    "number": 19
+    "number": 19,
     "name": "Safeguard"
   },
   {
-    "number": 20
+    "number": 20,
     "name": "Self-Destruct"
   },
   {
-    "number": 21
+    "number": 21,
     "name": "Rest"
   },
   {
-    "number": 22
+    "number": 22,
     "name": "Rock Slide"
   },
   {
-    "number": 23
+    "number": 23,
     "name": "Thief"
   },
   {
-    "number": 24
+    "number": 24,
     "name": "Snore"
   },
   {
-    "number": 25
+    "number": 25,
     "name": "Protect"
   },
   {
-    "number": 26
+    "number": 26,
     "name": "Scary Face"
   },
   {
-    "number": 27
+    "number": 27,
     "name": "Icy Wind"
   },
   {
-    "number": 28
+    "number": 28,
     "name": "Giga Drain"
   },
   {
-    "number": 29
+    "number": 29,
     "name": "Charm"
   },
   {
-    "number": 30
+    "number": 30,
     "name": "Steel Wing"
   },
   {
-    "number": 31
+    "number": 31,
     "name": "Attract"
   },
   {
-    "number": 32
+    "number": 32,
     "name": "Sandstorm"
   },
   {
-    "number": 33
+    "number": 33,
     "name": "Rain Dance"
   },
   {
-    "number": 34
+    "number": 34,
     "name": "Sunny Day"
   },
   {
-    "number": 35
+    "number": 35,
     "name": "Hail"
   },
   {
-    "number": 36
+    "number": 36,
     "name": "Whirlpool"
   },
   {
-    "number": 37
+    "number": 37,
     "name": "Beat Up"
   },
   {
-    "number": 38
+    "number": 38,
     "name": "Will-O-Wisp"
   },
   {
-    "number": 39
+    "number": 39,
     "name": "Facade"
   },
   {
-    "number": 40
+    "number": 40,
     "name": "Swift"
   },
   {
-    "number": 41
+    "number": 41,
     "name": "Helping Hand"
   },
   {
-    "number": 42
+    "number": 42,
     "name": "Revenge"
   },
   {
-    "number": 43
+    "number": 43,
     "name": "Brick Break"
   },
   {
-    "number": 44
+    "number": 44,
     "name": "Imprison"
   },
   {
-    "number": 45
+    "number": 45,
     "name": "Dive"
   },
   {
-    "number": 46
+    "number": 46,
     "name": "Weather Ball"
   },
   {
-    "number": 47
+    "number": 47,
     "name": "Fake Tears"
   },
   {
-    "number": 48
+    "number": 48,
     "name": "Rock Tomb"
   },
   {
-    "number": 49
+    "number": 49,
     "name": "Sand Tomb"
   },
   {
-    "number": 50
+    "number": 50,
     "name": "Bullet Seed"
   },
   {
-    "number": 51
+    "number": 51,
     "name": "Icicle Spear"
   },
   {
-    "number": 52
+    "number": 52,
     "name": "Bounce"
   },
   {
-    "number": 53
+    "number": 53,
     "name": "Mud Shot"
   },
   {
-    "number": 54
+    "number": 54,
     "name": "Rock Blast"
   },
   {
-    "number": 55
+    "number": 55,
     "name": "Brine"
   },
   {
-    "number": 56
+    "number": 56,
     "name": "U-turn"
   },
   {
-    "number": 57
+    "number": 57,
     "name": "Payback"
   },
   {
-    "number": 58
+    "number": 58,
     "name": "Assurance"
   },
   {
-    "number": 59
+    "number": 59,
     "name": "Fling"
   },
   {
-    "number": 60
+    "number": 60,
     "name": "Power Swap"
   },
   {
-    "number": 61
+    "number": 61,
     "name": "Guard Swap"
   },
   {
-    "number": 62
+    "number": 62,
     "name": "Speed Swap"
   },
   {
-    "number": 63
+    "number": 63,
     "name": "Drain Punch"
   },
   {
-    "number": 64
+    "number": 64,
     "name": "Avalanche"
   },
   {
-    "number": 65
+    "number": 65,
     "name": "Shadow Claw"
   },
   {
-    "number": 66
+    "number": 66,
     "name": "Thunder Fang"
   },
   {
-    "number": 67
+    "number": 67,
     "name": "Ice Fang"
   },
   {
-    "number": 68
+    "number": 68,
     "name": "Fire Fang"
   },
   {
-    "number": 69
+    "number": 69,
     "name": "Psycho Cut"
   },
   {
-    "number": 70
+    "number": 70,
     "name": "Trick Room"
   },
   {
-    "number": 71
+    "number": 71,
     "name": "Wonder Room"
   },
   {
-    "number": 72
+    "number": 72,
     "name": "Magic Room"
   },
   {
-    "number": 73
+    "number": 73,
     "name": "Cross Poison"
   },
   {
-    "number": 74
+    "number": 74,
     "name": "Venoshock"
   },
   {
-    "number": 75
+    "number": 75,
     "name": "Low Sweep"
   },
   {
-    "number": 76
+    "number": 76,
     "name": "Round"
   },
   {
-    "number": 77
+    "number": 77,
     "name": "Hex"
   },
   {
-    "number": 78
+    "number": 78,
     "name": "Acrobatics"
   },
   {
-    "number": 79
+    "number": 79,
     "name": "Retaliate"
   },
   {
-    "number": 80
+    "number": 80,
     "name": "Volt Switch"
   },
   {
-    "number": 81
+    "number": 81,
     "name": "Bulldoze"
   },
   {
-    "number": 82
+    "number": 82,
     "name": "Electroweb"
   },
   {
-    "number": 83
+    "number": 83,
     "name": "Razor Shell"
   },
   {
-    "number": 84
+    "number": 84,
     "name": "Tail Slap"
   },
   {
-    "number": 85
+    "number": 85,
     "name": "Snarl"
   },
   {
-    "number": 86
+    "number": 86,
     "name": "Phantom Force"
   },
   {
-    "number": 87
+    "number": 87,
     "name": "Draining Kiss"
   },
   {
-    "number": 88
+    "number": 88,
     "name": "Grassy Terrain"
   },
   {
-    "number": 89
+    "number": 89,
     "name": "Misty Terrain"
   },
   {
-    "number": 90
+    "number": 90,
     "name": "Electric Terrain"
   },
   {
-    "number": 91
+    "number": 91,
     "name": "Psychic Terrain"
   },
   {
-    "number": 92
+    "number": 92,
     "name": "Mystical Fire"
   },
   {
-    "number": 93
+    "number": 93,
     "name": "Eerie Impulse"
   },
   {
-    "number": 94
+    "number": 94,
     "name": "False Swipe"
   },
   {
-    "number": 95
+    "number": 95,
     "name": "Air Slash"
   },
   {
-    "number": 96
+    "number": 96,
     "name": "Smart Strike"
   },
   {
-    "number": 97
+    "number": 97,
     "name": "Brutal Swing"
   },
   {
-    "number": 98
+    "number": 98,
     "name": "Stomping Tantrum"
   },
   {
-    "number": 99
+    "number": 99,
     "name": "Breaking Swipe"
-  },
+  }
 ]

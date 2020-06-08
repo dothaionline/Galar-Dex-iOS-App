@@ -12,7 +12,8 @@ class MovesViewController: UIViewController {
   
   var tableView: UITableView!
   var pokemon: Pokemon!
-  var trDictionary: [Int: String] = [:]
+  var trNames: [String] = []
+  var tmNames: [String] = []
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -22,19 +23,35 @@ class MovesViewController: UIViewController {
   }
   
   private func getMoveNames() {
-    guard let url = Bundle.main.url(forResource: "trs", withExtension: "json") else {
+    guard let trsUrl = Bundle.main.url(forResource: "trs", withExtension: "json") else {
       fatalError("Invalid URL route")
     }
     
-    guard let data = try? Data(contentsOf: url) else {
+    guard let trsData = try? Data(contentsOf: trsUrl) else {
+      fatalError("Invalid URL")
+    }
+    
+    guard let tmsUrl = Bundle.main.url(forResource: "tms", withExtension: "json") else {
+      fatalError("Invalid URL route")
+    }
+    
+    guard let tmsData = try? Data(contentsOf: tmsUrl) else {
       fatalError("Invalid URL")
     }
     
     do {
       let decoder = JSONDecoder()
-      let trs = try decoder.decode([TR].self, from: data)
+      let trs = try decoder.decode([MoveDisk].self, from: trsData)
+      let tms = try decoder.decode([MoveDisk].self, from: tmsData)
       for tr in trs {
-        trDictionary[tr.number] = tr.name
+        if pokemon.trs.contains(tr.number) {
+          trNames.append(tr.name)
+        }
+      }
+      for tm in tms {
+        if pokemon.tms.contains(tm.number) {
+          tmNames.append(tm.name)
+        }
       }
     } catch let error {
       fatalError("Failed to decode TRs data: \(error)")
@@ -154,17 +171,10 @@ extension MovesViewController: UITableViewDataSource, UITableViewDelegate {
       cell.configure(withMoves: pokemon.eggMoves)
       return cell
     case .trMoves:
-      var trs: [String] = []
-      for (key, value) in trDictionary {
-        if pokemon.trs.contains(key) {
-          trs.append(value)
-        }
-      }
-      cell.configure(withMoves: trs)
+      cell.configure(withMoves: trNames)
       return cell
     case .tmMoves:
-      let tms: [String] = pokemon.tms.map({ return "\($0)" })
-      cell.configure(withMoves: tms)
+      cell.configure(withMoves: tmNames)
       return cell
     default:
       fatalError("Section does not have a defined cell")
