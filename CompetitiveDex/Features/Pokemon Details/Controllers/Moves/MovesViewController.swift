@@ -12,10 +12,33 @@ class MovesViewController: UIViewController {
   
   var tableView: UITableView!
   var pokemon: Pokemon!
+  var trDictionary: [Int: String] = [:]
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    getMoveNames()
     setupTableView()
+    
+  }
+  
+  private func getMoveNames() {
+    guard let url = Bundle.main.url(forResource: "trs", withExtension: "json") else {
+      fatalError("Invalid URL route")
+    }
+    
+    guard let data = try? Data(contentsOf: url) else {
+      fatalError("Invalid URL")
+    }
+    
+    do {
+      let decoder = JSONDecoder()
+      let trs = try decoder.decode([TR].self, from: data)
+      for tr in trs {
+        trDictionary[tr.number] = tr.name
+      }
+    } catch let error {
+      fatalError("Failed to decode TRs data: \(error)")
+    }
   }
 
 }
@@ -131,7 +154,12 @@ extension MovesViewController: UITableViewDataSource, UITableViewDelegate {
       cell.configure(withMoves: pokemon.eggMoves)
       return cell
     case .trMoves:
-      let trs: [String] = pokemon.trs.map({ return "\($0)" })
+      var trs: [String] = []
+      for (key, value) in trDictionary {
+        if pokemon.trs.contains(key) {
+          trs.append(value)
+        }
+      }
       cell.configure(withMoves: trs)
       return cell
     case .tmMoves:
