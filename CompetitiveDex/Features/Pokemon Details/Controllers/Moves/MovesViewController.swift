@@ -10,11 +10,13 @@ import UIKit
 
 class MovesViewController: UIViewController {
   
+  // MARK: - Properties
   var tableView: UITableView!
   var pokemon: Pokemon!
   var trNames: [String] = []
   var tmNames: [String] = []
 
+  // MARK: - Lifecycle Methods
   override func viewDidLoad() {
     super.viewDidLoad()
     getTRNames()
@@ -22,6 +24,7 @@ class MovesViewController: UIViewController {
     setupTableView()
   }
   
+  // MARK: - Helper Methods
   private func getTRNames() {
     guard let trsUrl = Bundle.main.url(forResource: "trs", withExtension: "json") else {
       fatalError("Invalid URL route")
@@ -43,8 +46,6 @@ class MovesViewController: UIViewController {
       fatalError("Failed to decode TRs data: \(error)")
     }
   }
-  
-  
   
   private func getTMNames() {
     guard let tmsUrl = Bundle.main.url(forResource: "tms", withExtension: "json") else {
@@ -70,6 +71,7 @@ class MovesViewController: UIViewController {
 
 }
 
+// MARK: - Tableview Methods
 extension MovesViewController: UITableViewDataSource, UITableViewDelegate {
   enum Section: Int, CaseIterable {
     case levelUpMoves = 0
