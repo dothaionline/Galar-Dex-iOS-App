@@ -21,6 +21,7 @@
 		DB18BCB1248DC1D200E633A4 /* trs.json in Resources */ = {isa = PBXBuildFile; fileRef = DB18BCB0248DC1D200E633A4 /* trs.json */; };
 		DB18BCB4248DC25100E633A4 /* MoveDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCB3248DC25100E633A4 /* MoveDisk.swift */; };
 		DB18BCB8248DC79B00E633A4 /* tms.json in Resources */ = {isa = PBXBuildFile; fileRef = DB18BCB7248DC79B00E633A4 /* tms.json */; };
+		DB18BCBA248F145100E633A4 /* PokemonTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCB9248F145100E633A4 /* PokemonTabBarController.swift */; };
 		DB405C0C248C494E003EA498 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0B248C494E003EA498 /* Ability.swift */; };
 		DB405C0E248C6B71003EA498 /* MoveChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0D248C6B71003EA498 /* MoveChartCell.swift */; };
 		DB405C12248C6C15003EA498 /* MoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C11248C6C15003EA498 /* MoveCell.swift */; };
@@ -87,6 +88,7 @@
 		DB18BCB0248DC1D200E633A4 /* trs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trs.json; path = CompetitiveDex/Resources/trs.json; sourceTree = SOURCE_ROOT; };
 		DB18BCB3248DC25100E633A4 /* MoveDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDisk.swift; sourceTree = "<group>"; };
 		DB18BCB7248DC79B00E633A4 /* tms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tms.json; sourceTree = "<group>"; };
+		DB18BCB9248F145100E633A4 /* PokemonTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTabBarController.swift; sourceTree = "<group>"; };
 		DB405C0B248C494E003EA498 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		DB405C0D248C6B71003EA498 /* MoveChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveChartCell.swift; sourceTree = "<group>"; };
 		DB405C11248C6C15003EA498 /* MoveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCell.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				DB0BD1F0245917600014693D /* Assets.xcassets */,
 				DB0BD1F2245917600014693D /* LaunchScreen.storyboard */,
 				DB0BD1F5245917600014693D /* Info.plist */,
+				DB18BCB9248F145100E633A4 /* PokemonTabBarController.swift */,
 			);
 			path = CompetitiveDex;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				DB0BD1E82459175E0014693D /* AppDelegate.swift in Sources */,
 				DB6E5DB7245D43D600F80CC5 /* EvolutionChartCell.swift in Sources */,
 				DB6E5DCA245E70A700F80CC5 /* Nature.swift in Sources */,
+				DB18BCBA248F145100E633A4 /* PokemonTabBarController.swift in Sources */,
 				DB6E5DC3245E2C4E00F80CC5 /* BaseStatsViewController.swift in Sources */,
 				DBC92E8A245A48FB00CE26A0 /* AngledColorView.swift in Sources */,
 				DB6E5DCE245E7B0000F80CC5 /* NatureTableViewController.swift in Sources */,
