@@ -9,21 +9,18 @@
 import UIKit
 
 class MyTeamsController: UITableViewController {
-  
-  let pokemons = [
-    Pokemon(id: 0, galarDex: nil, name: "Arcanine", baseStats: [], evYield: [], abilities: [], types: ["Fire"], eggGroups: [], height: 2.2, weight: 2.2, color: "Red", eggMoves: [], levelUpMoves: [], tms: [], trs: [], evolutions: [], description: nil),
-    Pokemon(id: 0, galarDex: nil, name: "Alcremie", baseStats: [], evYield: [], abilities: [], types: ["Fairy"], eggGroups: [], height: 2.2, weight: 2.2, color: "Red", eggMoves: [], levelUpMoves: [], tms: [], trs: [], evolutions: [], description: nil),
-    Pokemon(id: 0, galarDex: nil, name: "Dragapult", baseStats: [], evYield: [], abilities: [], types: ["Dragon"], eggGroups: [], height: 2.2, weight: 2.2, color: "Red", eggMoves: [], levelUpMoves: [], tms: [], trs: [], evolutions: [], description: nil),
-    Pokemon(id: 0, galarDex: nil, name: "Rillaboom", baseStats: [], evYield: [], abilities: [], types: ["Grass"], eggGroups: [], height: 2.2, weight: 2.2, color: "Red", eggMoves: [], levelUpMoves: [], tms: [], trs: [], evolutions: [], description: nil),
-    Pokemon(id: 0, galarDex: nil, name: "Milotic", baseStats: [], evYield: [], abilities: [], types: ["Water"], eggGroups: [], height: 2.2, weight: 2.2, color: "Red", eggMoves: [], levelUpMoves: [], tms: [], trs: [], evolutions: [], description: nil),
-    Pokemon(id: 0, galarDex: nil, name: "Bisharp", baseStats: [], evYield: [], abilities: [], types: ["Dark"], eggGroups: [], height: 2.2, weight: 2.2, color: "Red", eggMoves: [], levelUpMoves: [], tms: [], trs: [], evolutions: [], description: nil),
-  ]
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    setupNavigationBar()
     setupTableView()
   }
   
+  private func setupNavigationBar() {
+    title = "My Teams"
+    navigationController?.navigationBar.prefersLargeTitles = true
+    navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: nil, action: nil)
+  }
   // MARK: - Table view data source
   private func setupTableView() {
     tableView.separatorStyle = .none
@@ -31,12 +28,10 @@ class MyTeamsController: UITableViewController {
   }
   
   override func numberOfSections(in tableView: UITableView) -> Int {
-    // #warning Incomplete implementation, return the number of sections
     return 1
   }
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    // #warning Incomplete implementation, return the number of rows
     return 3
   }
   
@@ -44,7 +39,6 @@ class MyTeamsController: UITableViewController {
     guard let cell = tableView.dequeueReusableCell(withIdentifier: TeamCell.reuseIdentifier, for: indexPath) as? TeamCell else {
       fatalError()
     }
-    cell.configure(withTeam: pokemons)
     return cell
   }
   

@@ -14,15 +14,16 @@ class PokemonTabBarController: UITabBarController {
     super.viewDidLoad()
     // Pokedex View Controller
     let pokedexController = PokedexController()
-    let navigationController = UINavigationController(rootViewController: pokedexController)
-    navigationController.navigationBar.backgroundColor = .clear
-    navigationController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+    let navigationPokedexController = UINavigationController(rootViewController: pokedexController)
+    navigationPokedexController.navigationBar.backgroundColor = .clear
+    navigationPokedexController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
     
     // My Teams View Controller
     let myTeamsController = MyTeamsController()
-    myTeamsController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+    let navigationTeamsController = UINavigationController(rootViewController: myTeamsController)
+    navigationTeamsController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
     // Add controllers to tab bar
-    let tabBarList = [navigationController, myTeamsController]
+    let tabBarList = [navigationPokedexController, navigationTeamsController]
     viewControllers = tabBarList
   }
   

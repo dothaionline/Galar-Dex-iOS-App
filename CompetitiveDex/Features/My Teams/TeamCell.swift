@@ -25,6 +25,22 @@ class TeamCell: UITableViewCell {
     return view
   }()
   
+  var overlayView: UIView = {
+    let view = UIView()
+    view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.4)
+    view.translatesAutoresizingMaskIntoConstraints = false
+    return view
+  }()
+
+  var teamNameLabel: UILabel = {
+    let label = UILabel()
+    label.text = "Tommy's Team"
+    label.textColor = .white
+    label.font = .monospacedDigitSystemFont(ofSize: 24, weight: .heavy)
+    label.translatesAutoresizingMaskIntoConstraints = false
+    return label
+  }()
+  
   // MARK: - Initializers
   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
     super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -39,26 +55,14 @@ class TeamCell: UITableViewCell {
   public func configure(withTeam team: [Pokemon]) {
     pokemonTeamStackView.arrangedSubviews.forEach( pokemonTeamStackView.removeArrangedSubview(_:))
     for pokemon in team {
-      let backgroundView = UIView()
-      backgroundView.translatesAutoresizingMaskIntoConstraints = false
-      backgroundView.backgroundColor = UIColor.getColor(for: pokemon.types[0])
-      backgroundView.clipsToBounds = true
-      
-      let pokemonImageView = UIImageView()
-      pokemonImageView.translatesAutoresizingMaskIntoConstraints = false
-      if let pokemonImage = UIImage(named: pokemon.name) {
-        pokemonImageView.image = pokemonImage
-      } else {
-        pokemonImageView.image = UIImage(named: "MissingNo")!
+      setupPokemonView(for: pokemon)
+    }
+    
+    if team.count < 6 {
+      let missingPokemon = 6 - team.count
+      for _ in 0..<missingPokemon {
+        setupPokemonView(for: nil)
       }
-      backgroundView.addSubview(pokemonImageView)
-      NSLayoutConstraint.activate([
-        pokemonImageView.heightAnchor.constraint(equalToConstant: 100),
-        pokemonImageView.widthAnchor.constraint(equalToConstant: 100),
-        pokemonImageView.centerYAnchor.constraint(equalTo: backgroundView.centerYAnchor),
-        pokemonImageView.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor),
-      ])
-      pokemonTeamStackView.addArrangedSubview(backgroundView)
     }
   }
   
@@ -66,9 +70,48 @@ class TeamCell: UITableViewCell {
     self.selectionStyle = .none
     self.separatorInset = .zero
     
-    let views = [containerView, pokemonTeamStackView]
+    let views = [containerView, pokemonTeamStackView, overlayView, teamNameLabel]
     views.forEach({ contentView.addSubview($0) })
     setupConstraints()
+  }
+  
+  private func setupPokemonView(for pokemon: Pokemon?) {
+    let backgroundView = UIView()
+    backgroundView.translatesAutoresizingMaskIntoConstraints = false
+    backgroundView.backgroundColor = .darkGray
+    backgroundView.clipsToBounds = true
+    
+    let pokemonImageView = UIImageView()
+    pokemonImageView.translatesAutoresizingMaskIntoConstraints = false
+
+    let separatorView = UIView()
+    separatorView.translatesAutoresizingMaskIntoConstraints = false
+    separatorView.backgroundColor = .black
+    
+    if let pokemon = pokemon {
+      if let pokemonImage = UIImage(named: pokemon.name) {
+        pokemonImageView.image = pokemonImage
+      }
+      backgroundView.backgroundColor = .getColor(for: pokemon.types[0])
+    } else {
+      pokemonImageView.image = UIImage(named: "MissingNo")!
+    }
+    
+    backgroundView.addSubview(pokemonImageView)
+    backgroundView.addSubview(separatorView)
+    NSLayoutConstraint.activate([
+      pokemonImageView.heightAnchor.constraint(equalToConstant: 100),
+      pokemonImageView.widthAnchor.constraint(equalToConstant: 100),
+      pokemonImageView.centerYAnchor.constraint(equalTo: backgroundView.centerYAnchor),
+      pokemonImageView.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor),
+      
+      separatorView.topAnchor.constraint(equalTo: backgroundView.topAnchor),
+      separatorView.bottomAnchor.constraint(equalTo: backgroundView.bottomAnchor),
+      separatorView.widthAnchor.constraint(equalToConstant: 1),
+      separatorView.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor)
+      
+    ])
+    pokemonTeamStackView.addArrangedSubview(backgroundView)
   }
   
   private func setupConstraints() {
@@ -81,7 +124,15 @@ class TeamCell: UITableViewCell {
       pokemonTeamStackView.topAnchor.constraint(equalTo: containerView.topAnchor),
       pokemonTeamStackView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
       pokemonTeamStackView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-      pokemonTeamStackView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor)
+      pokemonTeamStackView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor),
+      
+      overlayView.topAnchor.constraint(equalTo: containerView.topAnchor),
+      overlayView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+      overlayView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+      overlayView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor),
+      
+      teamNameLabel.centerYAnchor.constraint(equalTo: containerView.centerYAnchor),
+      teamNameLabel.centerXAnchor.constraint(equalTo: containerView.centerXAnchor),
     ])
   }
   
