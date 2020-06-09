@@ -27,6 +27,7 @@
 		DB405C0C248C494E003EA498 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0B248C494E003EA498 /* Ability.swift */; };
 		DB405C0E248C6B71003EA498 /* MoveChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0D248C6B71003EA498 /* MoveChartCell.swift */; };
 		DB405C12248C6C15003EA498 /* MoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C11248C6C15003EA498 /* MoveCell.swift */; };
+		DB5EF8CF249058C100289B45 /* CompetitiveDex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB5EF8CD249058C100289B45 /* CompetitiveDex.xcdatamodeld */; };
 		DB6E5DB5245D2F4500F80CC5 /* DexEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6E5DB4245D2F4500F80CC5 /* DexEntryCell.swift */; };
 		DB6E5DB7245D43D600F80CC5 /* EvolutionChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6E5DB6245D43D600F80CC5 /* EvolutionChartCell.swift */; };
 		DB6E5DB9245E0C0D00F80CC5 /* EvolutionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6E5DB8245E0C0D00F80CC5 /* EvolutionCell.swift */; };
@@ -96,6 +97,7 @@
 		DB405C0B248C494E003EA498 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		DB405C0D248C6B71003EA498 /* MoveChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveChartCell.swift; sourceTree = "<group>"; };
 		DB405C11248C6C15003EA498 /* MoveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCell.swift; sourceTree = "<group>"; };
+		DB5EF8CE249058C100289B45 /* CompetitiveDex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CompetitiveDex.xcdatamodel; sourceTree = "<group>"; };
 		DB6E5DB4245D2F4500F80CC5 /* DexEntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexEntryCell.swift; sourceTree = "<group>"; };
 		DB6E5DB6245D43D600F80CC5 /* EvolutionChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionChartCell.swift; sourceTree = "<group>"; };
 		DB6E5DB8245E0C0D00F80CC5 /* EvolutionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionCell.swift; sourceTree = "<group>"; };
@@ -169,16 +171,16 @@
 		DB0BD1E62459175E0014693D /* CompetitiveDex */ = {
 			isa = PBXGroup;
 			children = (
-				DBC92E92245B987D00CE26A0 /* Features */,
-				DBC92E8B245A4BCC00CE26A0 /* Networking */,
-				DBC92E86245A401000CE26A0 /* Extensions */,
-				DB0BD22124591CB30014693D /* Resources */,
-				DB0BD21A245919A40014693D /* Global */,
 				DB0BD1E72459175E0014693D /* AppDelegate.swift */,
 				DB0BD1E92459175E0014693D /* SceneDelegate.swift */,
 				DB0BD1F0245917600014693D /* Assets.xcassets */,
 				DB0BD1F2245917600014693D /* LaunchScreen.storyboard */,
 				DB0BD1F5245917600014693D /* Info.plist */,
+				DBC92E92245B987D00CE26A0 /* Features */,
+				DBC92E8B245A4BCC00CE26A0 /* Networking */,
+				DBC92E86245A401000CE26A0 /* Extensions */,
+				DB0BD22124591CB30014693D /* Resources */,
+				DB0BD21A245919A40014693D /* Global */,
 			);
 			path = CompetitiveDex;
 			sourceTree = "<group>";
@@ -239,6 +241,7 @@
 		DB0BD22124591CB30014693D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB5EF8CD249058C100289B45 /* CompetitiveDex.xcdatamodeld */,
 				DB18BCB7248DC79B00E633A4 /* tms.json */,
 				DB18BCB0248DC1D200E633A4 /* trs.json */,
 				DB0BD22224591CC00014693D /* swshpokemon.json */,
@@ -531,6 +534,7 @@
 				DB6E5DC8245E3B2200F80CC5 /* StatsCell.swift in Sources */,
 				DB6E5DB5245D2F4500F80CC5 /* DexEntryCell.swift in Sources */,
 				DB405C12248C6C15003EA498 /* MoveCell.swift in Sources */,
+				DB5EF8CF249058C100289B45 /* CompetitiveDex.xcdatamodeld in Sources */,
 				DB0BD21C245919C40014693D /* Pokemon.swift in Sources */,
 				DB8757E8245CF4A4005B6ED7 /* AboutPokemonViewController.swift in Sources */,
 				DB8757EA245CF5A6005B6ED7 /* DetailsPageViewController.swift in Sources */,
@@ -874,6 +878,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB5EF8CD249058C100289B45 /* CompetitiveDex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB5EF8CE249058C100289B45 /* CompetitiveDex.xcdatamodel */,
+			);
+			currentVersion = DB5EF8CE249058C100289B45 /* CompetitiveDex.xcdatamodel */;
+			path = CompetitiveDex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DB0BD1DC2459175E0014693D /* Project object */;
 }
