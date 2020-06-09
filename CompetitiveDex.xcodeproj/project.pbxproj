@@ -175,7 +175,6 @@
 				DB0BD1F0245917600014693D /* Assets.xcassets */,
 				DB0BD1F2245917600014693D /* LaunchScreen.storyboard */,
 				DB0BD1F5245917600014693D /* Info.plist */,
-				DB18BCB9248F145100E633A4 /* PokemonTabBarController.swift */,
 			);
 			path = CompetitiveDex;
 			sourceTree = "<group>";
@@ -227,13 +226,8 @@
 		DB0BD21A245919A40014693D /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				DB0BD21B245919C40014693D /* Pokemon.swift */,
-				DB0BD21F24591C760014693D /* Evolution.swift */,
-				DB6E5DC9245E70A700F80CC5 /* Nature.swift */,
-				DB6E5DCB245E70C900F80CC5 /* Stats.swift */,
-				DB405C0B248C494E003EA498 /* Ability.swift */,
-				DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */,
-				DB18BCB3248DC25100E633A4 /* MoveDisk.swift */,
+				DB18BCBC248F15B100E633A4 /* Controllers */,
+				DB18BCBB248F15A300E633A4 /* Models */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -246,6 +240,28 @@
 				DB0BD22224591CC00014693D /* swshpokemon.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB18BCBB248F15A300E633A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BD21B245919C40014693D /* Pokemon.swift */,
+				DB0BD21F24591C760014693D /* Evolution.swift */,
+				DB6E5DC9245E70A700F80CC5 /* Nature.swift */,
+				DB6E5DCB245E70C900F80CC5 /* Stats.swift */,
+				DB405C0B248C494E003EA498 /* Ability.swift */,
+				DB18BCAE248D8BD700E633A4 /* LevelUpMove.swift */,
+				DB18BCB3248DC25100E633A4 /* MoveDisk.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB18BCBC248F15B100E633A4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB18BCB9248F145100E633A4 /* PokemonTabBarController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		DB6E5DBE245E2BD300F80CC5 /* About */ = {

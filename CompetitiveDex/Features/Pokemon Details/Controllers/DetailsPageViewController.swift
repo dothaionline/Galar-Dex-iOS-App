@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol PokemonDetails {
+  var pokemon: Pokemon { get }
+}
+
 class DetailsPageViewController: UIPageViewController {
   
   var pages: [UIViewController] = [UIViewController]()
