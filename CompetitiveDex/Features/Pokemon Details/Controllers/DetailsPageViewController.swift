@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol PokemonDetails {
-  var pokemon: Pokemon { get }
+protocol PokemonDetails: UIViewController {
+  var pokemon: Pokemon! { get set }
 }
 
-class DetailsPageViewController: UIPageViewController {
+class DetailsPageViewController: UIPageViewController, PokemonDetails {
   
-  var pages: [UIViewController] = [UIViewController]()
+  var pages: [PokemonDetails] = [AboutPokemonViewController(), BaseStatsViewController(), MovesViewController()]
   var pokemon: Pokemon!
   var aboutPokemonViewDelegate: AboutPokemonViewDelegate?
   
@@ -28,23 +28,13 @@ class DetailsPageViewController: UIPageViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    // instantiate "pages"
-    let vc = AboutPokemonViewController()
-    vc.pokemon = self.pokemon
-    vc.delegate = aboutPokemonViewDelegate
-    vc.view.tag = 0
-    
-    let vc2 = BaseStatsViewController()
-    vc2.pokemon = pokemon
-    vc2.view.tag = 1
-    
-    let vc3 = MovesViewController()
-    vc3.pokemon = pokemon
-    vc3.view.tag = 2
-    pages.append(vc)
-    pages.append(vc2)
-    pages.append(vc3)
+    for (index, controller) in pages.enumerated() {
+      controller.pokemon = self.pokemon
+      controller.view.tag = index
+      if let controller = controller as? AboutPokemonViewController {
+        controller.delegate = aboutPokemonViewDelegate
+      }
+    }
     
     setViewControllers([pages[0]], direction: .forward, animated: false, completion: nil)
   }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MovesViewController: UIViewController {
+class MovesViewController: UIViewController, PokemonDetails {
   
   // MARK: - Properties
   var tableView: UITableView!

@@ -12,7 +12,7 @@ protocol AboutPokemonViewDelegate {
   func aboutViewDidScroll(_ scrollView: UIScrollView)
 }
 
-class AboutPokemonViewController: UIViewController {
+class AboutPokemonViewController: UIViewController, PokemonDetails {
   
   var tableView: UITableView!
   var pokemon: Pokemon!

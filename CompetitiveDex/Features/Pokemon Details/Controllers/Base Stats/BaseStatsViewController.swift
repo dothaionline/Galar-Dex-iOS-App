@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseStatsViewController: UITableViewController {
+class BaseStatsViewController: UITableViewController, PokemonDetails {
   
   var pokemon: Pokemon!
     
