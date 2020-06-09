@@ -22,6 +22,8 @@
 		DB18BCB4248DC25100E633A4 /* MoveDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCB3248DC25100E633A4 /* MoveDisk.swift */; };
 		DB18BCB8248DC79B00E633A4 /* tms.json in Resources */ = {isa = PBXBuildFile; fileRef = DB18BCB7248DC79B00E633A4 /* tms.json */; };
 		DB18BCBA248F145100E633A4 /* PokemonTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18BCB9248F145100E633A4 /* PokemonTabBarController.swift */; };
+		DB2870F0248F26D4006D1B60 /* MyTeamsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2870EF248F26D4006D1B60 /* MyTeamsController.swift */; };
+		DB2870F2248F27E1006D1B60 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2870F1248F27E1006D1B60 /* TeamCell.swift */; };
 		DB405C0C248C494E003EA498 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0B248C494E003EA498 /* Ability.swift */; };
 		DB405C0E248C6B71003EA498 /* MoveChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C0D248C6B71003EA498 /* MoveChartCell.swift */; };
 		DB405C12248C6C15003EA498 /* MoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB405C11248C6C15003EA498 /* MoveCell.swift */; };
@@ -89,6 +91,8 @@
 		DB18BCB3248DC25100E633A4 /* MoveDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDisk.swift; sourceTree = "<group>"; };
 		DB18BCB7248DC79B00E633A4 /* tms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tms.json; sourceTree = "<group>"; };
 		DB18BCB9248F145100E633A4 /* PokemonTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTabBarController.swift; sourceTree = "<group>"; };
+		DB2870EF248F26D4006D1B60 /* MyTeamsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamsController.swift; sourceTree = "<group>"; };
+		DB2870F1248F27E1006D1B60 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 		DB405C0B248C494E003EA498 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		DB405C0D248C6B71003EA498 /* MoveChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveChartCell.swift; sourceTree = "<group>"; };
 		DB405C11248C6C15003EA498 /* MoveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCell.swift; sourceTree = "<group>"; };
@@ -264,6 +268,15 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		DB2870EE248F21C6006D1B60 /* My Teams */ = {
+			isa = PBXGroup;
+			children = (
+				DB2870EF248F26D4006D1B60 /* MyTeamsController.swift */,
+				DB2870F1248F27E1006D1B60 /* TeamCell.swift */,
+			);
+			path = "My Teams";
+			sourceTree = "<group>";
+		};
 		DB6E5DBE245E2BD300F80CC5 /* About */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +369,7 @@
 		DBC92E92245B987D00CE26A0 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				DB2870EE248F21C6006D1B60 /* My Teams */,
 				DBC92E93245B989000CE26A0 /* Pokemon Details */,
 				DB0BD2172459191C0014693D /* Pokedex */,
 			);
@@ -524,6 +538,7 @@
 				DB405C0C248C494E003EA498 /* Ability.swift in Sources */,
 				DB6E5DCC245E70C900F80CC5 /* Stats.swift in Sources */,
 				DB6E5DD0245E856100F80CC5 /* ValueViewController.swift in Sources */,
+				DB2870F2248F27E1006D1B60 /* TeamCell.swift in Sources */,
 				DB0BD1E82459175E0014693D /* AppDelegate.swift in Sources */,
 				DB6E5DB7245D43D600F80CC5 /* EvolutionChartCell.swift in Sources */,
 				DB6E5DCA245E70A700F80CC5 /* Nature.swift in Sources */,
@@ -532,6 +547,7 @@
 				DBC92E8A245A48FB00CE26A0 /* AngledColorView.swift in Sources */,
 				DB6E5DCE245E7B0000F80CC5 /* NatureTableViewController.swift in Sources */,
 				DB6E5DB9245E0C0D00F80CC5 /* EvolutionCell.swift in Sources */,
+				DB2870F0248F26D4006D1B60 /* MyTeamsController.swift in Sources */,
 				DBC92E91245B88C700CE26A0 /* UIFont+PokemonStyle.swift in Sources */,
 				DB6E5DD2245E87DF00F80CC5 /* ValueCell.swift in Sources */,
 				DB18BCB4248DC25100E633A4 /* MoveDisk.swift in Sources */,
