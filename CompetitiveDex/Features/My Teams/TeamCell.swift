@@ -34,7 +34,6 @@ class TeamCell: UITableViewCell {
 
   var teamNameLabel: UILabel = {
     let label = UILabel()
-    label.text = "Tommy's Team"
     label.textColor = .white
     label.font = .monospacedDigitSystemFont(ofSize: 24, weight: .heavy)
     label.translatesAutoresizingMaskIntoConstraints = false
@@ -52,7 +51,8 @@ class TeamCell: UITableViewCell {
   }
   
   // MARK: - Setup
-  public func configure(withTeam team: [Pokemon]) {
+  public func configure(withTeam team: [Pokemon], name: String) {
+    teamNameLabel.text = name
     pokemonTeamStackView.arrangedSubviews.forEach( pokemonTeamStackView.removeArrangedSubview(_:))
     for pokemon in team {
       setupPokemonView(for: pokemon)

@@ -24,6 +24,7 @@ class MyTeamsController: UITableViewController {
     navigationController?.navigationBar.prefersLargeTitles = true
     navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: nil, action: nil)
   }
+  
   // MARK: - Table view data source
   private func setupTableView() {
     tableView.separatorStyle = .none
@@ -44,7 +45,7 @@ class MyTeamsController: UITableViewController {
     }
     let competitivePokemons = TeamsManager.getPokemons(for: TeamsManager.teams[indexPath.row])
     let pokemons = competitivePokemons.map({return $0.pokemon})
-    cell.configure(withTeam: pokemons)
+    cell.configure(withTeam: pokemons, name: TeamsManager.getName(for: TeamsManager.teams[indexPath.row]))
     return cell
   }
   

@@ -43,7 +43,7 @@ class TeamsManager {
     }
   }
   
-  /// Save a course into core data
+  /// Save a team into core data
   static func saveNewTeam(pokemons: [CompetitivePokemon], completion: (() -> ())? = nil) {
     let managedContext = self.appDelegate.persistentContainer.viewContext
     let entity = NSEntityDescription.entity(forEntityName: "Team", in: managedContext)!
@@ -71,51 +71,48 @@ class TeamsManager {
     }
   }
   
-//  /// Delete a given course from core data.  After deleting a course, remember to remove it from the current array as well.
-//  static func deleteCourse(_ course: NSManagedObject, index: Int) {
-//    let managedContext = self.appDelegate.persistentContainer.viewContext
-//    managedContext.delete(course)
-//    do {
-//      try managedContext.save()
-//    } catch {
-//      fatalError("Failed to update context after deleting")
-//    }
-//    self.courses.remove(at: index)
-//  }
-//
-//  /// Update course with edited todo list
-//  static func updateCourse(_ course: NSManagedObject, withList todos: [Todo]) {
-//    let managedContext = appDelegate.persistentContainer.viewContext
-//    do {
-//      let archiveTodos = try NSKeyedArchiver.archivedData(withRootObject: todos, requiringSecureCoding: false)
-//      course.setValue(archiveTodos, forKey: "todos")
-//    } catch {
-//      fatalError("Failed to archive todos")
-//    }
-//
-//    // Save the course into Core Data
-//    do {
-//      try managedContext.save()
-//    } catch let error as NSError {
-//      print("Could not save. \(error), \(error.userInfo)")
-//    }
-//  }
-//
-//  static func updateCourse(_ course: NSManagedObject, withDays days: [Int: Bool]) {
-//    let managedContext = appDelegate.persistentContainer.viewContext
-//    do {
-//      let archivedDays = try NSKeyedArchiver.archivedData(withRootObject: days, requiringSecureCoding: false)
-//      course.setValue(archivedDays, forKey: "days")
-//    } catch {
-//      fatalError("Failed to archive days")
-//    }
-//
-//    // Save the course into Core Data
-//    do {
-//      try managedContext.save()
-//    } catch let error as NSError {
-//      print("Could not save. \(error), \(error.userInfo)")
-//    }
-//  }
+  /// Update a team with a new pokemon
+  static func updateTeam(_ team: NSManagedObject, withPokemon pokemon: CompetitivePokemon) {
+    let managedContext = appDelegate.persistentContainer.viewContext
+    var currentTeam = self.getPokemons(for: team)
+    currentTeam.append(pokemon)
+    do {
+      let archivedPokemons = try NSKeyedArchiver.archivedData(withRootObject: currentTeam, requiringSecureCoding: false)
+      team.setValue(archivedPokemons, forKey: "pokemons")
+    } catch {
+      fatalError("Failed to archive pokemons")
+    }
+
+    // Save the team into Core Data
+    do {
+      try managedContext.save()
+    } catch let error as NSError {
+      print("Could not save. \(error), \(error.userInfo)")
+    }
+  }
+  
+  /// Update a team's name
+  static func updateTeam(_ team: NSManagedObject, withName name: String) {
+    let managedContext = appDelegate.persistentContainer.viewContext
+    team.setValue(name, forKey: "name")
+    do {
+      try managedContext.save()
+    } catch let error as NSError {
+      print("Could not save. \(error), \(error.userInfo)")
+    }
+  }
+  
+  /// Delete a given course from core data.  After deleting a course, remember to remove it from the current array as well.
+  static func deleteTeam(_ course: NSManagedObject, index: Int) {
+    let managedContext = self.appDelegate.persistentContainer.viewContext
+    managedContext.delete(course)
+    do {
+      try managedContext.save()
+    } catch {
+      fatalError("Failed to update context after deleting")
+    }
+    self.teams.remove(at: index)
+  }
+
   
 }
