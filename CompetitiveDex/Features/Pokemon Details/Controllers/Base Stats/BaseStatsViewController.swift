@@ -11,6 +11,7 @@ import UIKit
 class BaseStatsViewController: UITableViewController, PokemonDetails {
   
   var pokemon: Pokemon!
+  var state: PokedexState = .pokedex
     
   var level: Int = 50 {
     didSet {

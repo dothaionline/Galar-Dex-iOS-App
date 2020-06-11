@@ -13,6 +13,7 @@ class MovesViewController: UIViewController, PokemonDetails {
   // MARK: - Properties
   var tableView: UITableView!
   var pokemon: Pokemon!
+  var state: PokedexState = .pokedex
   var trNames: [String] = []
   var tmNames: [String] = []
 

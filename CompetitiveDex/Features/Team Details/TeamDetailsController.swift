@@ -21,10 +21,30 @@ class TeamDetailsController: UITableViewController {
   private func setupNavigationBar() {
     title = teamName
     navigationItem.largeTitleDisplayMode = .never
-    navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: nil, action: nil)
+    navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
   }
-  // MARK: - Table view data source
   
+  // MARK: - Functionality Methods
+  @objc private func addButtonTapped() {
+    if pokemons.count < 6 {
+      showPokedexScreen()
+    } else {
+      showMaxPokemonAllowedAlert()
+    }
+  }
+  
+  private func showPokedexScreen() {
+    let pokedexController = PokedexController()
+    pokedexController.state = .addPokemon
+    navigationController?.pushViewController(pokedexController, animated: true)
+  }
+  
+  private func showMaxPokemonAllowedAlert() {
+    let alertController = UIAlertController(title: nil, message: "You may only have up to 6 pokemon per team.  Please remove a pokemon before you add another", preferredStyle: .alert)
+    present(alertController, animated: true)
+  }
+  
+  // MARK: - TableView Methods
   override func numberOfSections(in tableView: UITableView) -> Int {
     return 1
   }

@@ -8,10 +8,17 @@
 
 import UIKit
 
+
+enum PokedexState {
+  case pokedex
+  case addPokemon
+}
+
 class PokedexController: UIViewController {
   
   var pokemon: [Pokemon] = []
-  private let spacing:CGFloat = 16.0
+  var state: PokedexState = .pokedex // Change this to addPokemon before presenting if you want to show add Pokemon Screen
+  private let spacing: CGFloat = 16.0
 
   var collectionView: UICollectionView!
   
@@ -26,7 +33,12 @@ class PokedexController: UIViewController {
   
   // MARK: - Setup Methods
   private func setupNavigationBar() {
-    title = "Galar Pokedex"
+    switch state {
+    case .pokedex:
+      title = "Galar Pokedex"
+    case .addPokemon:
+      title = "Select a Pokemon"
+    }
     navigationController?.navigationBar.prefersLargeTitles = true
   }
   
@@ -84,6 +96,7 @@ extension PokedexController: UICollectionViewDataSource, UICollectionViewDelegat
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     let detailsController = PokemonDetailsController()
     detailsController.pokemon = pokemon[indexPath.row]
+    detailsController.state = state
     detailsController.modalPresentationStyle = .fullScreen
     present(detailsController, animated: true)
   }

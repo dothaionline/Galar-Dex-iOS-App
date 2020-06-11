@@ -13,6 +13,7 @@ class PokemonDetailsController: UIViewController {
   // MARK: - Properties
   var detailsView: PokemonDetailsView!
   var pokemon: Pokemon!
+  var state: PokedexState = .pokedex
   var pageVC: DetailsPageViewController!
   var selectedButton = 0
   
@@ -27,6 +28,12 @@ class PokemonDetailsController: UIViewController {
     detailsView = PokemonDetailsView(frame: view.bounds)
     detailsView.translatesAutoresizingMaskIntoConstraints = false
     detailsView.configureOnLoad(withPokemon: pokemon)
+    switch state {
+    case .pokedex:
+      detailsView.aboutButton.setTitle("About", for: .normal)
+    case .addPokemon:
+      detailsView.aboutButton.setTitle("Abilities", for: .normal)
+    }
     for button in detailsView.buttonsStackView.arrangedSubviews as! [UIButton] {
       button.addTarget(self, action: #selector(detailButtonTapped(_:)), for: .touchUpInside)
     }
@@ -35,6 +42,7 @@ class PokemonDetailsController: UIViewController {
     
     pageVC = DetailsPageViewController()
     pageVC.pokemon = self.pokemon
+    pageVC.state = self.state
     pageVC.aboutPokemonViewDelegate = self
     pageVC.view.translatesAutoresizingMaskIntoConstraints = false
     addChild(pageVC)

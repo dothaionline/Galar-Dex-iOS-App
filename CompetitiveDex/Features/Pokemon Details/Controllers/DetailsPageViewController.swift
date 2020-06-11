@@ -10,12 +10,14 @@ import UIKit
 
 protocol PokemonDetails: UIViewController {
   var pokemon: Pokemon! { get set }
+  var state: PokedexState { get set }
 }
 
 class DetailsPageViewController: UIPageViewController, PokemonDetails {
   
   var pages: [PokemonDetails] = [AboutPokemonViewController(), BaseStatsViewController(), MovesViewController()]
   var pokemon: Pokemon!
+  var state: PokedexState = .pokedex
   var aboutPokemonViewDelegate: AboutPokemonViewDelegate?
   
   override init(transitionStyle style: UIPageViewController.TransitionStyle, navigationOrientation: UIPageViewController.NavigationOrientation, options: [UIPageViewController.OptionsKey : Any]? = nil) {
@@ -30,6 +32,7 @@ class DetailsPageViewController: UIPageViewController, PokemonDetails {
     super.viewDidLoad()
     for (index, controller) in pages.enumerated() {
       controller.pokemon = self.pokemon
+      controller.state = self.state
       controller.view.tag = index
       if let controller = controller as? AboutPokemonViewController {
         controller.delegate = aboutPokemonViewDelegate

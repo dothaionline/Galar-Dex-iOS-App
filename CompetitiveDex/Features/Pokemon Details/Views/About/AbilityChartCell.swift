@@ -12,6 +12,7 @@ class AbilityChartCell: UITableViewCell {
   static let reuseIdentifier = "AbilityChartCell"
   
   var abilities: [Ability] = []
+  var state: PokedexState = .pokedex
   
   let collectionView: UICollectionView = {
     let itemSize = NSCollectionLayoutSize(
@@ -91,6 +92,17 @@ extension AbilityChartCell: UICollectionViewDataSource, UICollectionViewDelegate
     return cell
   }
   
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    if state == .addPokemon {
+      guard let cell = collectionView.cellForItem(at: indexPath) as? AbilityCell else {
+        fatalError("Unable to get cell from selected indexPath")
+      }
+      cell.layer.borderWidth = 2.0
+      cell.layer.cornerRadius = 16
+      cell.layer.borderColor = UIColor.grass.cgColor
+      cell.abilityLabel.textColor = UIColor.grass
+    }
+  }
   
 }
 
