@@ -53,6 +53,7 @@
 		DBC92E97245B98CA00CE26A0 /* PokemonDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC92E96245B98CA00CE26A0 /* PokemonDetailsView.swift */; };
 		DBDBED2424906544001ED593 /* CompetitivePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBED2324906544001ED593 /* CompetitivePokemon.swift */; };
 		DBDBED272491A056001ED593 /* TeamsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBED262491A056001ED593 /* TeamsManager.swift */; };
+		DBDBED2A2491CCB2001ED593 /* TeamDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBED292491CCB2001ED593 /* TeamDetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		DBC92E96245B98CA00CE26A0 /* PokemonDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailsView.swift; sourceTree = "<group>"; };
 		DBDBED2324906544001ED593 /* CompetitivePokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitivePokemon.swift; sourceTree = "<group>"; };
 		DBDBED262491A056001ED593 /* TeamsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsManager.swift; sourceTree = "<group>"; };
+		DBDBED292491CCB2001ED593 /* TeamDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +379,7 @@
 		DBC92E92245B987D00CE26A0 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				DBDBED282491CC7D001ED593 /* Team Details */,
 				DB2870EE248F21C6006D1B60 /* My Teams */,
 				DBC92E93245B989000CE26A0 /* Pokemon Details */,
 				DB0BD2172459191C0014693D /* Pokedex */,
@@ -400,6 +403,14 @@
 				DBDBED262491A056001ED593 /* TeamsManager.swift */,
 			);
 			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		DBDBED282491CC7D001ED593 /* Team Details */ = {
+			isa = PBXGroup;
+			children = (
+				DBDBED292491CCB2001ED593 /* TeamDetailsController.swift */,
+			);
+			path = "Team Details";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -566,6 +577,7 @@
 				DBC92E8A245A48FB00CE26A0 /* AngledColorView.swift in Sources */,
 				DB6E5DCE245E7B0000F80CC5 /* NatureTableViewController.swift in Sources */,
 				DBDBED2424906544001ED593 /* CompetitivePokemon.swift in Sources */,
+				DBDBED2A2491CCB2001ED593 /* TeamDetailsController.swift in Sources */,
 				DB6E5DB9245E0C0D00F80CC5 /* EvolutionCell.swift in Sources */,
 				DB2870F0248F26D4006D1B60 /* MyTeamsController.swift in Sources */,
 				DBC92E91245B88C700CE26A0 /* UIFont+PokemonStyle.swift in Sources */,

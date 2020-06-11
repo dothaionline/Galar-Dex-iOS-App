@@ -44,16 +44,16 @@ class TeamsManager {
   }
   
   /// Save a team into core data
-  static func saveNewTeam(pokemons: [CompetitivePokemon], completion: (() -> ())? = nil) {
+  static func saveNewTeam(withName name: String, completion: (() -> ())? = nil) {
     let managedContext = self.appDelegate.persistentContainer.viewContext
     let entity = NSEntityDescription.entity(forEntityName: "Team", in: managedContext)!
     let team = NSManagedObject(entity: entity, insertInto: managedContext)
-    
+    let pokemons: [CompetitivePokemon] = []
     // Set the default values when saving the course
     do {
       let archivedPokemons = try NSKeyedArchiver.archivedData(withRootObject: pokemons, requiringSecureCoding: false)
       team.setValue(archivedPokemons, forKey: "pokemons")
-      team.setValue("Red's Team", forKey: "name")
+      team.setValue(name, forKey: "name")
     } catch let error {
       print("Failed to archive pokemons with error: \(error)")
       fatalError("Failed to archive pokemons with error: \(error)")

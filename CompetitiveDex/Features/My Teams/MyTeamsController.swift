@@ -21,8 +21,28 @@ class MyTeamsController: UITableViewController {
   
   private func setupNavigationBar() {
     title = "My Teams"
+    navigationItem.largeTitleDisplayMode = .always
     navigationController?.navigationBar.prefersLargeTitles = true
-    navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: nil, action: nil)
+    navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(showAddTeamAlert))
+  }
+  
+  // MARK: - Helper Methods
+  @objc private func showAddTeamAlert() {
+    let alertController = UIAlertController(title: "Enter Team Name", message: nil, preferredStyle: .alert)
+    alertController.addTextField { textfield in
+      textfield.placeholder = "Team #\(TeamsManager.teams.count + 1)"
+    }
+    let addAction = UIAlertAction(title: "Add", style: .default, handler: { [weak alertController] _ in
+      guard let textfield = alertController?.textFields?[0] else {
+        fatalError("No textfield exists")
+      }
+      TeamsManager.saveNewTeam(withName: textfield.text!)
+      self.tableView.reloadData()
+    })
+    let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+    alertController.addAction(addAction)
+    alertController.addAction(cancelAction)
+    present(alertController, animated: true)
   }
   
   // MARK: - Table view data source
@@ -37,6 +57,17 @@ class MyTeamsController: UITableViewController {
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return TeamsManager.teams.count
+  }
+  
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let team = TeamsManager.teams[indexPath.row]
+    let pokemons = TeamsManager.getPokemons(for: team)
+    let teamName = TeamsManager.getName(for: team)
+    let teamDetailsController = TeamDetailsController()
+    teamDetailsController.teamName = teamName
+    teamDetailsController.pokemons = pokemons
+    teamDetailsController.modalPresentationStyle = .fullScreen
+    navigationController?.pushViewController(teamDetailsController, animated: true)
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
