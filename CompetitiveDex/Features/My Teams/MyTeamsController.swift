@@ -6,14 +6,17 @@
 //  Copyright © 2020 Thai Do. All rights reserved.
 //
 
+import CoreData
 import UIKit
 
 class MyTeamsController: UITableViewController {
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     setupNavigationBar()
     setupTableView()
+    TeamsManager.loadTeams()
+    tableView.reloadData()
   }
   
   private func setupNavigationBar() {
@@ -32,13 +35,16 @@ class MyTeamsController: UITableViewController {
   }
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 3
+    return TeamsManager.teams.count
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     guard let cell = tableView.dequeueReusableCell(withIdentifier: TeamCell.reuseIdentifier, for: indexPath) as? TeamCell else {
       fatalError()
     }
+    let competitivePokemons = TeamsManager.getPokemons(for: TeamsManager.teams[indexPath.row])
+    let pokemons = competitivePokemons.map({return $0.pokemon})
+    cell.configure(withTeam: pokemons)
     return cell
   }
   

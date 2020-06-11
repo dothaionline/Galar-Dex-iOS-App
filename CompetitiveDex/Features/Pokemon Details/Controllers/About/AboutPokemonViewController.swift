@@ -112,7 +112,7 @@ extension AboutPokemonViewController: UITableViewDataSource, UITableViewDelegate
     let section = Section(rawValue: section)
     switch section {
     case .dexEntry:
-      return pokemon.description != nil ? 1 : 0
+      return pokemon.dexDescription != nil ? 1 : 0
     case .evolutions:
       return pokemon.evolutions.count > 0 ? 1 : 0
     case .abilities:
