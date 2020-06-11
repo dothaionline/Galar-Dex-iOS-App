@@ -22,7 +22,7 @@ class TeamsManager {
       do {
           return try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(pokemonsData) as! [CompetitivePokemon]
       } catch {
-          fatalError("Unable to unarchive data as type [Todo]")
+          fatalError("Unable to unarchive data as type [CompetitivePokemon]")
       }
   }
   

@@ -246,7 +246,6 @@
 		DB0BD22124591CB30014693D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DB5EF8CD249058C100289B45 /* CompetitiveDex.xcdatamodeld */,
 				DB18BCB7248DC79B00E633A4 /* tms.json */,
 				DB18BCB0248DC1D200E633A4 /* trs.json */,
 				DB0BD22224591CC00014693D /* swshpokemon.json */,
@@ -397,6 +396,7 @@
 		DBDBED252491A030001ED593 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
+				DB5EF8CD249058C100289B45 /* CompetitiveDex.xcdatamodeld */,
 				DBDBED262491A056001ED593 /* TeamsManager.swift */,
 			);
 			path = "Core Data";

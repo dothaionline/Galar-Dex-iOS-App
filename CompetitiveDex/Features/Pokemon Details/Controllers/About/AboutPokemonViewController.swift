@@ -129,7 +129,7 @@ extension AboutPokemonViewController: UITableViewDataSource, UITableViewDelegate
       guard let cell = tableView.dequeueReusableCell(withIdentifier: DexEntryCell.reuseIdentifier, for: indexPath) as? DexEntryCell else {
         fatalError("Unable to dequeue cell with identifier: \(DexEntryCell.reuseIdentifier)")
       }
-      cell.configure(with: pokemon.description)
+      cell.configure(with: pokemon.dexDescription)
       return cell
     case .evolutions:
       guard let cell = tableView.dequeueReusableCell(withIdentifier: EvolutionChartCell.reuseIdentifier, for: indexPath) as? EvolutionChartCell else {

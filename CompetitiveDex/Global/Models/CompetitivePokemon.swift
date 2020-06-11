@@ -13,8 +13,8 @@ class CompetitivePokemon: NSObject, NSCoding {
   var pokemon: Pokemon
   var ability: Ability
   var nature: String
-//  var evSpread: [Stats]
-//  var ivSpread: [Stats]
+  var evSpread: [Int]
+  var ivSpread: [Int]
   var moves: [String]
   
   
@@ -22,8 +22,8 @@ class CompetitivePokemon: NSObject, NSCoding {
     case pokemon = "pokemon"
     case ability = "ability"
     case nature = "nature"
-//    case evSpread = "evSpread"
-//    case ivSpread = "ivSpread"
+    case evSpread = "evSpread"
+    case ivSpread = "ivSpread"
     case stats = "stats"
     case moves = "moves"
   }
@@ -32,8 +32,8 @@ class CompetitivePokemon: NSObject, NSCoding {
     coder.encode(pokemon, forKey: Keys.pokemon.rawValue)
     coder.encode(ability, forKey: Keys.ability.rawValue)
     coder.encode(nature, forKey: Keys.nature.rawValue)
-//    coder.encode(evSpread, forKey: Keys.evSpread.rawValue)
-//    coder.encode(ivSpread, forKey: Keys.ivSpread.rawValue)
+    coder.encode(evSpread, forKey: Keys.evSpread.rawValue)
+    coder.encode(ivSpread, forKey: Keys.ivSpread.rawValue)
     coder.encode(moves, forKey: Keys.moves.rawValue)
   }
   
@@ -41,22 +41,22 @@ class CompetitivePokemon: NSObject, NSCoding {
     guard let pokemon = coder.decodeObject(forKey: Keys.pokemon.rawValue) as? Pokemon,
       let ability = coder.decodeObject(forKey: Keys.ability.rawValue) as? Ability,
       let nature = coder.decodeObject(forKey: Keys.nature.rawValue) as? String,
-//      let evSpread = coder.decodeObject(forKey: Keys.evSpread.rawValue) as? [Stats],
-//      let ivSpread = coder.decodeObject(forKey: Keys.ivSpread.rawValue) as? [Stats],
+      let evSpread = coder.decodeObject(forKey: Keys.evSpread.rawValue) as? [Int],
+      let ivSpread = coder.decodeObject(forKey: Keys.ivSpread.rawValue) as? [Int],
       let moves = coder.decodeObject(forKey: Keys.moves.rawValue) as? [String]
     else {
       fatalError("Unable to decode CompetitivePokemon")
     }
 
-    self.init(pokemon: pokemon, ability: ability, nature: nature, moves: moves)
+    self.init(pokemon: pokemon, ability: ability, nature: nature, evSpread: evSpread, ivSpread: ivSpread, moves: moves)
   }
   
-  init(pokemon: Pokemon, ability: Ability, nature: String, moves: [String]) {
+  init(pokemon: Pokemon, ability: Ability, nature: String, evSpread: [Int], ivSpread: [Int], moves: [String]) {
     self.pokemon = pokemon
     self.ability = ability
     self.nature = nature
-//    self.evSpread = evSpread
-//    self.ivSpread = ivSpread
+    self.evSpread = evSpread
+    self.ivSpread = ivSpread
     self.moves = moves
     super.init()
   }
